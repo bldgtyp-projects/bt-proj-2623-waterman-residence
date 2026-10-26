@@ -4,20 +4,29 @@ title: "Ventilation System Balancing"
 dek: "Document the selected H/ERV basis and commissioning expectations."
 ---
 
-For this building, we recommend that each unit have its own high-performance H/ERV with better than 75% heat recovery.
-The Zehnder America ComfoAir Q600 ERV would be a good selection and provide excellent indoor air quality while
-minimizing energy consumption and occupant comfort issues. These units are outfitted with excellent air filtration, MERV
-13 by default, which will be critical to ensuring clean and healthy indoor air.
+For this house we recommend a high-performance ERV with better than 80% rated heat recovery and 60% or better moisture
+recovery. The <VarLink hrefKey="narrative.mechanical.erv.link" target="_blank" rel="noopener noreferrer"><Var k="narrative.mechanical.erv.manufacturer_name" /> ComfoAir Q</VarLink>
+named in the architect's narrative is a good selection. Its enthalpy-exchanger version provides the moisture recovery,
+and its MERV 13 filtration keeps the indoor air clean. Size the unit
+for the high-speed airflow of <Var k="narrative.user_defined.design_airflow_cfm" /> CFM while running it at its
+normal speed most of the time; a unit running well below its maximum is quieter and uses less fan energy.
 
-The values used in this analysis are assumed only. Zehnder America should be retained to fully design, specify, 
-and balance the system after installation. This is critical for
-proper operation and required for all high-performance buildings. The balancing service will normally come standard with Zehnder
-America packages, but this should be verified in this case.
+The **effective** heat recovery in the energy model runs lower than the unit's rated figure, because it accounts for
+heat lost from the outdoor-air and exhaust ducts. Locate the ERV so that those two ducts are as short as physically
+possible, and insulate them with vapor-closed insulation. The architect's narrative leaves the unit location open,
+between the basement mechanical room and an upper-floor closet. A basement location close to an outside wall keeps the
+two outdoor ducts short; an upper-floor location shortens the supply runs to the bedrooms. Either can work if the
+outdoor ducts stay short.
+
+The values in this analysis are assumptions. <Var k="narrative.mechanical.erv.manufacturer_name" /> or a qualified
+ventilation designer should be retained to design, specify and balance the system after installation. This matters
+for proper operation and is standard practice on high-performance houses. Zehnder's design and balancing service
+normally comes with its packages, but confirm this for this project.
 
 #### System balancing
 
-Prior to occupancy, the fresh-air system should be tested and balanced to ensure good air mixing and adequate supply to
-all living spaces. The HRV vendor should provide this balancing as part of their services.
+Before occupancy, the fresh-air system should be tested and balanced to ensure good air mixing and adequate supply to
+all living spaces. Measured supply and extract airflows must agree within 10% of each other.
 
 <figure class="btwr-section-hero">
   <img

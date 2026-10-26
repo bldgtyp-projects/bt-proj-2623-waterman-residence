@@ -4,24 +4,44 @@ title: "Window Thermal Comfort"
 dek: "Connect window package assumptions to occupant comfort near large glazed areas."
 ---
 
-In any high-performance building, both the energy and occupant comfort impacts of the glazing must be carefully
-assessed. For a building seeking any of the PHI or Phius certifications, a very stringent evaluation and quantification
-of this thermal comfort impact must be executed. This comfort evaluation looks at both the overall occupant comfort as a
-result of air-temperature and relative-humidity but also the localized thermal discomfort caused by cold-surfaces and
-drafts at the glazing surface.
+In any high-performance building, both the energy and the comfort impacts of the glazing must be carefully assessed.
+The comfort evaluation looks at overall comfort (air temperature and relative humidity) and also at the local
+discomfort caused by cold surfaces and drafts near the glass.
 
-In particular, the localized discomfort which results from a radiant temperature asymmetry (a difference in the
-temperature of the surfaces surrounding the body) must be assessed in order to evaluate the possibility of eliminating
-perimeter heating. If the radiant temperature asymmetry exceeds a certain level, a compensating heat source may be
-required in order to offset the potential discomfort. Typically, this would mean a radiator of some form, installed
-beneath the window.
+In particular, the localized discomfort caused by radiant temperature asymmetry (a difference in the temperature of the
+surfaces around the body) decides whether perimeter heating can be left out. If the asymmetry is too large, a
+compensating heat source, typically a radiator or baseboard under the window, is needed to offset the discomfort.
 
-Many engineering reference standards suggests that ideal thermal comfort is found when there are temperature differences
-of less than 7.6°F [4.2°K] between all the surfaces around a person’s body. The windows are important in this respect,
-as this is where the coldest surface temperatures in the building will typically occur during the winter months.
+Engineering reference standards suggest that ideal comfort is found when the surfaces around a person differ by less
+than 7.6°F [4.2 K]. The windows matter most here, because they are where the coldest interior surfaces occur in winter.
 
-For <Var k="narrative.energy_code.zone" />’s winter comfort-design weather conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F (<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C) ], Passive House certification guidelines for
-this climate would recommend that as long as windows with an Installed R-Value higher than <Var k="narrative.windows.comfort_target_r_value" /> hr-ft2-F/Btu [ U-Value
-less than <Var k="narrative.windows.comfort_target_u_value" /> Btu/hr-ft2-F ] are used this will lead to surface temperatures which PHI finds acceptable for thermal
-comfort. Note, for smaller windows with a lower ‘view-factor’ (less visible to the occupants) slightly lower R-Values
-may still achieve the desired thermal comfort targets.
+For Pittsburgh's winter design conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F
+(<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C), ASHRAE 99.6% ], Passive House comfort guidance
+recommends windows with an **installed U-value below <Var k="narrative.windows.comfort_target_u_value" />
+Btu/hr-ft²-F** [ R-value above <Var k="narrative.windows.comfort_target_r_value" /> hr-ft²-F/Btu ]. Windows at
+that level keep interior glass and frame surfaces warm enough that no perimeter heat is needed. Smaller windows, which
+occupy less of a person's field of view, can meet the comfort target at slightly higher U-values.
+
+### Window recommendations
+
+{/* TODO(ed): every variant in the 261026 PHPP carries U-0.30 / SHGC 0.40. Update this once a window step is
+    modeled. */}
+
+No window has been selected yet; the architect's narrative calls for triple-pane tilt-turn windows with the
+specification set by the energy modeling. The draft model carries a code-level window
+(U-<Var k="narrative.energy_code.window_min_u_value" />) in every variant as a placeholder.
+
+- A code-level window does **not** meet the comfort target in this climate. The large living-room, sunroom and
+  stair glazing would need perimeter heat.
+- We recommend installed whole-window U-values of about **U-<Var k="narrative.windows.ph_window_u_value" />**
+  [ R-<Var k="narrative.windows.ph_window_r_value" /> ], which clears the comfort target with margin. That is a
+  good-quality triple-pane window with an insulated frame, installed with the frame overlapping the exterior
+  insulation.
+- Whole-window performance data is needed, not center-of-glass values. The frame, the spacer and the way the window
+  sits in the 4" of exterior insulation (the installation psi-value) all count.
+- Specify the solar heat gain coefficient (SHGC) by orientation: higher on the south for winter gain, lower on the
+  west and on unshaded upper-floor glass to limit summer heat.
+
+Window comfort is the reason to resolve the window specification early: it sets the window budget, the
+installation detail at the 4" exterior insulation, and whether perimeter heat has to be designed into the
+mechanical system.

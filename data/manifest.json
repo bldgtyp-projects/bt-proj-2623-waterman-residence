@@ -1,9 +1,55 @@
 {
-  "status": "pending",
-  "project": {
-    "slug": "0000-example-report",
-    "name": "Example Passive House Report"
-  },
-  "schema_version": "0.1.0",
-  "variants": []
+  "schema_version": "1.0.0",
+  "phpp_version": "10.6",
+  "generated_at": "2026-10-26T23:34:30.915007Z",
+  "generator": "btwr@0.0.1",
+  "status": "ok",
+  "variants": [
+    {
+      "id": "code_minimum",
+      "name": "Code Minimum",
+      "order": 0,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "G"
+    },
+    {
+      "id": "as_drawn",
+      "name": "As-Drawn",
+      "order": 1,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "H"
+    },
+    {
+      "id": "improved_envelope",
+      "name": "Improved Envelope",
+      "order": 2,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "I"
+    },
+    {
+      "id": "improved_mech",
+      "name": "Improved Mech.",
+      "order": 3,
+      "color": "auto",
+      "recommended": false,
+      "source_column": "J"
+    },
+    {
+      "id": "phius_2024",
+      "name": "Phius 2024",
+      "order": 4,
+      "color": "auto",
+      "recommended": true,
+      "source_column": "K"
+    }
+  ],
+  "recommended_variant_id": "phius_2024",
+  "source_workbook": {
+    "path": "/Users/em/Dropbox/bldgtyp/2623 Waterman Residence/07_PHPP/261026-Waterman-Home.xlsx",
+    "sha256": "23372046d3ea9915e8b34dfbe753e3af1cc91f14a7cf58c812fdcc54d719ddc7",
+    "size_bytes": 13610204
+  }
 }

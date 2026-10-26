@@ -1,0 +1,38 @@
+---
+kicker: "01"
+title: "Why a Future Climate"
+dek: "Why this house is assessed against mid-century weather as well as today's."
+---
+
+Standard energy models use typical weather drawn from past decades. A house built in 2027 will run most of its
+life in a warmer climate, and its heat pumps and ventilation equipment will be sized, bought and replaced against that
+climate. At the owners' request, every energy result in this report is therefore calculated against a projected
+**mid-century climate** rather than the standard Phius climate data.
+
+The method was proposed by the owners, reviewed together in October 2026, and confirmed before any modeling began.
+In short: take a recent, observed year of Pittsburgh weather and shift its temperature and humidity by the amount the
+climate models project for the middle of the century.
+
+### Scenario and time horizon
+
+The central case is **<Var k="narrative.user_defined.future_scenario" />**, the middle-of-the-road emissions scenario
+used by the IPCC and the US National Climate Assessment. The 2040 to 2059 period covers the main years the owners will
+live in the house and the expected life of the heat pumps and ventilation equipment. It also matches the horizon NYC's
+[Climate Resiliency Design Guidelines](https://facilities.weill.cornell.edu/sites/default/files/downloads/nyc_climate_resiliency_design_guidelines_v4-0.pdf)
+assign to mechanical equipment.
+
+| Case | Role | Annual mean change | June to August change | Heating degree days (65°F) |
+| --- | --- | ---: | ---: | ---: |
+| Present day | Baseline | 0 | 0 | 5,167 |
+| SSP2-4.5, 2040 to 2059 | Central case, used in this report | +2.8°F | +3.1°F | 4,627 |
+| SSP2-4.5, 2080 to 2099 | Later sensitivity, not run | +4.6°F | +5.7°F | 4,283 |
+| SSP5-8.5, 2080 to 2099 | Later sensitivity, not run | +8.8°F | +10.2°F | 3,433 |
+
+Temperature changes are from the [ORNL Cross-Model future weather files](https://zenodo.org/records/10719179) for
+Allegheny County; degree days are from the [NOAA CRIS county projections](https://cris.climate.gov/datasets/cris-zonal-statistics-by-county-1).
+The two sources agree within 0.2°F on annual mean temperature. Dew point rises about as fast as air temperature, so
+summers bring more moisture as well as more heat.
+
+At mid-century the scenarios are still close together: SSP2-4.5 and the higher-emission pathways land within about
+1°F of each other by 2050 and spread apart only after that. The later periods are kept as separate, labelled
+sensitivities rather than blended into one file, so every result in this report traces to one stated climate.

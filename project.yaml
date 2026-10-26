@@ -1,26 +1,26 @@
 schema_version: 0.2.0
 slug: project-2623
 project_title: Waterman Residence
-client_name: massArchitects
-building_name: TBD
+client_name: mossArchitects
+building_name: Waterman Residence
 phase: Design Analysis
 report_date: '2026-10-26'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
-target_standard: TBD
-certification_program: TBD
-certification_path: TBD
-recommended_variant_id: null
+target_standard: Phius CORE 2024 targets as a design guide (no certification)
+certification_program: None (Phius framework used for evaluation only)
+certification_path: Phius CORE 2024 performance targets as a design guide; certification not pursued
+recommended_variant_id: phius_2024
 building:
-  address: TBD
-  city: TBD
-  state: TBD
-  climate_zone: TBD
-  building_type: TBD
-  total_num_occupants: null
+  address: 6920 McPherson Blvd
+  city: Pittsburgh
+  state: PA
+  climate_zone: 5A (IECC) / 4A (ASHRAE 169-2021, Phius)
+  building_type: New single-family house, three stories plus basement, with attached one-story garage
+  total_num_occupants: 3
 source_files:
   phpp_path: ../07_PHPP/261026-Waterman-Home.xlsx
-  cad_files_received_date: null
+  cad_files_received_date: October 12, 2026
   data_dir: data
   assets_dir: public/assets
 publishing:
@@ -29,11 +29,17 @@ publishing:
   access:
     mode: public
     allowed_emails: []
-certification_pathways: null
+custom_pages:
+- slug: future-climate
+  label: Future Climate
+- slug: resilience
+  label: Resilience
+certification_pathways:
+  show: [phius-core-2024, phius-zero-2024]
 narrative:
   certification:
-    target: null
-    ph_ach_limit: null
+    target: Phius CORE 2024 performance targets, used as a design guide (certification not pursued)
+    ph_ach_limit: '1.0'
     phi_lcd_limit: null
     phi_cd_limit: null
     phi_leb_cd_limit: null
@@ -43,45 +49,80 @@ narrative:
     enph_ag_ext_limit: null
     enph_ag_int_limit: null
     enph_uw_limit: null
-    phius_hd_limit: null
-    phius_cd_limit: null
-    phius_hl_limit: null
-    phius_cl_limit: null
-    phius_nse_limit: null
-    phius_cfm50_limit: null
+    phius_hd_limit: '8.6'
+    phius_cd_limit: '5.9'
+    phius_hl_limit: '5.9'
+    phius_cl_limit: '2.1'
+    phius_nse_limit: 6,550
+    phius_cfm50_limit: '0.06'
   climate:
-    weather_station_name: null
-    weather_station_url: null
-    state_name: null
-    state_name_abbreviation: null
-    ashrae_location_name: null
-    ashrae_design_temps: null
-    ashrae_winter_design_temp_F: null
-    ashrae_winter_design_temp_C: null
+    weather_station_name: 'Pittsburgh International AP (WMO 725200), Phius climate data set shifted to mid-century (SSP2-4.5, 2040 to 2059)'
+    weather_station_url: /future-climate/
+    state_name: Pennsylvania
+    state_name_abbreviation: PA
+    ashrae_location_name: Zone 5(A)
+    ashrae_design_temps: "5.3\xB0F (-14.8\xB0C)"
+    ashrae_winter_design_temp_F: '5.3'
+    ashrae_winter_design_temp_C: '-14.8'
   energy_code:
-    name: null
-    zone: null
-    link: null
-    code_base_url: null
-    code_airtightness_url: null
-    u_val_link: null
-    ach_link: null
-    ach_limit: null
-    window_min_u_value: null
+    name: 2021 International Residential Code, Chapter 11 (PA Uniform Construction Code)
+    zone: Climate Zone 5A (Allegheny County)
+    link: https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/bois/ucc-regulations-and-statutes
+    code_base_url: https://codes.iccsafe.org/content/IRC2021P3/part-iv-energy-conservation
+    code_airtightness_url: https://codes.iccsafe.org/s/IRC2021P3/part-iv-energy-conservation/IRC2021P3-Pt04-Ch11-SecN1102.4.1.3
+    u_val_link: https://codes.iccsafe.org/s/IRC2021P3/part-iv-energy-conservation/IRC2021P3-Pt04-Ch11-SecN1102.1.2
+    ach_link: https://codes.iccsafe.org/s/IRC2021P3/part-iv-energy-conservation/IRC2021P3-Pt04-Ch11-SecN1102.4.1.3
+    ach_limit: '3.0'
+    window_min_u_value: '0.30'
   co2:
-    subregion_name: null
-    epa_subgrid_name: null
-    occupancy: null
-    target_tons: null
-    taget_co2_per_person: null
+    subregion_name: RFCW (RFC West), EPA eGRID
+    epa_subgrid_name: RFCW (RFC West)
+    occupancy: '3'
+    target_tons: '3'
+    taget_co2_per_person: '1.0'
   windows:
-    ph_window_u_value: null
-    ph_window_r_value: null
-    comfort_target_r_value: null
-    comfort_target_u_value: null
+    ph_window_u_value: '0.15'
+    ph_window_r_value: '6.7'
+    comfort_target_r_value: '6.5'
+    comfort_target_u_value: '0.155'
   mechanical:
     erv:
-      manufacturer_name: null
-      type_name: null
-      link: null
-  user_defined: {}
+      manufacturer_name: Zehnder America
+      type_name: ComfoAir Q ERV (model to be sized)
+      link: https://zehnderamerica.com/products/ventilator/comfoair-q/
+  user_defined:
+    phius_climate_url: https://phius.org/climate-data
+    co2_factor_kg_kwh: '0.416'
+    co2_factor_lb_mwh: '916'
+    egrid_edition: EPA eGRID2023 (Revision 2, June 2025)
+    architect: mossArchitects
+    architect_url: https://www.mossarc.com/
+    neighborhood: Point Breeze North
+    lot_size: 45 ft x 130 ft
+    icfa_ft2: 4,950
+    envelope_area_ft2: 12,081
+    envelope_to_icfa_ratio: '2.44'
+    window_area_total_ft2: '978'
+    window_area_north_ft2: '252'
+    window_area_east_ft2: '271'
+    window_area_south_ft2: '272'
+    window_area_west_ft2: '184'
+    stories: three stories plus basement
+    phius_bedrooms: '2'
+    phius_calculator_version: v26.2
+    phius_ashrae_zone: 4A
+    architect_hers_target: '25'
+    architect_ach_target: '2.0'
+    design_airflow_cfm: '225'
+    standard_airflow_cfm: '173'
+    kitchen_hood_cfm: '624'
+    future_scenario: SSP2-4.5, 2040 to 2059
+    future_annual_mean_C: '13.6'
+    future_annual_mean_F: '56.4'
+    phius_annual_mean_C: '10.6'
+    phius_annual_mean_F: '51.0'
+    future_summer_extreme_F: '99.5'
+    present_summer_extreme_F: '96.3'
+    winter_extreme_F: '-7.0'
+    future_cooling_load_temp_F: '82.0'
+    present_cooling_load_temp_F: '77.7'

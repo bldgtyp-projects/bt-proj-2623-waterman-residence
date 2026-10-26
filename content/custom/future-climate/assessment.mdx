@@ -1,0 +1,46 @@
+---
+kicker: "03"
+title: "How the Future Climate Is Used"
+dek: "Where the future climate enters each of the three assessment steps."
+---
+
+Our design-phase assessment has three parts, and the future climate enters each one:
+
+| Assessment step | Method | Climate data |
+| --- | --- | --- |
+| Annual energy demand | PHPP monthly method | Phius data set, vintage correction and mid-century shift |
+| Peak heating and cooling loads | PHPP design-day method | Phius design conditions: heating held, cooling shifted |
+| Resilience | Phius REVIVE 2024 outage simulation | Shifted hourly weather file; summer extreme raised, winter extreme held |
+
+All five design variants run on the mid-century climate, so the comparison between design options is made in the
+climate the house will actually operate in.
+
+### Peak loads: keep the cold, shift the heat
+
+- **Heating: historical values held.** Pittsburgh's ASHRAE 99.6% heating design temperature has ranged between 3.7°F
+  and 5.6°F across the last five ASHRAE editions, with no significant trend. Holding the historical heating-load
+  conditions is slightly conservative.
+- **Cooling: design day shifted.** The Phius cooling-load temperature rises from
+  <Var k="narrative.user_defined.present_cooling_load_temp_F" />°F to
+  <Var k="narrative.user_defined.future_cooling_load_temp_F" />°F (vintage correction plus the July and August change).
+  The Phius data has no cooling-load dew point to shift; the higher monthly dew points still raise the latent load.
+
+### Resilience: the outage weather
+
+The [Phius REVIVE 2024](https://www.phius.org/phius-revive-2024) outage tests reshape the coldest and hottest weeks of
+the weather file to reach ASHRAE's extreme values:
+
+| Outage | ASHRAE extreme, present day | Future run |
+| --- | --- | --- |
+| Winter, 7 days | 10-year low, <Var k="narrative.user_defined.winter_extreme_F" />°F | Held at <Var k="narrative.user_defined.winter_extreme_F" />°F |
+| Summer, 7 days | 20-year high, <Var k="narrative.user_defined.present_summer_extreme_F" />°F | Raised to <Var k="narrative.user_defined.future_summer_extreme_F" />°F |
+
+Holding the winter value is conservative on purpose: Pittsburgh's 10-year low has already warmed from −13.7°F in the
+2009 ASHRAE edition to −7.0°F in 2025. The summer peak has not risen in the historical record, so its increase comes
+from the projections. In the NOAA county projections the hottest day of the year warms at about the same rate as the
+summer average by mid-century, so raising the summer extreme by the summer change is a fair estimate.
+
+### What is not in scope
+
+Decided with the owners in October 2026: one future case only; no 2080s or high-emission runs for now; the assembly
+moisture review stays on present-day weather. Those remain available as later sensitivities.

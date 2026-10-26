@@ -5,21 +5,36 @@ dek: "Document site context and fixed shading conditions that affect window sola
 sun_path_plan_image: "/assets/windows/site-shading/sun-path-plan.optimized.png"
 sun_path_plan_image_full: "/assets/windows/site-shading/sun-path-plan.full.png"
 sun_path_plan_alt: "Plan-view sun-path diagram showing site obstructions and solar orientation."
-sun_path_plan_caption: "Plan-view sun-path and site-shading context."
+sun_path_plan_caption: "Sun path over the site in plan, with the surrounding houses and rear-yard trees modeled for shading."
 sun_path_iso_image: "/assets/windows/site-shading/sun-path-iso.optimized.png"
 sun_path_iso_image_full: "/assets/windows/site-shading/sun-path-iso.full.png"
 sun_path_iso_alt: "Axonometric sun-path diagram showing surrounding shading obstructions."
-sun_path_iso_caption: "Axonometric sun-path and site-shading context."
+sun_path_iso_caption: "Sun path and shading context in axonometric view."
 ---
 
-The energy balance of the windows is critical on any high-performance building project. The goal for this climate should
-be to take some advantage of wintertime solar gains in order to reduce overall heating energy need, while being
-extremely cautious about the potential for overheating and increasing cooling energy need. This can be particularly
-challenging with highly glazed rooms or space which feature large amounts of south or west facing glass.
+The energy balance of the windows is critical on any high-performance building. In Pittsburgh's climate the goal is
+to collect some useful winter sun to reduce heating, while staying cautious about summer overheating and the extra
+cooling and dehumidification it brings. Rooms with large amounts of south- or west-facing glass need the most
+attention.
 
-All radiation values presented consider the local shading context. Where relevant, this context is created using
-satellite images from google maps and plot lines from [OpenStreet
-Map](https://www.openstreetmap.org/#map=5/38.01/-95.84) and
-[CadMapper](https://cadmapper.com/pro/login/?next=/pro/home). The site shading and orientation includes the following:
+All radiation values presented consider the local shading context. The surrounding houses are modeled as simple
+massing blocks built from satellite images from Google Maps and building footprints from
+[OpenStreetMap](https://www.openstreetmap.org/) and [CadMapper](https://cadmapper.com/). The two large trees in the
+rear yards are modeled as solid shapes, and the site survey sets the ground and lot lines.
+
+The shading context for this site:
+
+1. **Close neighbors on both sides.** The side yards are only about 4 to 5 ft wide. The three-story house at 6914
+   McPherson and the two-story house at 6922 shade the side-facing windows on the lower floors for most of the day,
+   and almost entirely in winter, when the sun is low.
+2. **Orientation.** The street facade faces north-northeast and the rear garden faces south-southwest. The rear
+   elevation is the main opportunity for winter solar gain, and also the main source of summer and afternoon heat.
+3. **Rear-yard trees.** Two large trees south of the house shade the lower rear windows. They are modeled as solid,
+   which is conservative in winter, when deciduous trees let most of the sun through.
+4. **Porches, balcony and overhangs.** The front porch, screened porch and second-floor balcony shade the glass
+   beneath them year-round: useful in summer, a cost in winter.
+
+The upper floors see much less shading from the neighbors than the lower floors. As the radiation studies in the
+next two sections show, they get the most winter sun and the most summer heat.
 
 Orientation / Sun-Path Diagrams:

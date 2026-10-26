@@ -4,6 +4,19 @@ title: "Fresh-Air Flow Rates"
 dek: "Show the room-by-room fresh-air assumptions used by the model."
 ---
 
-The fresh-air system should be sized around the room-by-room supply, transfer, and extract strategy rather than around a
-single whole-building ventilation rate. The table below keeps the modeled airflow assumptions visible for design
-coordination and commissioning.
+The fresh-air system should be sized around the room-by-room supply, transfer and extract strategy rather than around a
+single whole-building ventilation rate. The table below shows the modeled airflows for design coordination and
+commissioning.
+
+As modeled, the system moves **<Var k="narrative.user_defined.design_airflow_cfm" /> CFM** at high speed and
+**<Var k="narrative.user_defined.standard_airflow_cfm" /> CFM** at its normal operating (medium) speed, balanced supply
+to extract. Supply goes to the living room, library and guest room, sunroom, primary bedroom, office, snug, the
+basement and the first-floor hall. Extract is drawn from the kitchen, all bathrooms and both laundry rooms. Stairs,
+halls, closets and the elevator are transfer zones with no dedicated supply or extract.
+
+{/* TODO(ed): the PHPP has the third-floor studio as an extract room (25 cfm). Confirm; it reads like a supply
+    room. */}
+
+The kitchen range hood is modeled separately from the ERV: at about <Var k="narrative.user_defined.kitchen_hood_cfm" />
+CFM when running, it moves nearly three times the ERV's full airflow. See the
+[Appliances and Venting](#appliances-and-venting) section for the make-up air this requires.

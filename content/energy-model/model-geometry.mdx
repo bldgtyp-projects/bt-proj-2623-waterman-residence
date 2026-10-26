@@ -5,6 +5,32 @@ dek: "Review the modeled building geometry used for the energy assessment."
 ---
 
 For all model results shown here, the following building geometry was used. This geometry is based on the
-drawings/models received on <Var k="source_files.cad_files_received_date" />. The model geometry used for this
-assessment includes both the building and the local shading context. For details on the context shading see the [windows
-site shading section](/windows/).
+mossArchitects drawings and Revit model received on **<Var k="source_files.cad_files_received_date" />**. The model
+includes both the building and the local shading context: the surrounding houses as simple massing blocks,
+including the neighbors only a few feet from each side wall, and the two large trees in the rear yards. For details on the context shading see the
+[windows site shading section](/windows/#site-shading).
+
+The modeled house measures about 56 ft deep by 37 ft wide, and rises about 47 ft from the basement floor to the
+main ridge. The house is <Var k="narrative.user_defined.stories" /> on a <Var k="narrative.user_defined.lot_size" /> infill
+lot, with a one-story garage at the rear. The garage, the front porch and the screened porch sit outside the
+thermal envelope. The basement is inside it: it is heated, ventilated and counted in the floor area.
+
+The modeled interior conditioned floor area (iCFA) is <Var k="narrative.user_defined.icfa_ft2" /> ft², wrapped by
+<Var k="narrative.user_defined.envelope_area_ft2" /> ft² of thermal enclosure. That works out to roughly
+**<Var k="narrative.user_defined.envelope_to_icfa_ratio" /> ft² of enclosure per ft² of floor area**, a
+reasonable figure for a house of this size and height. Compact plans land closer to 2.0; spread-out
+single-story houses often exceed 4.0.
+
+The geometry is not as simple as the ratio suggests, however. Several roof planes, dormers, the bay window,
+the balcony and the junction with the garage each add corners and edges to the enclosure. Those are the
+places where heat bypasses the insulation (thermal bridges), and where the air barrier depends on field
+workmanship. Both are discussed in the [Envelope](/building_envelope/) section.
+
+<div class="btwr-callout">
+  <strong>Orientation</strong>
+  <span>
+    The drawings use "project north" for the street facade on McPherson Boulevard. The lot runs roughly
+    N24°E, so the street facade actually faces north-northeast and the rear garden faces south-southwest.
+    The energy model uses true orientation.
+  </span>
+</div>

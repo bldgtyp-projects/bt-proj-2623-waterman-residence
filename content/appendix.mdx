@@ -1,8 +1,53 @@
 ---
 kicker: "06"
 title: "Appendix"
-dek: "Keep traceability available, but out of the primary decision narrative."
+dek: "Sources, open assumptions, and unit conversions."
 ---
 
-Appendix content should help reviewers connect report claims back to PHPP rows, source PDFs, and model assumptions
-without making the main client narrative too dense.
+### Sources and model provenance
+
+All energy results in this report come from a single PHPP 10.6 workbook (`261026-Waterman-Home.xlsx`). Building
+geometry is based on the mossArchitects drawings and Revit model received on
+<Var k="source_files.cad_files_received_date" />, and on the schematic-design drawings and narrative of August 21, 2026.
+Climate data for all variants is the <Var k="narrative.climate.weather_station_name" />, built by BLDGTYP from the
+[Phius climate data set](https://phius.org/climate-data). Assembly R-values are calculated in
+Flixo. CO<sub>2e</sub> emission factors are from the <Var k="narrative.co2.epa_subgrid_name" /> eGRID subregion; source
+energy factors are from the EPA ENERGY STAR Portfolio Manager Technical Reference. Phius CORE 2024 targets are from the
+Phius Criteria Calculator <Var k="narrative.user_defined.phius_calculator_version" />, for
+<Var k="narrative.user_defined.phius_bedrooms" /> bedrooms.
+
+The future climate data was built by BLDGTYP in October 2026 from the ORNL Cross-Model future weather files
+(Chowdhury, Li, Stubbings and New, 2023, [Zenodo 10719179](https://zenodo.org/records/10719179), CC-BY-4.0), the
+Climate.OneBuilding TMYx 2011 to 2025 file for Pittsburgh International, the Phius climate data set, the ASHRAE
+climatic design conditions (2009 to 2025 editions) and the NOAA CRIS county projections. See the
+[Future Climate](/future-climate/) page.
+
+The resilience results come from a separate hourly EnergyPlus model following the Phius REVIVE 2024 protocol, and are
+not derived from the PHPP workbook.
+
+### Open items and assumptions to confirm
+
+The following were assumed for modeling and should be confirmed by the design team before these results are relied on:
+
+- **Windows.** No product selected. Modeled as a code-level U-0.30 window in all variants; see
+  [Window Thermal Comfort](/windows/#window-thermal-comfort).
+- **Sloped roof.** Modeled without the above-deck insulation shown in the schematic-design narrative. See the
+  [Sloped Roof](/building_envelope/#recommended-assemblies) card.
+- **Basement wall insulation.** Modeled on the interior; the narrative places it on the exterior.
+- **Foam layers.** Polyiso above the low-slope roof deck and XPS below the slab, against the foam-free goal.
+- **Thermal bridges.** Carried as a percentage allowance, reduced step by step across the variants. Brick support,
+  the balcony, the bay window, the garage junction and the elevator overrun need detail-level review.
+- **Occupancy.** Modeled for <Var k="building.total_num_occupants" /> occupants, from the Phius bedroom count.
+- **Mechanical equipment.** Generic air-source heat pumps for heating, cooling and hot water; the choice between the
+  air-to-water and air-to-air options in the narrative is open. ERV model and location to be confirmed.
+- **Kitchen hood, humidifier, heated slabs and recirculation loop.** See
+  [Appliances and Venting](/mechanical/#appliances-and-venting).
+- **Solar PV.** Modeled as zero in all variants.
+
+### Units
+
+Passive House modeling is natively metric, and some charts in this report display SI units. Where results are quoted
+in the text they have been converted to IP. The two most common conversions:
+
+- 1 kWh/m²·yr = 0.317 kBtu/ft²·yr
+- 1 W/m² = 0.317 Btu/hr·ft²

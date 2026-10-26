@@ -2,21 +2,48 @@
 kicker: "01"
 section_id: "recommended-assemblies"
 title: "Recommended Assemblies"
-dek: "Show the construction logic behind the modeled R-values and psi-values."
+dek: "Show the construction logic behind the modeled R-values."
 callout_label: "Structural coordination"
 callout_body: >-
   All structural member sizing and spacing must be provided by the Structural Engineer and/or Architect. Sizing and
-  spacing shown here is related to target insulation levels only.
+  spacing shown here relate to target insulation levels only.
 ---
 
-Below we have included recommendations for the building envelope assemblies based on the Energy model results shown in
-previous sections. These are recommendations only and should be reviewed by the design team to ensure they are
-appropriate for the project.
+Below are the building envelope assemblies as modeled, with our recommendations. They follow the mossArchitects
+schematic-design narrative and drawings, and should be reviewed by the design team to confirm they suit the project.
 
-The following assembly U-values have been assessed using project-specific energy-model inputs and supporting
-thermal-bridge assumptions. Assembly diagrams should be treated as performance targets and coordination references, not
-final construction documents.
+All R-values quoted here are **effective whole-assembly** values, calculated in two dimensions with
+[Flixo](https://www.flixo.com/). They account for the framing, the brick ties and cladding fasteners, and the other
+thermal bridges inside each assembly. They run lower than the nominal R-value of the insulation alone, and they are
+the numbers that drive the energy results.
 
-## SmartRock Reference:
-- [How to Professionally Detail and Install ROCKWOOL Smartrock® Over Masonry Walls](https://youtu.be/VwaGG9wiB0o?si=QICfCxZlWjfPJJyB)
-- [Attaching ROCKWOOL Smartrock insulation with TRUFAST® fasteners](https://youtu.be/F9__QVkal1c?si=FrXWcjOUQ90Czq6x) 
+| Assembly | Area (ft²) | As modeled, all variants | IECC 2021 CZ5 (U-factor equivalent) |
+| --- | ---: | --- | --- |
+| Brick-clad wall | 2,613 | R-29.9 | R-22.2 |
+| Wood-clad wall | 1,911 | R-32.9 | R-22.2 |
+| Sloped roof | 2,338 | R-32.7 | R-41.7 |
+| Roof deck (low-slope) | 164 | R-55.9 | R-41.7 |
+| Exposed floor | 249 | R-33.3 | R-30.3 |
+| Basement wall | 1,967 | R-22.5 | R-20.0 |
+| Basement slab | 1,862 | R-21.1 | Not required |
+
+The assemblies are the same in every variant from As-Drawn onward. The variants instead change airtightness,
+thermal bridges at junctions and the ventilation system, as described in the
+[Model Variants](/energy_model/#model-variants) section.
+
+{/* TODO(ed): confirm the Sloped-Roof Flixo model. It has no above-deck insulation (11.25" batts only,
+    R-32.7), while the SD narrative calls for 6" stone wool above the deck (R-52 to R-54 nominal). It is
+    the largest opaque surface after the brick wall. */}
+
+<div class="btwr-callout">
+  <strong>Foam-free goal</strong>
+  <span>
+    The architect's narrative sets out foam-free, vapor-open assemblies. Two of the assemblies as modeled still
+    use foam: polyisocyanurate above the low-slope roof deck and XPS below the basement slab. Mineral-wool or
+    cellular-glass alternatives exist for both and are noted on each card below. The R-values will change slightly
+    with the substitution.
+  </span>
+</div>
+
+Assembly diagrams should be treated as performance targets and coordination references, not final construction
+documents.

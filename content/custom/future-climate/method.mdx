@@ -1,0 +1,56 @@
+---
+kicker: "02"
+title: "Building the Future Weather"
+dek: "How the future weather file and the future PHPP climate were made."
+---
+
+### The hourly weather file
+
+1. **Base year.** The [Climate.OneBuilding TMYx](https://climate.onebuilding.org/WMO_Region_4_North_and_Central_America/USA_United_States_of_America/PA_Pennsylvania/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025.zip)
+   typical year for Pittsburgh International Airport (WMO 725200), assembled from observed weather between 2011 and 2025.
+2. **Monthly change.** The ORNL future weather files for Allegheny County are averaged by month for 2040 to 2059 and
+   for 2000 to 2019, for both air temperature and dew point, and subtracted. That gives twelve monthly changes for each.
+3. **Smooth seasonal curve.** A smooth curve is fitted through the twelve monthly changes and applied to every hour of
+   the year. Applying the changes as flat monthly steps would make the weather jump at every month boundary.
+4. **Shift.** Every hour's temperature and dew point is raised by the curve; relative humidity and sky radiation are
+   recalculated to match. Sun, cloud, wind and rain are left unchanged.
+
+This "morphing" method is established in the research literature and is the method CIBSE uses for the UK's 2025 future
+weather files. It keeps today's observed sunshine, which matters here: the solar data inside the ORNL files is copied
+from a 1973 to 2005 record and runs about 13% below what Pittsburgh receives today.
+
+**Solar radiation is not projected.** No published solar projection exists for Pittsburgh. Both future climates use
+today's observed solar radiation.
+
+### The PHPP climate
+
+The Passive House energy model works from monthly values, so it gets the monthly averages of the same curve, applied
+to the Phius climate data set. One correction comes first. The Phius data for Pittsburgh matches the weather of the
+1980s and 1990s: about 2.6°F colder and noticeably drier than observed 2011 to 2025 weather. Adding only the
+mid-century change to it would land close to today's climate, not 2050's. So the future PHPP climate is built in two
+steps:
+
+1. **Vintage correction:** bring the Phius monthly temperature and dew point up to today's observed climate.
+2. **Climate change:** add the mid-century monthly change.
+
+The result averages <Var k="narrative.user_defined.future_annual_mean_F" />°F
+(<Var k="narrative.user_defined.future_annual_mean_C" />°C) for the year, against
+<Var k="narrative.user_defined.phius_annual_mean_F" />°F for the standard Phius data, and it matches the hourly future
+weather file, so the energy and resilience assessments share one future climate.
+
+| °F | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | Year |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Phius data set (present) | 28.2 | 28.4 | 41.7 | 51.1 | 59.5 | 68.9 | 73.4 | 71.2 | 63.5 | 49.6 | 44.1 | 31.3 | 51.0 |
+| Future PHPP climate | 32.7 | 32.9 | 47.1 | 57.4 | 65.8 | 74.3 | 77.7 | 75.6 | 68.7 | 55.9 | 50.5 | 36.9 | 56.4 |
+
+This future PHPP climate is used for all five design variants in this report. Compared with the standard Phius data,
+it combines the warming that has already happened (about 2.6°F) and the mid-century change (about 2.8°F).
+
+### Downloads
+
+- [Future weather file, EPW (1.5 MB)](/downloads/future-climate/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw):
+  Pittsburgh International TMYx 2011 to 2025, shifted to SSP2-4.5 2040 to 2059. Hourly weather for simulation tools.
+- [STAT file](/downloads/future-climate/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.stat):
+  the original TMYx statistics file, which sets the outage weeks for the resilience runs.
+- [Build summary with charts](/downloads/future-climate/future-climate-build-summary.html): every number from the build,
+  with the checks run on the future file.

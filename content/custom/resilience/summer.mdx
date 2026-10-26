@@ -1,0 +1,21 @@
+---
+kicker: "02"
+title: "Summer Heat Index"
+dek: "Track the occupied-zone Heat Index through the seven-day summer outage."
+---
+
+{/* TODO(ed): add the summer_heat_index.html/.js embed and HeatIndexChart extras when the REVIVE run is done
+    (see 2615 Tano Road custom/resilience/summer.mdx for the pattern). */}
+
+**Phius REVIVE** uses the
+[Heat Index](https://bigladdersoftware.com/epx/docs/22-2/engineering-reference/resilience-metrics.html#heat-index), a
+measure of how hot it feels when humidity is combined with air temperature, to judge whether each zone stays habitable
+during the summer outage. Minimum compliance requires:
+
+- 0 hours of **Heat Index** in the "Extreme Danger" range (above 125°F [52°C]).
+
+Humidity is the concern in Pittsburgh's summers, more than temperature alone. Without power, the house cannot
+dehumidify, and the Heat Index can climb even where the air temperature stays moderate. The upper floors, which
+see the most summer sun and collect the warm air rising through the house, are expected to be the warmest zones.
+
+Results will be added once the simulation is complete.
