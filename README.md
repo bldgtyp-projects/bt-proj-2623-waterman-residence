@@ -20,6 +20,12 @@ A 1,910 kWh/year elevator allowance is entered in Aux Electricity, with a 10% in
 from the ENERGY STAR source behind the Phius calculator. Foundation insulation/cladding, final
 window quotes and backup scope remain open. Thermal capacities and ground boundary still need validation.
 
+The assembly text now identifies proposed departures from the August 21 SD narrative. Interior
+basement-wall insulation is proposed because exterior insulation is difficult to finish at grade;
+moisture details remain unresolved. The slab text retains modeled XPS while recording ROCKWOOL's
+conditional support for Comfortboard under slabs. Product selection and project-specific suitability
+remain open. This text update does not change model inputs or energy results.
+
 Local site and 81-page PDF builds passed after the roof clarification. Final browser/link/chart checks are recorded in the
 technical audit. These local edits have not been published or deployed.
 
