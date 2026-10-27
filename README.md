@@ -1,3 +1,28 @@
+# Waterman Residence report
+
+Model and report update, October 27, 2026. PHPP was corrected, recalculated in native Excel for all
+five variants and re-exported with `btwr scrape`. Current case totals reconcile for electricity,
+carbon and source energy. The workbook was reopened in Excel and its key results rechecked.
+The elevation correction explains the source/workbook climate-temperature difference.
+
+The hourly future-weather outage runs were repaired and rerun. Active plots/downloads use the
+three-person case with low-rate standalone ERV recovery and no active outage conditioning.
+The inherited nonconvergent summer drying morph was rejected in favor of retaining the future
+summer dew-point sequence. Source hashes are in the plot-provenance JSON.
+
+Technical record and Ed's design decisions: `../11_QAQC/261027-model-audit.md`.
+Outage inputs, verification and remaining physical-model limits: `../15_REVIVE/.index.md` and
+`../15_REVIVE/weather/future/README.md`. The final annual source is `../07_PHPP/261027-Waterman-Home.xlsx`. Ed retained the batt-only roof
+with an interior smart air/vapor membrane, ADHERO over plywood and a continuous ventilated cavity
+beneath the metal roofing. Moisture verification and code approval remain design-team coordination.
+Ed retained constant SHGC 0.30 and humidification to 35% winter RH.
+A 1,910 kWh/year elevator allowance is entered in Aux Electricity, with a 10% internal-gain factor
+from the ENERGY STAR source behind the Phius calculator. Foundation insulation/cladding, final
+window quotes and backup scope remain open. Thermal capacities and ground boundary still need validation.
+
+Local site and 81-page PDF builds passed after the roof clarification. Final browser/link/chart checks are recorded in the
+technical audit. These local edits have not been published or deployed.
+
 # bt-web-report-template
 
 Shared Astro renderer and seed content for BLDGTYP Passive House report repos.

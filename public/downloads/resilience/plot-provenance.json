@@ -1,0 +1,456 @@
+[
+  {
+    "season": "summer",
+    "plot": 1,
+    "title": "Heat Index [\u00b0F]",
+    "outage_window_summary": {
+      "Basement": {
+        "min": 70.33,
+        "max": 99.47
+      },
+      "First floor": {
+        "min": 68.43,
+        "max": 99.74
+      },
+      "Second floor": {
+        "min": 69.14,
+        "max": 99.94
+      },
+      "Third floor": {
+        "min": 70.2,
+        "max": 100.04
+      }
+    },
+    "source_html": "15_REVIVE/summer/summer_heat_index.html",
+    "source_html_sha256": "50289399e807c4c10e05ae920d9e0cef334b78cdc668ae0c90cc15ca3415042a",
+    "source_sql_sha256": "82843c4575a323c9820b14b7b9c460fe0724d4b15090fd0bb435b6b1402fde0c",
+    "source_weather": "15_REVIVE/weather/future/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059_Allegheny-extremes_moisture-conservative.epw",
+    "source_weather_sha256": "2ee9314a49d7a7c1a9dedbcb7394bf102833ad7a04898d448c87f4fb78ccdbeb",
+    "source_hbjson": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/Waterman_Residence_261026.hbjson",
+    "source_hbjson_sha256": "a98d2126e900b38936b3d8a1b686dc72dded3f8fab17ef201da5fa7cd071c82e",
+    "source_seed_osm": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/in.osm",
+    "source_seed_osm_sha256": "1411d6a9cac3ff59c4990054bc8c426bf43a5cc94c1a0b55713f94e40469131e",
+    "source_idf": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/run/in.idf",
+    "source_idf_sha256": "8a79fa4e22aaef7add2701f49c713320c2e15c34863072d29e459c8b3d0af5a6",
+    "source_erv_preparation": "15_REVIVE/prepare_backup_erv.rb",
+    "source_erv_preparation_sha256": "01c66d357fb004dbafa375a7d2545ccb77e20650e8fdc4765c76eb4e6d8aee93",
+    "weather_basis": {
+      "hourly_station": "Pittsburgh Intl AP",
+      "hourly_station_wmo": "725200",
+      "hourly_projection": "SSP2-4.5 2040-2059, TMYx2011-2025",
+      "extreme_station": "Allegheny County Airport",
+      "extreme_station_wmo": "725205",
+      "extreme_source": "2025 ASHRAE, nearest station; current report assessment authored2026-10-26",
+      "winter_10year_drybulb_target_F": -6.2,
+      "summer_20year_drybulb_target_F": 100.0,
+      "dewpoint_targets_C": null,
+      "dewpoint_target_provenance": "Exact original target inputs not recoverable from retained report or station raw file; preserve latest authored root EPW DB/DP values",
+      "morphed_source": "15_REVIVE/weather/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "morphed_source_sha256": "36b43eba991a55fdf84604206c2ae11390d70e069838be5e16c9fd63fca6060b",
+      "correction": "Preserve authored DB/winter DP, restore168summerDPvalues, recompute RH in all8760rows; all remaining fields unchanged",
+      "status": "Provisional moisture-conservative correction: preserve authored DB and winter DP; restore unmorphedfuture summer DP pattern instead of failed drying morph",
+      "official_station_source": "15_REVIVE/weather/future/ASHRAE_Meteo_725205_2025_SI.json",
+      "inferred_summer_dewpoint_target_C": 23.570751999999857,
+      "summer_dewpoint_morph_iterations": 100,
+      "summer_dewpoint_morph_status": "Iteration cap reached; target not attained",
+      "inferred_winter_dewpoint_target_C": -25.073240000000368,
+      "summer_dewpoint_correction": "All168 outagehours restored exactly from SSP2-4.5 unmorphedfuture EPW; summer DP target treated as minimum severity",
+      "future_source": "15_REVIVE/weather/future/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "future_source_sha256": "cebcfe27f9ece94df9e2db3d764445ae2c2ac8da00678d1d1d8f94dfb9a56875",
+      "final_summer_dewpoint_max_C": 26.8,
+      "final_summer_dewpoint_min_C": 14.7,
+      "failed_morph_attained_summer_dewpoint_max_C": 25.1296058905,
+      "failed_morph_attained_summer_dewpoint_min_C": -1.1514795631,
+      "official_station_source_sha256": "7b316f5c4d74f8c800a17b41c7fb78b5e837e13a0e64ab73ad928382a1605938",
+      "official_station_lookup": {
+        "url": "https://ashrae-meteo.info/v3.0/request_meteo_parametres.php",
+        "wmo": "725205",
+        "ashrae_version": "2025",
+        "si_ip": "SI"
+      }
+    },
+    "temperature_conversion": "F = C * 1.8 + 32; RH unchanged",
+    "x_axis": "days from 2021-07-12T00:00:00; outage [1,8)"
+  },
+  {
+    "season": "summer",
+    "plot": 2,
+    "title": "Dry-Bulb Air Temperature [\u00b0F]",
+    "outage_window_summary": {
+      "Basement": {
+        "min": 69.86,
+        "max": 87.42
+      },
+      "First floor": {
+        "min": 67.9,
+        "max": 87.65
+      },
+      "Second floor": {
+        "min": 68.64,
+        "max": 87.8
+      },
+      "Third floor": {
+        "min": 69.73,
+        "max": 87.81
+      },
+      "Outdoor": {
+        "min": 65.07,
+        "max": 100.0
+      }
+    },
+    "source_html": "15_REVIVE/summer/summer_heat_index.html",
+    "source_html_sha256": "50289399e807c4c10e05ae920d9e0cef334b78cdc668ae0c90cc15ca3415042a",
+    "source_sql_sha256": "82843c4575a323c9820b14b7b9c460fe0724d4b15090fd0bb435b6b1402fde0c",
+    "source_weather": "15_REVIVE/weather/future/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059_Allegheny-extremes_moisture-conservative.epw",
+    "source_weather_sha256": "2ee9314a49d7a7c1a9dedbcb7394bf102833ad7a04898d448c87f4fb78ccdbeb",
+    "source_hbjson": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/Waterman_Residence_261026.hbjson",
+    "source_hbjson_sha256": "a98d2126e900b38936b3d8a1b686dc72dded3f8fab17ef201da5fa7cd071c82e",
+    "source_seed_osm": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/in.osm",
+    "source_seed_osm_sha256": "1411d6a9cac3ff59c4990054bc8c426bf43a5cc94c1a0b55713f94e40469131e",
+    "source_idf": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/run/in.idf",
+    "source_idf_sha256": "8a79fa4e22aaef7add2701f49c713320c2e15c34863072d29e459c8b3d0af5a6",
+    "source_erv_preparation": "15_REVIVE/prepare_backup_erv.rb",
+    "source_erv_preparation_sha256": "01c66d357fb004dbafa375a7d2545ccb77e20650e8fdc4765c76eb4e6d8aee93",
+    "weather_basis": {
+      "hourly_station": "Pittsburgh Intl AP",
+      "hourly_station_wmo": "725200",
+      "hourly_projection": "SSP2-4.5 2040-2059, TMYx2011-2025",
+      "extreme_station": "Allegheny County Airport",
+      "extreme_station_wmo": "725205",
+      "extreme_source": "2025 ASHRAE, nearest station; current report assessment authored2026-10-26",
+      "winter_10year_drybulb_target_F": -6.2,
+      "summer_20year_drybulb_target_F": 100.0,
+      "dewpoint_targets_C": null,
+      "dewpoint_target_provenance": "Exact original target inputs not recoverable from retained report or station raw file; preserve latest authored root EPW DB/DP values",
+      "morphed_source": "15_REVIVE/weather/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "morphed_source_sha256": "36b43eba991a55fdf84604206c2ae11390d70e069838be5e16c9fd63fca6060b",
+      "correction": "Preserve authored DB/winter DP, restore168summerDPvalues, recompute RH in all8760rows; all remaining fields unchanged",
+      "status": "Provisional moisture-conservative correction: preserve authored DB and winter DP; restore unmorphedfuture summer DP pattern instead of failed drying morph",
+      "official_station_source": "15_REVIVE/weather/future/ASHRAE_Meteo_725205_2025_SI.json",
+      "inferred_summer_dewpoint_target_C": 23.570751999999857,
+      "summer_dewpoint_morph_iterations": 100,
+      "summer_dewpoint_morph_status": "Iteration cap reached; target not attained",
+      "inferred_winter_dewpoint_target_C": -25.073240000000368,
+      "summer_dewpoint_correction": "All168 outagehours restored exactly from SSP2-4.5 unmorphedfuture EPW; summer DP target treated as minimum severity",
+      "future_source": "15_REVIVE/weather/future/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "future_source_sha256": "cebcfe27f9ece94df9e2db3d764445ae2c2ac8da00678d1d1d8f94dfb9a56875",
+      "final_summer_dewpoint_max_C": 26.8,
+      "final_summer_dewpoint_min_C": 14.7,
+      "failed_morph_attained_summer_dewpoint_max_C": 25.1296058905,
+      "failed_morph_attained_summer_dewpoint_min_C": -1.1514795631,
+      "official_station_source_sha256": "7b316f5c4d74f8c800a17b41c7fb78b5e837e13a0e64ab73ad928382a1605938",
+      "official_station_lookup": {
+        "url": "https://ashrae-meteo.info/v3.0/request_meteo_parametres.php",
+        "wmo": "725205",
+        "ashrae_version": "2025",
+        "si_ip": "SI"
+      }
+    },
+    "temperature_conversion": "F = C * 1.8 + 32; RH unchanged",
+    "x_axis": "days from 2021-07-12T00:00:00; outage [1,8)"
+  },
+  {
+    "season": "summer",
+    "plot": 3,
+    "title": "Relative Humidity [%]",
+    "outage_window_summary": {
+      "Basement": {
+        "min": 51.25,
+        "max": 80.91
+      },
+      "First floor": {
+        "min": 50.59,
+        "max": 86.31
+      },
+      "Second floor": {
+        "min": 50.24,
+        "max": 84.06
+      },
+      "Third floor": {
+        "min": 50.24,
+        "max": 81.46
+      },
+      "Outdoor": {
+        "min": 29.4,
+        "max": 95.19
+      }
+    },
+    "source_html": "15_REVIVE/summer/summer_heat_index.html",
+    "source_html_sha256": "50289399e807c4c10e05ae920d9e0cef334b78cdc668ae0c90cc15ca3415042a",
+    "source_sql_sha256": "82843c4575a323c9820b14b7b9c460fe0724d4b15090fd0bb435b6b1402fde0c",
+    "source_weather": "15_REVIVE/weather/future/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059_Allegheny-extremes_moisture-conservative.epw",
+    "source_weather_sha256": "2ee9314a49d7a7c1a9dedbcb7394bf102833ad7a04898d448c87f4fb78ccdbeb",
+    "source_hbjson": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/Waterman_Residence_261026.hbjson",
+    "source_hbjson_sha256": "a98d2126e900b38936b3d8a1b686dc72dded3f8fab17ef201da5fa7cd071c82e",
+    "source_seed_osm": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/in.osm",
+    "source_seed_osm_sha256": "1411d6a9cac3ff59c4990054bc8c426bf43a5cc94c1a0b55713f94e40469131e",
+    "source_idf": "15_REVIVE/summer/Waterman_Residence_261026/openstudio/run/in.idf",
+    "source_idf_sha256": "8a79fa4e22aaef7add2701f49c713320c2e15c34863072d29e459c8b3d0af5a6",
+    "source_erv_preparation": "15_REVIVE/prepare_backup_erv.rb",
+    "source_erv_preparation_sha256": "01c66d357fb004dbafa375a7d2545ccb77e20650e8fdc4765c76eb4e6d8aee93",
+    "weather_basis": {
+      "hourly_station": "Pittsburgh Intl AP",
+      "hourly_station_wmo": "725200",
+      "hourly_projection": "SSP2-4.5 2040-2059, TMYx2011-2025",
+      "extreme_station": "Allegheny County Airport",
+      "extreme_station_wmo": "725205",
+      "extreme_source": "2025 ASHRAE, nearest station; current report assessment authored2026-10-26",
+      "winter_10year_drybulb_target_F": -6.2,
+      "summer_20year_drybulb_target_F": 100.0,
+      "dewpoint_targets_C": null,
+      "dewpoint_target_provenance": "Exact original target inputs not recoverable from retained report or station raw file; preserve latest authored root EPW DB/DP values",
+      "morphed_source": "15_REVIVE/weather/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "morphed_source_sha256": "36b43eba991a55fdf84604206c2ae11390d70e069838be5e16c9fd63fca6060b",
+      "correction": "Preserve authored DB/winter DP, restore168summerDPvalues, recompute RH in all8760rows; all remaining fields unchanged",
+      "status": "Provisional moisture-conservative correction: preserve authored DB and winter DP; restore unmorphedfuture summer DP pattern instead of failed drying morph",
+      "official_station_source": "15_REVIVE/weather/future/ASHRAE_Meteo_725205_2025_SI.json",
+      "inferred_summer_dewpoint_target_C": 23.570751999999857,
+      "summer_dewpoint_morph_iterations": 100,
+      "summer_dewpoint_morph_status": "Iteration cap reached; target not attained",
+      "inferred_winter_dewpoint_target_C": -25.073240000000368,
+      "summer_dewpoint_correction": "All168 outagehours restored exactly from SSP2-4.5 unmorphedfuture EPW; summer DP target treated as minimum severity",
+      "future_source": "15_REVIVE/weather/future/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "future_source_sha256": "cebcfe27f9ece94df9e2db3d764445ae2c2ac8da00678d1d1d8f94dfb9a56875",
+      "final_summer_dewpoint_max_C": 26.8,
+      "final_summer_dewpoint_min_C": 14.7,
+      "failed_morph_attained_summer_dewpoint_max_C": 25.1296058905,
+      "failed_morph_attained_summer_dewpoint_min_C": -1.1514795631,
+      "official_station_source_sha256": "7b316f5c4d74f8c800a17b41c7fb78b5e837e13a0e64ab73ad928382a1605938",
+      "official_station_lookup": {
+        "url": "https://ashrae-meteo.info/v3.0/request_meteo_parametres.php",
+        "wmo": "725205",
+        "ashrae_version": "2025",
+        "si_ip": "SI"
+      }
+    },
+    "temperature_conversion": "F = C * 1.8 + 32; RH unchanged",
+    "x_axis": "days from 2021-07-12T00:00:00; outage [1,8)"
+  },
+  {
+    "season": "winter",
+    "plot": 1,
+    "title": "Standard Effective Temperature (SET) [\u00b0F]",
+    "outage_window_summary": {
+      "Basement": {
+        "min": 49.67,
+        "max": 71.83
+      },
+      "First floor": {
+        "min": 48.92,
+        "max": 71.43
+      },
+      "Second floor": {
+        "min": 48.84,
+        "max": 71.45
+      },
+      "Third floor": {
+        "min": 48.8,
+        "max": 71.37
+      }
+    },
+    "source_html": "15_REVIVE/winter/winter_SET_temperature.html",
+    "source_html_sha256": "705a004431611309720928eaceff1b32512f35eca4f2cf4fe88a352f0860d0c4",
+    "source_sql_sha256": "866b3a84235cee0ee7ad0741b3af2c03d4325b66c5d64cd97b301dfd391e73e3",
+    "source_weather": "15_REVIVE/weather/future/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059_Allegheny-extremes_moisture-conservative.epw",
+    "source_weather_sha256": "2ee9314a49d7a7c1a9dedbcb7394bf102833ad7a04898d448c87f4fb78ccdbeb",
+    "source_hbjson": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/Waterman_Residence_261026.hbjson",
+    "source_hbjson_sha256": "a98d2126e900b38936b3d8a1b686dc72dded3f8fab17ef201da5fa7cd071c82e",
+    "source_seed_osm": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/in.osm",
+    "source_seed_osm_sha256": "e9714f585c5c5a041efba10bbc01f33b9283b740015208905c5cd2d0b498a00f",
+    "source_idf": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/run/in.idf",
+    "source_idf_sha256": "f8b0054bf7c86c0aa2eb2f757a51d28c2f7f26a5dc0fa2d533a8252494a6a2bd",
+    "source_erv_preparation": "15_REVIVE/prepare_backup_erv.rb",
+    "source_erv_preparation_sha256": "01c66d357fb004dbafa375a7d2545ccb77e20650e8fdc4765c76eb4e6d8aee93",
+    "weather_basis": {
+      "hourly_station": "Pittsburgh Intl AP",
+      "hourly_station_wmo": "725200",
+      "hourly_projection": "SSP2-4.5 2040-2059, TMYx2011-2025",
+      "extreme_station": "Allegheny County Airport",
+      "extreme_station_wmo": "725205",
+      "extreme_source": "2025 ASHRAE, nearest station; current report assessment authored2026-10-26",
+      "winter_10year_drybulb_target_F": -6.2,
+      "summer_20year_drybulb_target_F": 100.0,
+      "dewpoint_targets_C": null,
+      "dewpoint_target_provenance": "Exact original target inputs not recoverable from retained report or station raw file; preserve latest authored root EPW DB/DP values",
+      "morphed_source": "15_REVIVE/weather/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "morphed_source_sha256": "36b43eba991a55fdf84604206c2ae11390d70e069838be5e16c9fd63fca6060b",
+      "correction": "Preserve authored DB/winter DP, restore168summerDPvalues, recompute RH in all8760rows; all remaining fields unchanged",
+      "status": "Provisional moisture-conservative correction: preserve authored DB and winter DP; restore unmorphedfuture summer DP pattern instead of failed drying morph",
+      "official_station_source": "15_REVIVE/weather/future/ASHRAE_Meteo_725205_2025_SI.json",
+      "inferred_summer_dewpoint_target_C": 23.570751999999857,
+      "summer_dewpoint_morph_iterations": 100,
+      "summer_dewpoint_morph_status": "Iteration cap reached; target not attained",
+      "inferred_winter_dewpoint_target_C": -25.073240000000368,
+      "summer_dewpoint_correction": "All168 outagehours restored exactly from SSP2-4.5 unmorphedfuture EPW; summer DP target treated as minimum severity",
+      "future_source": "15_REVIVE/weather/future/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "future_source_sha256": "cebcfe27f9ece94df9e2db3d764445ae2c2ac8da00678d1d1d8f94dfb9a56875",
+      "final_summer_dewpoint_max_C": 26.8,
+      "final_summer_dewpoint_min_C": 14.7,
+      "failed_morph_attained_summer_dewpoint_max_C": 25.1296058905,
+      "failed_morph_attained_summer_dewpoint_min_C": -1.1514795631,
+      "official_station_source_sha256": "7b316f5c4d74f8c800a17b41c7fb78b5e837e13a0e64ab73ad928382a1605938",
+      "official_station_lookup": {
+        "url": "https://ashrae-meteo.info/v3.0/request_meteo_parametres.php",
+        "wmo": "725205",
+        "ashrae_version": "2025",
+        "si_ip": "SI"
+      }
+    },
+    "temperature_conversion": "F = C * 1.8 + 32; RH unchanged",
+    "x_axis": "days from 2021-02-02T00:00:00; outage [1,8)"
+  },
+  {
+    "season": "winter",
+    "plot": 2,
+    "title": "Dry-Bulb Air Temperature [\u00b0F]",
+    "outage_window_summary": {
+      "Basement": {
+        "min": 40.17,
+        "max": 66.41
+      },
+      "First floor": {
+        "min": 39.33,
+        "max": 65.92
+      },
+      "Second floor": {
+        "min": 39.12,
+        "max": 65.84
+      },
+      "Third floor": {
+        "min": 38.96,
+        "max": 65.59
+      },
+      "Outdoor": {
+        "min": -4.76,
+        "max": 22.27
+      }
+    },
+    "source_html": "15_REVIVE/winter/winter_SET_temperature.html",
+    "source_html_sha256": "705a004431611309720928eaceff1b32512f35eca4f2cf4fe88a352f0860d0c4",
+    "source_sql_sha256": "866b3a84235cee0ee7ad0741b3af2c03d4325b66c5d64cd97b301dfd391e73e3",
+    "source_weather": "15_REVIVE/weather/future/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059_Allegheny-extremes_moisture-conservative.epw",
+    "source_weather_sha256": "2ee9314a49d7a7c1a9dedbcb7394bf102833ad7a04898d448c87f4fb78ccdbeb",
+    "source_hbjson": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/Waterman_Residence_261026.hbjson",
+    "source_hbjson_sha256": "a98d2126e900b38936b3d8a1b686dc72dded3f8fab17ef201da5fa7cd071c82e",
+    "source_seed_osm": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/in.osm",
+    "source_seed_osm_sha256": "e9714f585c5c5a041efba10bbc01f33b9283b740015208905c5cd2d0b498a00f",
+    "source_idf": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/run/in.idf",
+    "source_idf_sha256": "f8b0054bf7c86c0aa2eb2f757a51d28c2f7f26a5dc0fa2d533a8252494a6a2bd",
+    "source_erv_preparation": "15_REVIVE/prepare_backup_erv.rb",
+    "source_erv_preparation_sha256": "01c66d357fb004dbafa375a7d2545ccb77e20650e8fdc4765c76eb4e6d8aee93",
+    "weather_basis": {
+      "hourly_station": "Pittsburgh Intl AP",
+      "hourly_station_wmo": "725200",
+      "hourly_projection": "SSP2-4.5 2040-2059, TMYx2011-2025",
+      "extreme_station": "Allegheny County Airport",
+      "extreme_station_wmo": "725205",
+      "extreme_source": "2025 ASHRAE, nearest station; current report assessment authored2026-10-26",
+      "winter_10year_drybulb_target_F": -6.2,
+      "summer_20year_drybulb_target_F": 100.0,
+      "dewpoint_targets_C": null,
+      "dewpoint_target_provenance": "Exact original target inputs not recoverable from retained report or station raw file; preserve latest authored root EPW DB/DP values",
+      "morphed_source": "15_REVIVE/weather/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "morphed_source_sha256": "36b43eba991a55fdf84604206c2ae11390d70e069838be5e16c9fd63fca6060b",
+      "correction": "Preserve authored DB/winter DP, restore168summerDPvalues, recompute RH in all8760rows; all remaining fields unchanged",
+      "status": "Provisional moisture-conservative correction: preserve authored DB and winter DP; restore unmorphedfuture summer DP pattern instead of failed drying morph",
+      "official_station_source": "15_REVIVE/weather/future/ASHRAE_Meteo_725205_2025_SI.json",
+      "inferred_summer_dewpoint_target_C": 23.570751999999857,
+      "summer_dewpoint_morph_iterations": 100,
+      "summer_dewpoint_morph_status": "Iteration cap reached; target not attained",
+      "inferred_winter_dewpoint_target_C": -25.073240000000368,
+      "summer_dewpoint_correction": "All168 outagehours restored exactly from SSP2-4.5 unmorphedfuture EPW; summer DP target treated as minimum severity",
+      "future_source": "15_REVIVE/weather/future/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "future_source_sha256": "cebcfe27f9ece94df9e2db3d764445ae2c2ac8da00678d1d1d8f94dfb9a56875",
+      "final_summer_dewpoint_max_C": 26.8,
+      "final_summer_dewpoint_min_C": 14.7,
+      "failed_morph_attained_summer_dewpoint_max_C": 25.1296058905,
+      "failed_morph_attained_summer_dewpoint_min_C": -1.1514795631,
+      "official_station_source_sha256": "7b316f5c4d74f8c800a17b41c7fb78b5e837e13a0e64ab73ad928382a1605938",
+      "official_station_lookup": {
+        "url": "https://ashrae-meteo.info/v3.0/request_meteo_parametres.php",
+        "wmo": "725205",
+        "ashrae_version": "2025",
+        "si_ip": "SI"
+      }
+    },
+    "temperature_conversion": "F = C * 1.8 + 32; RH unchanged",
+    "x_axis": "days from 2021-02-02T00:00:00; outage [1,8)"
+  },
+  {
+    "season": "winter",
+    "plot": 3,
+    "title": "Relative Humidity [%]",
+    "outage_window_summary": {
+      "Basement": {
+        "min": 10.43,
+        "max": 16.93
+      },
+      "First floor": {
+        "min": 10.66,
+        "max": 17.42
+      },
+      "Second floor": {
+        "min": 10.63,
+        "max": 17.51
+      },
+      "Third floor": {
+        "min": 10.56,
+        "max": 17.57
+      },
+      "Outdoor": {
+        "min": 30.07,
+        "max": 99.5
+      }
+    },
+    "source_html": "15_REVIVE/winter/winter_SET_temperature.html",
+    "source_html_sha256": "705a004431611309720928eaceff1b32512f35eca4f2cf4fe88a352f0860d0c4",
+    "source_sql_sha256": "866b3a84235cee0ee7ad0741b3af2c03d4325b66c5d64cd97b301dfd391e73e3",
+    "source_weather": "15_REVIVE/weather/future/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059_Allegheny-extremes_moisture-conservative.epw",
+    "source_weather_sha256": "2ee9314a49d7a7c1a9dedbcb7394bf102833ad7a04898d448c87f4fb78ccdbeb",
+    "source_hbjson": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/Waterman_Residence_261026.hbjson",
+    "source_hbjson_sha256": "a98d2126e900b38936b3d8a1b686dc72dded3f8fab17ef201da5fa7cd071c82e",
+    "source_seed_osm": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/in.osm",
+    "source_seed_osm_sha256": "e9714f585c5c5a041efba10bbc01f33b9283b740015208905c5cd2d0b498a00f",
+    "source_idf": "15_REVIVE/winter/Waterman_Residence_261026/openstudio/run/in.idf",
+    "source_idf_sha256": "f8b0054bf7c86c0aa2eb2f757a51d28c2f7f26a5dc0fa2d533a8252494a6a2bd",
+    "source_erv_preparation": "15_REVIVE/prepare_backup_erv.rb",
+    "source_erv_preparation_sha256": "01c66d357fb004dbafa375a7d2545ccb77e20650e8fdc4765c76eb4e6d8aee93",
+    "weather_basis": {
+      "hourly_station": "Pittsburgh Intl AP",
+      "hourly_station_wmo": "725200",
+      "hourly_projection": "SSP2-4.5 2040-2059, TMYx2011-2025",
+      "extreme_station": "Allegheny County Airport",
+      "extreme_station_wmo": "725205",
+      "extreme_source": "2025 ASHRAE, nearest station; current report assessment authored2026-10-26",
+      "winter_10year_drybulb_target_F": -6.2,
+      "summer_20year_drybulb_target_F": 100.0,
+      "dewpoint_targets_C": null,
+      "dewpoint_target_provenance": "Exact original target inputs not recoverable from retained report or station raw file; preserve latest authored root EPW DB/DP values",
+      "morphed_source": "15_REVIVE/weather/Phius_REVIVE_2024_USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "morphed_source_sha256": "36b43eba991a55fdf84604206c2ae11390d70e069838be5e16c9fd63fca6060b",
+      "correction": "Preserve authored DB/winter DP, restore168summerDPvalues, recompute RH in all8760rows; all remaining fields unchanged",
+      "status": "Provisional moisture-conservative correction: preserve authored DB and winter DP; restore unmorphedfuture summer DP pattern instead of failed drying morph",
+      "official_station_source": "15_REVIVE/weather/future/ASHRAE_Meteo_725205_2025_SI.json",
+      "inferred_summer_dewpoint_target_C": 23.570751999999857,
+      "summer_dewpoint_morph_iterations": 100,
+      "summer_dewpoint_morph_status": "Iteration cap reached; target not attained",
+      "inferred_winter_dewpoint_target_C": -25.073240000000368,
+      "summer_dewpoint_correction": "All168 outagehours restored exactly from SSP2-4.5 unmorphedfuture EPW; summer DP target treated as minimum severity",
+      "future_source": "15_REVIVE/weather/future/USA_PA_Pittsburgh.Intl.AP.725200_TMYx.2011-2025_SSP245_2040-2059.epw",
+      "future_source_sha256": "cebcfe27f9ece94df9e2db3d764445ae2c2ac8da00678d1d1d8f94dfb9a56875",
+      "final_summer_dewpoint_max_C": 26.8,
+      "final_summer_dewpoint_min_C": 14.7,
+      "failed_morph_attained_summer_dewpoint_max_C": 25.1296058905,
+      "failed_morph_attained_summer_dewpoint_min_C": -1.1514795631,
+      "official_station_source_sha256": "7b316f5c4d74f8c800a17b41c7fb78b5e837e13a0e64ab73ad928382a1605938",
+      "official_station_lookup": {
+        "url": "https://ashrae-meteo.info/v3.0/request_meteo_parametres.php",
+        "wmo": "725205",
+        "ashrae_version": "2025",
+        "si_ip": "SI"
+      }
+    },
+    "temperature_conversion": "F = C * 1.8 + 32; RH unchanged",
+    "x_axis": "days from 2021-02-02T00:00:00; outage [1,8)"
+  }
+]

@@ -1,43 +1,40 @@
 ---
 kicker: "03"
-title: "Site Energy"
-dek: "Review annual delivered energy by end use and variant."
+title: "Site energy"
 ---
 
-"Site Energy" represents the energy purchased by the building and delivered to the site by the utility. This is
-the most typical energy use figure assessed when considering a site "Net-Zero" building energy balance, or when
-considering the annual cost of energy for the building. The site-energy total is made up of six main groups:
-heating, cooling and dehumidification, hot water, lighting, electric equipment (appliances, electric vehicles and
-so on), and pumps and fans.
+Site energy is the electricity delivered to the house: heat pumps, hot water, appliances and every
+other modeled load. Heating demand, by contrast, is the heat the building needs before equipment
+efficiency.
 
-To assess the performance of the home across a range of options, we have simulated five variants with different
-energy-efficiency measures (see the [Model Variants](#model-variants) section for the inputs). All variants are
-modeled as all-electric.
-
-| Variant | Total site energy (kWh/yr) | Change from code minimum |
+| Option | Site energy (kWh/year) | Change from As-Drawn |
 | --- | ---: | ---: |
-| Code Minimum | 33,980 | |
-| As-Drawn | 25,310 | −26% |
-| Improved Envelope | 22,490 | −34% |
-| Improved Mech. | 21,610 | −36% |
-| **Phius 2024** | **17,340** | **−49%** |
+| Code Minimum, code-value reference | 36,660 | 12% more |
+| As-Drawn | 32,700 | Reference |
+| Improved Envelope | 29,250 | 11% less |
+| Improved Mech. | 28,330 | 13% less |
+| **Phius 2024** | **23,610** | **28% less** |
 
-The As-Drawn assemblies do the first, large piece of work. From there, the Phius 2024 package saves another 31%
-without adding any insulation: the savings come from airtightness, junction detailing and the ERV. Fan and
-auxiliary electricity drops by about half along the way, from roughly 4,100 to 2,100 kWh/yr, as the ERV and the
-tighter envelope reduce the work the ventilation and dehumidification equipment has to do.
+The recommended case saves about **9,090 kWh/year** against As-Drawn, from better windows, tighter air
+sealing, fewer thermal bridges and better ventilation recovery.
 
-Cooling and dehumidification are a large share of the total in this climate: about 3,700 kWh/yr in the Phius 2024
-package, against about 7,100 kWh/yr for heating. That is the mid-century climate showing up. Warmer, more humid
-summers put real load on the heat pumps, and the moisture recovery in the ERV is one of the most effective ways to
-reduce it.
+### Where the electricity goes
 
-Heating is the largest end use in every variant, and it is where most of the difference between the variants comes
-from. Hot water, appliances and plug loads stay effectively constant at about 4,500 kWh/yr, so as the envelope
-improves they become a larger share of the total: about a quarter of the Phius 2024 package's site energy. Past a certain point appliance
-selection, lighting design and household habits move the utility bill more than further insulation does.
+In the recommended case, for three occupants:
 
-This program also carries several loads that a typical house does not: an elevator, whole-house
-humidification and dehumidification, a hot-water recirculation loop, and a heated screened-porch and
-hardscape slab. Each runs every year for the life of the house. They are worth reviewing on their own
-merits, independent of the envelope decisions in this report.
+- Heating: about **5,650 kWh/year**.
+- Cooling and dehumidification: about **3,500 kWh/year**.
+- Hot water: about **3,240 kWh/year**.
+- Appliances, cooking, lighting and plug loads: about **6,960 kWh/year**.
+- Steam humidification to **35% winter RH**: about **2,350 kWh/year**. The ERV slows winter drying
+  but cannot hold that humidity on its own.
+- Elevator: an allowance of **1,910 kWh/year**, from the smallest hydraulic-elevator bracket in the
+  [Phius multifamily calculator](https://www.phius.org/sites/default/files/2024-11/Phius_Multifamily_Calculator_v24.0.2_2024.11.xlsx).
+  Replace it with the supplier's operating, standby and cab-lighting data.
+
+The charts' auxiliary category holds the humidifier and elevator.
+
+### Loads still to define
+
+Outdoor slab heating and EV charging are not in the totals. Define how the owners will use them, and
+choose the hot-water recirculation controls, before reading these figures as a household budget.

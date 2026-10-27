@@ -1,60 +1,35 @@
 ---
 kicker: "05"
-title: "Passive House Thresholds"
-dek: "Compare model results against the Phius CORE 2024 limits for this building."
+title: "Energy targets"
 ---
 
-Total annual energy use, shown in the [Site Energy](#site-energy) section, is the headline figure. The Phius
-framework adds four more targets: annual heating demand, annual cooling demand, and the peak heating and
-cooling loads. The peak loads matter most for the mechanical design, because they set the size of the
-heat pumps, and a smaller system is cheaper to buy and runs more efficiently.
+We use the Phius CORE 2024 space-conditioning targets to compare the options. Annual demand is the heat
+added or removed over a year. Peak load is the rate needed on the design day. Neither is electricity use.
 
-For **Phius CORE 2024** these limits are calculated specifically for this building by the
-Phius Criteria Calculator (<Var k="narrative.user_defined.phius_calculator_version" />),
-from its enclosure area, floor area, bedroom count and climate. For this house they are listed below. The calculator
-uses the standard climate; we hold its limits as the targets for the mid-century results (see
-[Climate Data](#climate-data)).
+Peak cooling counts **temperature only**. The equipment must also remove moisture
+([Phius 2024 guidebook](https://www.phius.org/phius-certification-guidebook), §1.3.3.1).
 
-| Criterion | Phius CORE 2024 limit |
-| --- | --- |
-| Annual heating demand | <Var k="narrative.certification.phius_hd_limit" /> kBtu/ft²·yr |
-| Annual cooling demand | <Var k="narrative.certification.phius_cd_limit" /> kBtu/ft²·yr |
-| Peak heating load | <Var k="narrative.certification.phius_hl_limit" /> Btu/hr·ft² |
-| Peak cooling load | <Var k="narrative.certification.phius_cl_limit" /> Btu/hr·ft² |
-| Net source energy | <Var k="narrative.certification.phius_nse_limit" /> kWh/person·yr |
-| Airtightness | <Var k="narrative.certification.phius_cfm50_limit" /> CFM50/ft² of enclosure |
-
-Because this house is not seeking certification, these are design targets, not pass/fail requirements.
-Where the house misses one, that tells us where improvement is possible and roughly how much it would
-take. Shown below are the results for each variant.
-
-### Results
-
-| Variant | Heating demand (kBtu/ft²·yr) | Cooling demand (kBtu/ft²·yr) | Peak heating (Btu/hr·ft²) | Peak cooling (Btu/hr·ft²) |
+| Option | Heating demand (kBtu/ft²·year) | Cooling demand, total (kBtu/ft²·year) | Peak heating (Btu/hr·ft²) | Peak cooling, sensible (Btu/hr·ft²) |
 | --- | ---: | ---: | ---: | ---: |
-| Phius CORE 2024 limit | 8.6 | 5.9 | 5.9 | 2.1 |
-| Code Minimum | 21.6 | 4.4 | 15.2 | 2.7 |
-| As-Drawn | 11.7 | 4.2 | 10.5 | 2.1 |
-| Improved Envelope | 9.5 | 4.0 | 8.3 | 2.0 |
-| Improved Mech. | 9.3 | 3.8 | 8.2 | 2.0 |
-| **Phius 2024** | **7.2** | **3.5** | **5.85** | **1.9** |
+| Design target | 8.60 | 5.90 | 5.90 | 2.10 |
+| Code Minimum, reference | 16.22 | 3.67 | 12.56 | 2.07 |
+| As-Drawn | 11.41 | 3.86 | 10.33 | 1.93 |
+| Improved Envelope | 8.46 | 3.64 | 7.65 | 1.76 |
+| Improved Mech. | 8.27 | 3.47 | 7.55 | 1.75 |
+| **Phius 2024** | **5.50** | **3.17** | **4.94** | **1.58** |
 
-Annual cooling demand is not the difficult target: every variant, even code minimum, is inside it. Heating is where
-the variants separate. The As-Drawn house uses a little under half the heating of the code-minimum house, but still
-about 35% more than the Phius target. Improved airtightness and the ERV close most of that gap, and only the full
-Phius 2024 package clears it, with a margin of about 17%.
+Values are per ft² of the 4,950 ft² modeled floor area. The recommended case is below all four targets,
+with a **16%** margin on peak heating. Improved Envelope meets the annual heating target but not peak
+heating.
 
-The peak loads are the tighter targets. The Phius 2024 package meets the peak heating limit by about 1% and the
-peak cooling limit by about 12%. The As-Drawn house sits right at the peak cooling limit; the intermediate variants
-fall just under it.
+The recommended whole-house heating load is about **24,400 Btu/hour**, against **51,100** for
+As-Drawn. Size equipment from room-by-room loads and manufacturer capacity at the outdoor design
+temperature. Oversized equipment cycles more and controls humidity poorly.
 
-<div class="btwr-callout">
-  <strong>Design implication</strong>
-  <span>
-    A 1% margin on peak heating does not survive much change, and the largest open input is the window. Every
-    variant still carries a code-level U-0.30 window. A high-performance triple-pane window, as recommended in
-    the <a href="/windows/#window-thermal-comfort">Window Thermal Comfort</a> section, should open up a comfortable
-    margin on both heating targets. Peak heating also sets the size of the heat pumps: at about 29,000 Btu/hr for the
-    whole house, the Phius 2024 package needs a little over half the heating capacity of the As-Drawn house (about 52,000 Btu/hr).
-  </span>
-</div>
+### Other criteria
+
+**1.0 ACH50** works out to about **0.056 CFM50/ft²** of enclosure, below the 0.060 Phius limit. The
+blower-door test on the finished house confirms it.
+
+The package exceeds the source energy allowance: about **61,400 kWh/year** against **19,650** for
+three occupants, with no PV. Source energy counts the energy used to generate and deliver electricity.

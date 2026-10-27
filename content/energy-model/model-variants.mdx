@@ -1,48 +1,29 @@
 ---
 kicker: "02"
-title: "Model Variants"
-dek: "Compare the design options that define the energy-model decision space."
+title: "Design options"
 ---
 
-{/* TODO(ed): this describes the variants exactly as they are set in the 261026 PHPP. Windows are U-0.30 /
-    SHGC 0.40 in every variant and the Code Minimum assemblies are an R-10 placeholder; update the text if
-    a window step or real code R-values are added. */}
+We compared five options. Each step after As-Drawn keeps the improvements before it.
 
-To assess the building's performance we have tested it in five configurations (variants). Variants 2
-through 5 are cumulative: each one carries forward the improvements of the one before it.
+| Option | Airtightness (ACH50) | Modeled installed window U-value (Btu/hr·ft²·°F) | Effective heat recovery | Moisture recovery |
+| --- | ---: | ---: | ---: | ---: |
+| Code Minimum, code-value reference | 3.0 | 0.299 | Approximately zero | Zero |
+| As-Drawn | 3.0 | 0.264 | 70% | Zero |
+| Improved Envelope | 2.0 | 0.229 | 70% | Zero |
+| Improved Mech. | 2.0 | 0.229 | 74% | 29% |
+| **Phius 2024, recommended** | **1.0** | **0.199** | **76%** | **48%** |
 
-1. **Code Minimum:** A version which meets but does not exceed the **<VarLink
-hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener noreferrer"><Var
-k="narrative.energy_code.name" /> / <Var k="narrative.energy_code.zone" /></VarLink>** minimums for assembly
-R-values, window U-values, airtightness (<Var k="narrative.energy_code.ach_limit" /> ACH50) and equipment
-efficiencies. This variant assumes a typical residential "extract-only" (bath-fan) ventilation system with
-no heat recovery. Like every variant in this report, it is all-electric, with heat pumps for heating,
-cooling and hot water.
+All options use SHGC **0.30** on every facade and three occupants. Lower U-values mean less heat loss.
 
-2. **As-Drawn:** The house as currently designed by mossArchitects. The assemblies follow the schematic-design
-narrative and drawings: 4" of continuous mineral-wool board outside insulated 2x6 walls, an insulated roof
-deck with continuous insulation above the sheathing, an insulated basement, and an insulated floor over
-the garage and porches. The effective assembly R-values are listed in the
-[Recommended Assemblies](/building_envelope/#recommended-assemblies) section. This variant keeps code-level
-airtightness (3.0 ACH50) and adds a balanced heat-recovery ventilator (HRV) at about 72% effective heat
-recovery.
+- **Code Minimum** uses Pennsylvania's amended 2021 whole-assembly U-values for climate zone 5: 0.051
+  for framed walls, 0.026 for roofs, 0.033 for exposed floors and 0.050 for basement walls, with an
+  R-10 slab. See the [adopted U-factor table](https://www.pacodeandbulletin.gov/secure/pacode/data/034/chapter403/s403.21.html).
+- **As-Drawn** uses the assemblies on the [Envelope](/building_envelope/) page and an HRV.
+- **Improved Envelope** adds better windows and tighter air sealing, and cuts the thermal-bridge
+  allowance from 15% to 10%.
+- **Improved Mech.** switches to an ERV, which adds moisture recovery.
+- **Phius 2024** reaches 1.0 ACH50, better windows and a higher-efficiency ERV, with a 5% thermal-bridge
+  allowance.
 
-3. **Improved Envelope:** Tightens the air barrier to 2.0 ACH50, the architect's stated maximum, and assumes
-more careful thermal-bridge detailing at the corners, eaves, balcony and garage junction.
-
-4. **Improved Mech.:** Replaces the HRV with an energy-recovery ventilator (ERV) that also returns moisture:
-about 76% effective heat recovery and 29% moisture recovery.
-
-5. **Phius 2024 [RECOMMENDED]:** The package that brings the house to the **Phius CORE 2024** performance
-targets. Airtightness improves to 1.0 ACH50, thermal bridges are designed out to a minimal allowance, the
-ERV is a high-efficiency unit (about 78% heat recovery and 48% moisture recovery after duct losses), and
-summer sun protection is added at the most exposed windows.
-
-<div class="btwr-callout">
-  <strong>Why these steps</strong>
-  <span>
-    The As-Drawn assemblies are already well insulated, so the variants that follow focus on what the
-    insulation alone cannot fix: air leakage, heat lost through junctions and the ventilation air stream.
-    Those are lower-cost changes than adding insulation thickness, and on this house they return more.
-  </span>
-</div>
+Wall, roof and floor insulation is the same from As-Drawn onward. Every option uses heat pumps, steam
+humidification to 35% winter RH and an elevator allowance. None includes PV.

@@ -1,33 +1,19 @@
 ---
 kicker: "08"
-title: "Energy Code"
+title: "Energy code"
 dek: "The Pennsylvania code basis and how the code comparison is used."
 ---
 
-Pennsylvania enforces a single statewide building code, the
-[Pennsylvania Uniform Construction Code (UCC)](https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/bois/ucc-regulations-and-statutes),
-administered in Pittsburgh by the Department of Permits, Licenses and Inspections. The UCC's triennial update,
-effective January 1, 2026, adopts the 2021 International Codes with Pennsylvania amendments. For a new one- or
-two-family house the energy requirements are in
-<VarLink hrefKey="narrative.energy_code.code_base_url" target="_blank" rel="noopener noreferrer">Chapter 11 of the 2021 International Residential Code</VarLink>,
-for <Var k="narrative.energy_code.zone" />.
+The code reference is the **2021 IRC energy provisions as amended by Pennsylvania**, climate zone 5A
+([34 Pa. Code §403.21](https://www.pacodeandbulletin.gov/secure/pacode/data/034/chapter403/s403.21.html)).
+The architect should confirm the permit requirements and compliance path with Pittsburgh.
 
-The code edition that applies is set by the permit application date, and the UCC allows a project to stay
-on the prior edition if the design contract predates the change. Confirm the edition with the architect at permit.
+The Code Minimum case uses the amended whole-assembly U-factors, U-0.30 windows, 3.0 ACH50 and an
+R-10 basement slab. It is a comparison case, not a code-compliance submission.
 
-The model's **Code Minimum** variant uses the base 2021 IRC prescriptive values for this climate zone: windows at
-U-<Var k="narrative.energy_code.window_min_u_value" /> and a blower-door result of no more than
-<Var k="narrative.energy_code.ach_limit" /> ACH50
-(<VarLink hrefKey="narrative.energy_code.ach_link" target="_blank" rel="noopener noreferrer">Section N1102.4.1.3</VarLink>).
-Pennsylvania has amended the residential energy provisions in past code cycles, so confirm the values as amended by
-the UCC with Pittsburgh PLI at permit. The Code Minimum variant gives the other variants a common reference point; it
-is not a code filing.
+The architect's narrative sets **2024 IECC prescriptive insulation levels** as a design minimum.
+Confirm whether to keep that requirement. If so, check the sloped roof against it first.
 
-Two other targets apply to this house and neither is a code requirement:
-
-- **HERS Index of <Var k="narrative.user_defined.architect_hers_target" /> or lower**, the architect's stated goal,
-  verified by a rater hired by the owners. The HERS rating uses its own software and reference house, so its
-  result will not match the figures in this report one for one.
-- **1.0 ACH50**, the airtightness recommended in this report, which is three times tighter than code. It should
-  be written into the construction documents as a contractual requirement, with staged blower-door tests as
-  the architect's narrative already proposes.
+The owners' **HERS Index target of 25 or lower** needs a rating by their rater; this model cannot
+produce that score. Write our **1.0 ACH50** target into the construction documents, with an early
+air-barrier test and a final blower-door test.

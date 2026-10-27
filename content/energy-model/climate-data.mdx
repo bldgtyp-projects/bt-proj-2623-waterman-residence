@@ -1,43 +1,14 @@
 ---
 kicker: "06"
-title: "Climate Data"
-dek: "Document the climate data and monthly conditions driving the model."
+title: "Climate data"
 ---
 
-All of the modeled variants in this report use a **mid-century future climate** for Pittsburgh:
+The annual model uses projected Pittsburgh weather for **SSP2-4.5, 2040 to 2059**, with an annual mean
+of about **57.1°F**. [Future Climate](/future-climate/) explains how we built it.
 
-<VarLink hrefKey="narrative.climate.weather_station_url">
-    - <Var k="narrative.climate.weather_station_name" />
-</VarLink>
+Heating loads use historical winter conditions, so the heating equipment is sized for the cold snaps
+Pittsburgh gets today.
 
-It starts from the [Phius climate data set](https://phius.org/climate-data) for Pittsburgh International Airport,
-the standard input for a Phius energy model. That data set matches the weather of the 1980s and 1990s, so it is first
-brought up to today's observed climate (2011 to 2025), then shifted by the change the climate models project for
-2040 to 2059 under the SSP2-4.5 scenario. Solar radiation is unchanged. The full method, and why it was chosen, is on
-the [Future Climate](/future-climate/) page.
+The model places the site at **283 m** elevation. Confirm it against the final survey.
 
-| Annual mean | °F | °C |
-| --- | ---: | ---: |
-| Standard Phius data set (1980s to 1990s climate) | <Var k="narrative.user_defined.phius_annual_mean_F" /> | <Var k="narrative.user_defined.phius_annual_mean_C" /> |
-| Mid-century climate used in this report | <Var k="narrative.user_defined.future_annual_mean_F" /> | <Var k="narrative.user_defined.future_annual_mean_C" /> |
-
-Pittsburgh's climate today is cold and humid: <Var k="narrative.climate.ashrae_location_name" /> under the energy
-code, with long, cloudy winters. By mid-century it behaves more like a mixed-humid climate. January averages just
-above freezing, and the average July and August dew point rises to about 66°F, well into the range where summer air
-feels muggy and moisture removal becomes a significant part of the cooling load. The Phius Criteria Calculator
-already places the site in ASHRAE climate zone <Var k="narrative.user_defined.phius_ashrae_zone" />.
-
-Two parts of the model are deliberately not warmed:
-
-- **Peak heating.** The heating-load design conditions keep their historical values, and the window comfort check
-  uses the historical ASHRAE design temperature of <Var k="narrative.climate.ashrae_design_temps" />. Pittsburgh's
-  heating design temperature shows no warming trend across recent ASHRAE editions, so holding these values is
-  slightly conservative.
-- **Phius targets.** The Phius CORE 2024 limits come from the Phius Criteria Calculator, which uses the standard
-  climate. They are held as the design targets. In a warmer climate the heating target is slightly easier to meet
-  and the cooling target slightly harder, so the heating margins in this report should be read as a little generous
-  and the cooling margins as conservative.
-
-The Passive House energy model uses monthly average climate data, which can look different from the hourly weather
-data used by some other US energy-modeling programs. The [Resilience](/resilience/) assessment uses the matching
-hourly future weather file for its outage simulations.
+Pittsburgh is in IECC climate zone 5A, which sets the code reference.

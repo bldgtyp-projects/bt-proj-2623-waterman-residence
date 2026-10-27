@@ -1,47 +1,27 @@
 ---
 kicker: "01"
-title: "Window Thermal Comfort"
-dek: "Connect window package assumptions to occupant comfort near large glazed areas."
+title: "Window comfort"
 ---
 
-In any high-performance building, both the energy and the comfort impacts of the glazing must be carefully assessed.
-The comfort evaluation looks at overall comfort (air temperature and relative humidity) and also at the local
-discomfort caused by cold surfaces and drafts near the glass.
+A window can meet an energy target and still feel cold to sit beside. Glass and frame temperatures,
+drafts and window height all matter. Check large and tall windows before fixing the heating layout.
 
-In particular, the localized discomfort caused by radiant temperature asymmetry (a difference in the temperature of the
-surfaces around the body) decides whether perimeter heating can be left out. If the asymmetry is too large, a
-compensating heat source, typically a radiator or baseboard under the window, is needed to offset the discomfort.
+The recommended option uses window U-values of about **0.199**, down from **0.264** in As-Drawn, with
+SHGC 0.30 throughout. Lower U-values mean less heat loss. We will review supplier quotes with the
+design team.
 
-Engineering reference standards suggest that ideal comfort is found when the surfaces around a person differ by less
-than 7.6°F [4.2 K]. The windows matter most here, because they are where the coldest interior surfaces occur in winter.
+### Choosing the windows
 
-For Pittsburgh's winter design conditions [ <Var k="narrative.climate.ashrae_winter_design_temp_F"/>°F
-(<Var k="narrative.climate.ashrae_winter_design_temp_C"/>°C), ASHRAE 99.6% ], Passive House comfort guidance
-recommends windows with an **installed U-value below <Var k="narrative.windows.comfort_target_u_value" />
-Btu/hr-ft²-F** [ R-value above <Var k="narrative.windows.comfort_target_r_value" /> hr-ft²-F/Btu ]. Windows at
-that level keep interior glass and frame surfaces warm enough that no perimeter heat is needed. Smaller windows, which
-occupy less of a person's field of view, can meet the comfort target at slightly higher U-values.
+Aim for **whole-window U-0.15 Btu/hr·ft²·°F** when selecting products. That is better than the
+recommended option, so its benefit is not in the energy results.
 
-### Window recommendations
+Check comfort pane by pane, using each window's head height and Pittsburgh's 99% winter design
+temperature ([Phius 2024 window-comfort method](https://www.phius.org/phius-certification-guidebook),
+Appendix N-3). Start with the tallest glazing and the main seating areas. Check frames and glass edges
+for condensation at the planned indoor humidity.
 
-{/* TODO(ed): every variant in the 261026 PHPP carries U-0.30 / SHGC 0.40. Update this once a window step is
-    modeled. */}
+Set the windows within the exterior insulation and detail the air and water seals.
 
-No window has been selected yet; the architect's narrative calls for triple-pane tilt-turn windows with the
-specification set by the energy modeling. The draft model carries a code-level window
-(U-<Var k="narrative.energy_code.window_min_u_value" />) in every variant as a placeholder.
-
-- A code-level window does **not** meet the comfort target in this climate. The large living-room, sunroom and
-  stair glazing would need perimeter heat.
-- We recommend installed whole-window U-values of about **U-<Var k="narrative.windows.ph_window_u_value" />**
-  [ R-<Var k="narrative.windows.ph_window_r_value" /> ], which clears the comfort target with margin. That is a
-  good-quality triple-pane window with an insulated frame, installed with the frame overlapping the exterior
-  insulation.
-- Whole-window performance data is needed, not center-of-glass values. The frame, the spacer and the way the window
-  sits in the 4" of exterior insulation (the installation psi-value) all count.
-- Specify the solar heat gain coefficient (SHGC) by orientation: higher on the south for winter gain, lower on the
-  west and on unshaded upper-floor glass to limit summer heat.
-
-Window comfort is the reason to resolve the window specification early: it sets the window budget, the
-installation detail at the 4" exterior insulation, and whether perimeter heat has to be designed into the
-mechanical system.
+Keep **SHGC 0.30 throughout** for a simpler window order. We recommend interior blinds at south-facing
+windows and exterior shading at exposed high-sun openings. Decide on perimeter heating after the
+window-by-window comfort checks.

@@ -1,21 +1,48 @@
 ---
 kicker: "02"
-title: "Summer Heat Index"
-dek: "Track the occupied-zone Heat Index through the seven-day summer outage."
+title: "Summer heat and humidity"
 ---
 
-{/* TODO(ed): add the summer_heat_index.html/.js embed and HeatIndexChart extras when the REVIVE run is done
-    (see 2615 Tano Road custom/resilience/summer.mdx for the pattern). */}
+import plot1 from "./summer-plot-1.html?raw";
+import plot2 from "./summer-plot-2.html?raw";
+import plot3 from "./summer-plot-3.html?raw";
+import enhancement from "./summer-plots.js?raw";
 
-**Phius REVIVE** uses the
-[Heat Index](https://bigladdersoftware.com/epx/docs/22-2/engineering-reference/resilience-metrics.html#heat-index), a
-measure of how hot it feels when humidity is combined with air temperature, to judge whether each zone stays habitable
-during the summer outage. Minimum compliance requires:
+Heat Index combines temperature and humidity to measure heat stress. REVIVE also checks average daily
+temperature and humidity against a separate **deadly-day** limit. A house has to pass both.
 
-- 0 hours of **Heat Index** in the "Extreme Danger" range (above 125°F [52°C]).
+### Result
 
-Humidity is the concern in Pittsburgh's summers, more than temperature alone. Without power, the house cannot
-dehumidify, and the Heat Index can climb even where the air temperature stays moderate. The upper floors, which
-see the most summer sun and collect the warm air rising through the house, are expected to be the warmest zones.
+Heat Index never exceeds **103°F**; it peaks at about **100°F**. But **every floor exceeds the daily
+limit on three days**, July 17 to 19, the last three days of the outage
+([REVIVE 2024 §6.4.2](https://www.phius.org/phius-revive-2024-standard-document)). Indoor air reaches
+about **88°F**, with humidity between about **50% and 86%**.
 
-Results will be added once the simulation is complete.
+### What to test next
+
+- Exterior shading at the exposed openings, with the final envelope and windows.
+- Backup cooling for the rooms the owners want to keep usable. A stand-alone dehumidifier adds heat,
+  so it is no substitute.
+- Battery capacity for the chosen loads and duration, including the ERV and controls.
+
+<PrintableEmbed id="summer-plot-1" title="Summer: Heat Index" printSrc="/assets/resilience/summer-1.svg" width={1200} height={650}>
+  <div class="btwr-plotly-embed" role="group" aria-label="Summer Heat Index" set:html={plot1} />
+</PrintableEmbed>
+
+<PrintableEmbed id="summer-plot-2" title="Summer: Air Temperature" printSrc="/assets/resilience/summer-2.svg" width={1200} height={650}>
+  <div class="btwr-plotly-embed" role="group" aria-label="Summer air temperature" set:html={plot2} />
+</PrintableEmbed>
+
+<PrintableEmbed id="summer-plot-3" title="Summer: Relative Humidity" printSrc="/assets/resilience/summer-3.svg" width={1200} height={650}>
+  <div class="btwr-plotly-embed" role="group" aria-label="Summer relative humidity" set:html={plot3} />
+</PrintableEmbed>
+
+<script is:inline set:html={enhancement}></script>
+
+### Summer data and detailed plots
+
+- [Heat Index, air temperature and humidity](/downloads/resilience/summer_heat_index.html)
+- [Outdoor environment](/downloads/resilience/summer_outdoor_environment.html)
+- [Fresh-air ventilation](/downloads/resilience/summer_ventilation.html)
+- [Energy flow](/downloads/resilience/summer_energy_flow.html)
+- [Hourly Heat Index data (CSV)](/downloads/resilience/resilience_heat_index_data.csv)

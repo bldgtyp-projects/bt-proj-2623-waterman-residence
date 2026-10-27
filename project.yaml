@@ -4,7 +4,7 @@ project_title: Waterman Residence
 client_name: mossArchitects
 building_name: Waterman Residence
 phase: Design Analysis
-report_date: '2026-10-26'
+report_date: '2026-10-27'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
 target_standard: Phius CORE 2024 targets as a design guide (no certification)
@@ -19,7 +19,7 @@ building:
   building_type: New single-family house, three stories plus basement, with attached one-story garage
   total_num_occupants: 3
 source_files:
-  phpp_path: ../07_PHPP/261026-Waterman-Home.xlsx
+  phpp_path: ../07_PHPP/261027-Waterman-Home.xlsx
   cad_files_received_date: October 12, 2026
   data_dir: data
   assets_dir: public/assets
@@ -65,10 +65,10 @@ narrative:
     ashrae_winter_design_temp_F: '5.3'
     ashrae_winter_design_temp_C: '-14.8'
   energy_code:
-    name: 2021 International Residential Code, Chapter 11 (PA Uniform Construction Code)
+    name: 2021 IRC, Chapter 11, as amended by Pennsylvania
     zone: Climate Zone 5A (Allegheny County)
     link: https://www.pa.gov/agencies/dli/resources/compliance-laws-and-regulations/labor-management-relations/bois/ucc-regulations-and-statutes
-    code_base_url: https://codes.iccsafe.org/content/IRC2021P3/part-iv-energy-conservation
+    code_base_url: https://www.pacodeandbulletin.gov/secure/pacode/data/034/chapter403/s403.21.html
     code_airtightness_url: https://codes.iccsafe.org/s/IRC2021P3/part-iv-energy-conservation/IRC2021P3-Pt04-Ch11-SecN1102.4.1.3
     u_val_link: https://codes.iccsafe.org/s/IRC2021P3/part-iv-energy-conservation/IRC2021P3-Pt04-Ch11-SecN1102.1.2
     ach_link: https://codes.iccsafe.org/s/IRC2021P3/part-iv-energy-conservation/IRC2021P3-Pt04-Ch11-SecN1102.4.1.3
@@ -78,8 +78,8 @@ narrative:
     subregion_name: RFCW (RFC West), EPA eGRID
     epa_subgrid_name: RFCW (RFC West)
     occupancy: '3'
-    target_tons: '3'
-    taget_co2_per_person: '1.0'
+    target_tons: null
+    taget_co2_per_person: null
   windows:
     ph_window_u_value: '0.15'
     ph_window_r_value: '6.7'
@@ -121,8 +121,8 @@ narrative:
     future_annual_mean_F: '56.4'
     phius_annual_mean_C: '10.6'
     phius_annual_mean_F: '51.0'
-    future_summer_extreme_F: '99.5'
-    present_summer_extreme_F: '96.3'
-    winter_extreme_F: '-7.0'
+    future_summer_extreme_F: '100.0'
+    present_summer_extreme_F: '96.8'
+    winter_extreme_F: '-6.2'
     future_cooling_load_temp_F: '82.0'
     present_cooling_load_temp_F: '77.7'

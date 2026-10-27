@@ -1,22 +1,59 @@
 ---
 kicker: "03"
-title: "Winter Standard Effective Temperature"
-dek: "Evaluate the SET deficit below 54°F across the seven-day winter outage."
+title: "Winter temperatures and comfort"
 ---
 
-{/* TODO(ed): add the winter_SET_temperature.html/.js embed and SetTemperatureChart extras when the REVIVE run
-    is done. */}
+import plot1 from "./winter-plot-1.html?raw";
+import plot2 from "./winter-plot-2.html?raw";
+import plot3 from "./winter-plot-3.html?raw";
+import enhancement from "./winter-plots.js?raw";
 
-For the winter outage, **Phius REVIVE** uses the
-[Standard Effective Temperature (SET)](https://bigladdersoftware.com/epx/docs/9-5/engineering-reference/resilience-metrics.html#set-hour),
-which combines air temperature, surface temperatures, humidity and clothing into a single measure of how warm a person
-feels. To comply, every zone must show:
+Winter results use two measures: the lowest **air temperature**, and the accumulated shortfall in
+**Standard Effective Temperature (SET)**. SET is how warm the room feels, accounting for surface
+temperatures, humidity, air movement and clothing.
 
-- 0 hours below 36°F [2°C] **SET**
-- Fewer than 216 °F-hours below 54°F [12°C] **SET**
+### Result
 
-The insulation, airtightness and window quality carry the house through a winter outage. The basement, surrounded by
-ground that stays near 50°F, should hold its temperature best; the rooms with the most glass and roof area will cool
-fastest.
+No floor falls below the **36°F air-temperature limit**. The SET shortfall below 54°F stays within the
+**216 °F-hour** limit on every floor
+([REVIVE 2024 §6.3.2](https://www.phius.org/phius-revive-2024-standard-document)):
 
-Results will be added once the simulation is complete.
+| Floor | SET shortfall (°F-hours) |
+| --- | ---: |
+| Basement | 147 |
+| First | 184 |
+| Second | 188 |
+| Third | 192 |
+
+One hour at SET 52°F adds 2 °F-hours.
+
+### Indoor conditions
+
+Passing the limits still means cold rooms. Indoor air falls to about **39°F** and SET to about
+**49°F**. Humidity drops to about **10% to 18%**.
+
+The third floor uses **89%** of its allowance, a thin margin. Confirm it with the final envelope before
+deciding on backup heat. A floor average also can't show whether every pipe and small room stays above
+freezing.
+
+<PrintableEmbed id="winter-plot-1" title="Winter: Standard Effective Temperature" printSrc="/assets/resilience/winter-1.svg" width={1200} height={650}>
+  <div class="btwr-plotly-embed" role="group" aria-label="Winter SET" set:html={plot1} />
+</PrintableEmbed>
+
+<PrintableEmbed id="winter-plot-2" title="Winter: Air Temperature" printSrc="/assets/resilience/winter-2.svg" width={1200} height={650}>
+  <div class="btwr-plotly-embed" role="group" aria-label="Winter air temperature" set:html={plot2} />
+</PrintableEmbed>
+
+<PrintableEmbed id="winter-plot-3" title="Winter: Relative Humidity" printSrc="/assets/resilience/winter-3.svg" width={1200} height={650}>
+  <div class="btwr-plotly-embed" role="group" aria-label="Winter relative humidity" set:html={plot3} />
+</PrintableEmbed>
+
+<script is:inline set:html={enhancement}></script>
+
+### Winter data and detailed plots
+
+- [SET, air temperature and humidity](/downloads/resilience/winter_SET_temperature.html)
+- [Outdoor environment](/downloads/resilience/winter_outdoor_environment.html)
+- [Fresh-air ventilation](/downloads/resilience/winter_ventilation.html)
+- [Energy flow](/downloads/resilience/winter_energy_flow.html)
+- [Envelope details](/downloads/resilience/winter_envelope_details.html)

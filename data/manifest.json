@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-10-26T23:34:30.915007Z",
+  "generated_at": "2026-10-27T09:55:57.162732Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
@@ -48,8 +48,8 @@
   ],
   "recommended_variant_id": "phius_2024",
   "source_workbook": {
-    "path": "/Users/em/Dropbox/bldgtyp/2623 Waterman Residence/07_PHPP/261026-Waterman-Home.xlsx",
-    "sha256": "23372046d3ea9915e8b34dfbe753e3af1cc91f14a7cf58c812fdcc54d719ddc7",
-    "size_bytes": 13610204
+    "path": "/Users/em/Dropbox/bldgtyp/2623 Waterman Residence/07_PHPP/261027-Waterman-Home.xlsx",
+    "sha256": "bcb82e938d66c5832638134601c9e6830b4111d3e966cdd6472afc7e4915d603",
+    "size_bytes": 13622595
   }
 }

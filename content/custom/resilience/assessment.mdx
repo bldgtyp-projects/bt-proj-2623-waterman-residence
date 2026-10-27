@@ -1,38 +1,29 @@
 ---
 kicker: "01"
-title: "Resilience Assessment"
-dek: "Frame the outage simulations and the criteria they are judged against."
+title: "Outage assessment"
 ---
 
-In addition to the annual energy model built in the
-[Passive House Planning Package (PHPP)](https://passivehouse.com/en/home/planning-tools/), the house will be
-assessed with a detailed hourly model for resilience during two test periods:
+We modeled a seven-day winter outage, **February 3 to 9**, and a seven-day summer outage, **July 13 to
+19**, in the future climate. Outdoor extremes reach about **−6.2°F** in winter and **100°F** in summer.
+The house has three occupants. Results are averaged by floor, so individual rooms can run hotter or
+colder.
 
-1. A **summer heat wave** combined with a power outage lasting a full week.
-2. A **winter cold snap** combined with a power outage lasting a full week.
+### What runs during the outage
 
-These stress tests evaluate whether the house can keep safe and healthy indoor conditions using passive measures
-alone: all heating, cooling and ventilation equipment is off for the test period. They follow the
-[Phius REVIVE 2024 protocol](https://www.phius.org/phius-revive-2024), including its rules for occupancy, weather and
-habitability limits.
+Heating, cooling, humidification and dehumidification are off. Backup power keeps the ERV running at
+**15 CFM**, 5 CFM per person, per the
+[REVIVE 2024 protocol](https://www.phius.org/phius-revive-2024-standard-document). Windows stay closed
+in winter and open on temperature in summer.
 
-- [Phius REVIVE 2024 Standard](https://www.phius.org/phius-revive-2024-standard-document)
+### Results
 
-Each simulation runs for nine days: one day of normal operation before the event, the seven-day outage, and one day of
-recovery after power returns.
+- **Winter** meets both REVIVE limits: no floor falls below 36°F, and every floor stays within the
+  comfort-shortfall limit. Indoor air still falls to about **39°F**.
+- **Summer** never passes the 103°F Heat Index danger line, peaking near **100°F**. But **every floor
+  exceeds the daily heat-and-humidity limit on three days**, so summer fails one of the two criteria.
 
-### Future-climate weather
+### How to use these results
 
-On this project the outage tests run on the **mid-century weather file** described on the
-[Future Climate](/future-climate/) page, not on historical weather. The winter outage reaches the ASHRAE 10-year
-low of <Var k="narrative.user_defined.winter_extreme_F" />°F, held at its historical value. The summer outage reaches
-<Var k="narrative.user_defined.future_summer_extreme_F" />°F, the historical 20-year high of
-<Var k="narrative.user_defined.present_summer_extreme_F" />°F raised by the projected mid-century summer warming.
-The outage weeks fall in early February and mid-July, set by the coldest and hottest weeks of the weather file.
-
-<div class="btwr-callout">
-  <strong>Status</strong>
-  <span>
-    The resilience simulations are in progress. Results for both outage periods will be added to this page.
-  </span>
-</div>
+These results are preliminary. The outage model doesn't yet match the final assemblies and windows.
+Use it to decide which rooms and systems backup power should serve, not to size a battery or generator.
+A refuge room would need its own study.
