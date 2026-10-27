@@ -9,14 +9,16 @@ prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
 target_standard: Phius CORE 2024 targets as a design guide (no certification)
 certification_program: None (Phius framework used for evaluation only)
-certification_path: Phius CORE 2024 performance targets as a design guide; certification not pursued
+certification_path: Phius CORE 2024 performance targets as a design guide; certification
+  not pursued
 recommended_variant_id: phius_2024
 building:
   address: 6920 McPherson Blvd
   city: Pittsburgh
   state: PA
   climate_zone: 5A (IECC) / 4A (ASHRAE 169-2021, Phius)
-  building_type: New single-family house, three stories plus basement, with attached one-story garage
+  building_type: New single-family house, three stories plus basement, with attached
+    one-story garage
   total_num_occupants: 3
 source_files:
   phpp_path: ../07_PHPP/261027-Waterman-Home.xlsx
@@ -35,10 +37,13 @@ custom_pages:
 - slug: resilience
   label: Resilience
 certification_pathways:
-  show: [phius-core-2024, phius-zero-2024]
+  show:
+  - phius-core-2024
+  - phius-zero-2024
 narrative:
   certification:
-    target: Phius CORE 2024 performance targets, used as a design guide (certification not pursued)
+    target: Phius CORE 2024 performance targets, used as a design guide (certification
+      not pursued)
     ph_ach_limit: '1.0'
     phi_lcd_limit: null
     phi_cd_limit: null
@@ -56,7 +61,8 @@ narrative:
     phius_nse_limit: 6,550
     phius_cfm50_limit: '0.06'
   climate:
-    weather_station_name: 'Pittsburgh International AP (WMO 725200), Phius climate data set shifted to mid-century (SSP2-4.5, 2040 to 2059)'
+    weather_station_name: Pittsburgh International AP (WMO 725200), Phius climate
+      data set shifted to mid-century (SSP2-4.5, 2040 to 2059)
     weather_station_url: /future-climate/
     state_name: Pennsylvania
     state_name_abbreviation: PA
