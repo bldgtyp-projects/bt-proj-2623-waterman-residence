@@ -14,11 +14,11 @@ on:
 
 jobs:
   deploy:
-    uses: bldgtyp/bt-web-report-template/.github/workflows/_renderer-build.yml@042d126b25dce02cf8a405c53b83bfb44d89e1eb
+    uses: bldgtyp/bt-web-report-template/.github/workflows/_renderer-build.yml@1eceb3e0c540b893637af0ba5a79e6f64c7ba590
     with:
       project-repo: ${{ github.repository }}
       project-ref: ${{ github.ref }}
-      renderer-ref: 042d126b25dce02cf8a405c53b83bfb44d89e1eb
+      renderer-ref: 1eceb3e0c540b893637af0ba5a79e6f64c7ba590
       schemas-ref: 359a8f83c8079b040f771a0a3f4a9d6608023bda
       run-deploy: true
       cloudflare-pages-project: ${{ vars.CLOUDFLARE_PAGES_PROJECT }}
