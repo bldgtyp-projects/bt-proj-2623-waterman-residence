@@ -8,22 +8,38 @@ import plot2 from "./summer-plot-2.html?raw";
 import plot3 from "./summer-plot-3.html?raw";
 import enhancement from "./summer-plots.js?raw";
 
-[Heat Index](https://www.weather.gov/safety/heat-index) combines temperature and humidity to measure heat stress. [REVIVE](https://www.phius.org/phius-revive-2024-standard-document) also checks average daily
-temperature and humidity against a separate **deadly-day** limit. A house has to pass both.
+[Heat Index](https://www.weather.gov/safety/heat-index) combines temperature and humidity into
+one felt temperature. [REVIVE](https://www.phius.org/phius-revive-2024-standard-document) also
+checks each day's mean temperature and humidity against a separate **deadly-day** line. 
 
-### Result
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Key Result:</strong>
+  <span>
+    Basement passes with no trouble, upper levels edge into Danger zone on peak days.
+  </span>
+</div>
 
-Heat Index never exceeds **103°F**; it peaks at about **100°F**. But **every floor exceeds the daily
-limit on three days**, July 17 to 19, the last three days of the outage
-([REVIVE 2024 §6.4.2](https://www.phius.org/phius-revive-2024-standard-document)). Indoor air reaches
-about **88°F**, with humidity between about **50% and 86%**.
+#### Summer Results:
 
-### What to test next
+- The **basement** never climbs past an **81° heat-index**.
+- The **first floor heat-index** peaks at **100°F**, just under the Danger line.
+- The **second and third floor heat-index** reach **106°F and 108°F** and sit above the line for **14 and 19 hours**.
+    
+The upper floors swing about eight degrees between night and afternoon. The windows open
+whenever the house is warmer than outside, which flushes the house each night, but from July 16
+the nights stay too warm to bring the zone temperatures back down efectively. The hottest afternoon, July 16, pushes the second and third floors into the mid-90s. The second floor zone has the most glass and the
+third sits under the roof, so those two run hottest.
 
-- Exterior shading at the exposed openings, with the final envelope and windows.
-- Backup cooling for the rooms the owners want to keep usable. A stand-alone dehumidifier adds heat,
-  so it is no substitute.
-- Battery capacity for the chosen loads and duration, including the ERV and controls.
+The basement stays near **69 to 79°F** primarily due to the ground-tempering. Its humidity
+sits between **66% and 99%** all week however. It is a cool space, but with more damp air. A stand-alone
+dehumidifier running off battery backup would likely help improve this zone and increase its resiliency, though standone dehumidifiers also add heat to the space.
+
+#### Improving Performance
+
+- Consider backup cooling for the rooms the owners want to keep usable upstairs, and the battery or generator capacit  to run it along with the ERV and controls for a week. 
+- Level-2 Primary-bedroom and primary-closet south-west windows should have horizontal exterior shading adding in order to help reduce the heat gain during the day.
+- Kitchen and Living room south-west windows would also benefit from horizontal exterior shading, though these windows are already more shaded than Level-2 thanks to the neighboring building.
+- South windows in Katy's Studio would benefit from external horizontal overhang shading as well. While the tree cover will likely provide some shading benefit, this may be irregular and fixed shading may provide a more consistent benefit.
 
 <PrintableEmbed id="summer-plot-1" title="Summer: Heat Index" printSrc="/assets/resilience/summer-1.svg" width={1200} height={650}>
   <div class="btwr-plotly-embed" role="group" aria-label="Summer Heat Index" set:html={plot1} />

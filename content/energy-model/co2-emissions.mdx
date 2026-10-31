@@ -1,22 +1,57 @@
 ---
 kicker: "04"
-title: "Operating carbon emissions"
+title: "CO2 Emissions"
+dek: "Connect energy use to operational carbon impacts."
 ---
 
-Operating emissions come from the modeled electricity use at **0.416 kg CO<sub>2</sub>e/kWh**, the RFC
-West grid rate in [EPA eGRID2023, Table 1](https://www.epa.gov/system/files/documents/2025-06/summary_tables_rev2.pdf).
-Construction materials and equipment manufacture are not included.
+Carbon dioxide and other greenhouse gases released by energy use are the main driver of the warming of
+the earth's atmosphere and oceans. Reducing those emissions means reducing them across buildings,
+industry and transportation. [One useful benchmark](https://decarb.co/what-is-the-average-carbon-footprint-per-person/) suggests that by 2050 each person will need to keep to an
+annual "carbon budget" of roughly 2-2.5 tons-CO<sub>2e</sub> for all activities: roughly 1 ton for housing and
+building use, 1 ton for transportation and 0.5 tons for food. For scale, a single US-to-Europe round-trip
+flight releases about 1-2 tons of CO<sub>2</sub>. 
+
+With an average occupancy of approximately
+<Var k="building.total_num_occupants" /> people, this home would ideally result in less than about
+<Var k="narrative.co2.target_tons" /> tons-CO<sub>2e</sub> per year from its operation, shown as the limit line
+on the chart below.
+
+The totals below are estimated from the modeled energy use for heating, cooling, hot water and all
+other electric loads. Every variant is all-electric, so all of the emissions come from the electricity
+supplied to the house. Construction materials and equipment manufacture are not included in the totals shown below.
+
+The electricity emission factor used for every variant is
+**<Var k="narrative.user_defined.co2_factor_kg_kwh" /> kg-CO<sub>2e</sub>/kWh**
+(<Var k="narrative.user_defined.co2_factor_lb_mwh" /> lb/MWh), the total output emission rate for the
+<strong><Var k="narrative.co2.epa_subgrid_name" /></strong> eGRID subregion, which serves western Pennsylvania, from
+<Var k="narrative.user_defined.egrid_edition" />. We use the total output rate, as EPA recommends for estimating the
+emissions from a building's electricity use, and the CO<sub>2e</sub> rate, which includes methane and nitrous oxide
+as well as CO<sub>2</sub>. No allowance is added for transmission and distribution losses. Source energy factors are
+from the EPA ENERGY STAR Portfolio Manager Technical Reference.
+
+Sources:
+
+- [EPA eGRID Summary Data](https://www.epa.gov/egrid/summary-data), subregion output emission rates
+- [eGRID2023 Summary Tables, Revision 2 (PDF)](https://www.epa.gov/system/files/documents/2025-06/summary_tables_rev2.pdf)
+- [EPA: Using eGRID to Determine Emissions from Electricity Use (PDF)](https://www.epa.gov/system/files/documents/2025-01/using-egrid-to-determine-emissions.pdf)
+- [EPA eGRID Data Explorer](https://www.epa.gov/egrid/data-explorer)
+- [EPA ENERGY STAR Portfolio Manager Technical Reference: Source Energy](https://www.energystar.gov/buildings/tools-and-resources/portfolio-manager-technical-reference-source-energy)
 
 | Option | Operating emissions (metric tonnes CO₂e/year) |
 | --- | ---: |
-| Code Minimum, code-value reference | 15.3 |
-| As-Drawn | 13.6 |
-| Improved Envelope | 12.2 |
-| Improved Mech. | 11.8 |
-| **Phius 2024** | **9.8** |
+| Code Minimum, code-value reference | 13.7 |
+| Moderate Envelope | 12.5 |
+| As-Drawn | 12.2 |
+| Improved Envelope | 10.9 |
+| Improved Mech. | 10.5 |
+| **Phius 2024** | **8.7** |
 
-The recommended option cuts emissions **28%** from As-Drawn, matching its electricity saving. The grid
-rate is held constant, so the figures don't credit a cleaner future grid.
+The recommended Phius 2024 package cuts emissions **29%** from As-Drawn and about a third from code minimum,
+matching its electricity saving. However 8.7 tons of CO<sub>2e</sub> is still well above the <Var k="narrative.co2.target_tons" />-ton benchmark target for a home with this level of occupancy. No envelope package can close the remaining gap on this grid.
 
-Solar PV could cut grid purchases further. Sizing an array needs the usable roof area and its shading.
-These figures include no PV or battery.
+RFC West's still generates a large share of its electricity from coal and natural gas which drives much of this high level of emissions. Its emission rate is about 1.5 times that of eastern Pennsylvania (RFCE, 599 lb/MWh), so each kWh saved here avoids more carbon-emissions than it would in Philadelphia, New York or California. The grid rate is held constant in these figures, but the grid is getting cleaner over time, and because this house is all-electric its operating emissions will fall along with it over time.
+
+<div class="btwr-callout">
+    CO<sub>2e</sub> emissions are calculated within the Passive House energy model (PHPP), but they are not one of the
+    Phius performance criteria. These results are for information only.
+</div>

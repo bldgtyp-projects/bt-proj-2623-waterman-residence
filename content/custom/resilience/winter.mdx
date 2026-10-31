@@ -8,35 +8,38 @@ import plot2 from "./winter-plot-2.html?raw";
 import plot3 from "./winter-plot-3.html?raw";
 import enhancement from "./winter-plots.js?raw";
 
-Winter results use two measures: the lowest **air temperature**, and the accumulated shortfall in
-**Standard Effective Temperature (SET)**. SET, defined in
-[ASHRAE Standard 55](https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy),
-is how warm the room feels, accounting for surface
-temperatures, humidity, air movement and clothing.
+The winter assessment uses **Standard Effective Temperature (SET)**, defined in
+[ASHRAE Standard 55](https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy) to evaluate how warm a room feels once surface temperatures, humidity, air movement and clothing are all considered.
+[Phius-REVIVE](https://www.phius.org/phius-revive-2024-standard-document) sets a life-safety line at 36°F SET and a comfort allowance of **216 °F-hours** below 54°F SET.
 
-### Result
+<div class="btwr-callout btwr-callout--critical">
+  <strong>Key Result:</strong>
+  <span>
+    All zones have trouble meeting this winter thermal resilience target. This indicates that the assemblies may be under-insulated for this climate.
+  </span>
+</div>
 
-No floor falls below the **36°F air-temperature limit**. The SET shortfall below 54°F stays within the
-**216 °F-hour** limit on every floor
-([REVIVE 2024 §6.3.2](https://www.phius.org/phius-revive-2024-standard-document)):
+| Floor | SET shortfall below 54°F (°F-hours) | Lowest SET | Lowest air temperature |
+| --- | ---: | ---: | ---: |
+| Basement | 326 | 46°F | 36°F |
+| First | 1,135 | 39°F | 27°F |
+| Second | 1,540 | 35°F | 22°F |
+| Third | 1,844 | 32°F | 19°F |
 
-| Floor | SET shortfall (°F-hours) |
-| --- | ---: |
-| Basement | 147 |
-| First | 184 |
-| Second | 188 |
-| Third | 192 |
+#### Winter Results
 
-One hour at SET 52°F adds 2 °F-hours.
+The upper floors lose five to six degrees a day and reach **19 to 27°F air temperature** on the
+last morning, with SET near **32 to 39°F**. The ground holds the basement at **36°F air** and
+**46°F SET**. Daytime sun lifts the upper floors a few degrees each afternoon. The night takes it
+back. Indoor humidity falls to about **10% to 40%**.
 
-### Indoor conditions
+ #### Improving Performance
 
-Passing the limits still means cold rooms. Indoor air falls to about **39°F** and SET to about
-**49°F**. Humidity drops to about **10% to 18%**.
-
-The third floor uses **89%** of its allowance, a thin margin. Confirm it with the final envelope before
-deciding on backup heat. A floor average also can't show whether every pipe and small room stays above
-freezing.
+- **Increase insulation levels:** more insulative assemblies help reduce heat loss during the winter period.
+- **Increase solar gain:** while this would help to warm the home during the day, there is little practical way to do this given the current design and site shading. 
+- **Backup heat:** No floor can achieve the Phius-REVIVE targets without some amount of additional heating. The basement is the cloesets thanks to the ground-tempering: it stays above the  life-safety line, at about 36°F for the entire week.
+- **Freeze protection:** With upstairs air in the 20s for two days or more, pipes anywhere above
+  the basement would likely freeze. Keep plumbing runs in the basement and interior walls wherever possible to reduce this risk, and plan for draining the system or keeping a heat source on the plumbing in a long outage.
 
 <PrintableEmbed id="winter-plot-1" title="Winter: Standard Effective Temperature" printSrc="/assets/resilience/winter-1.svg" width={1200} height={650}>
   <div class="btwr-plotly-embed" role="group" aria-label="Winter SET" set:html={plot1} />

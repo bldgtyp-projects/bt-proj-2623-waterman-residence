@@ -3,27 +3,27 @@ kicker: "01"
 title: "Outage assessment"
 ---
 
-We modeled a seven-day winter outage, **February 3 to 9**, and a seven-day summer outage, **July 13 to
-19**, in the future climate. Outdoor extremes reach about **−6.2°F** in winter and **100°F** in summer.
-The house has three occupants. Results are averaged by floor, so individual rooms can run hotter or
-colder.
+Alongside the annual energy model, we ran an hourly model of the house through two week-long
+power outages in the future climate: a **summer heat wave, July 13 to 19**, and a **winter cold
+snap, February 3 to 9**. Outdoor air reaches about **100°F** in the summer week and falls to
+about **−5°F** in the winter week. The test follows the
+[Phius REVIVE 2024 protocol](https://www.phius.org/phius-revive-2024-standard-document), which
+tests what a house does with the power off for a week.
 
-### What runs during the outage
+- Heating, cooling, humidification and dehumidification are off during both test periods. Backup
+power keeps the ERV running at **15 CFM** (5 CFM per person).
+- Windows stay closed in winter and open depending on outdoor temperature in summer.
+- Each run covers nine days: one normal day, the seven-day outage, and one day of recovery.
+- Results are reported for four floors separately.
 
-Heating, cooling, humidification and dehumidification are off. Backup power keeps the ERV running at
-**15 CFM**, 5 CFM per person, per the
-[REVIVE 2024 protocol](https://www.phius.org/phius-revive-2024-standard-document). Windows stay closed
-in winter and open on temperature in summer.
+#### Phius-REVIVE Criteria
 
-### Results
+To pass Phius-REVIVE, each zone has to meet both criteria for its season:
+| Season | Criterion | REVIVE |
+| --- | --- | --- |
+| Summer | No hours with [Heat Index](https://www.weather.gov/safety/heat-index) at or above 103°F | §6.4.2(a) |
+| Summer | No "deadly days", where the day's mean temperature and humidity cross the survivability line | §6.4.2(b) |
+| Winter | No hours below 36°F [Standard Effective Temperature (SET)](https://www.ashrae.org/technical-resources/bookstore/standard-55-thermal-environmental-conditions-for-human-occupancy) | §6.3.2(a) |
+| Winter | At most 216 °F-hours of SET below 54°F | §6.3.2(b) |
 
-- **Winter** meets both REVIVE limits: no floor falls below 36°F, and every floor stays within the
-  comfort-shortfall limit. Indoor air still falls to about **39°F**.
-- **Summer** never passes the 103°F [Heat Index](https://www.weather.gov/safety/heat-index) danger line, peaking near **100°F**. But **every floor
-  exceeds the daily heat-and-humidity limit on three days**, so summer fails one of the two criteria.
 
-### How to use these results
-
-These results are preliminary. The outage model doesn't yet match the final assemblies and windows.
-Use it to decide which rooms and systems backup power should serve, not to size a battery or generator.
-A refuge room would need its own study.

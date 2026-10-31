@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "phpp_version": "10.6",
-  "generated_at": "2026-10-27T14:16:57.626698Z",
+  "generated_at": "2026-10-30T22:08:59.205885Z",
   "generator": "btwr@0.0.1",
   "status": "ok",
   "variants": [
@@ -14,42 +14,50 @@
       "source_column": "G"
     },
     {
-      "id": "as_drawn",
-      "name": "As-Drawn",
+      "id": "moderate_envelope",
+      "name": "Moderate Envelope",
       "order": 1,
       "color": "auto",
       "recommended": false,
       "source_column": "H"
     },
     {
-      "id": "improved_envelope",
-      "name": "Improved Envelope",
+      "id": "as_drawn",
+      "name": "As-Drawn",
       "order": 2,
       "color": "auto",
       "recommended": false,
       "source_column": "I"
     },
     {
-      "id": "improved_mech",
-      "name": "Improved Mech.",
+      "id": "improved_envelope",
+      "name": "Improved Envelope",
       "order": 3,
       "color": "auto",
       "recommended": false,
       "source_column": "J"
     },
     {
-      "id": "phius_2024",
-      "name": "Phius 2024",
+      "id": "improved_mech",
+      "name": "Improved Mech.",
       "order": 4,
       "color": "auto",
-      "recommended": true,
+      "recommended": false,
       "source_column": "K"
+    },
+    {
+      "id": "phius_2024",
+      "name": "Phius 2024",
+      "order": 5,
+      "color": "auto",
+      "recommended": true,
+      "source_column": "L"
     }
   ],
   "recommended_variant_id": "phius_2024",
   "source_workbook": {
-    "path": "/Users/em/Dropbox/bldgtyp/2623 Waterman Residence/07_PHPP/261027-Waterman-Home.xlsx",
-    "sha256": "8d011d6114f3a3e4b4f22c3f123d9eb1ee05dd4936735badad3a2863cfb54d73",
-    "size_bytes": 13592581
+    "path": "/Users/em/Dropbox/bldgtyp/2623 Waterman Residence/07_PHPP/261030-Waterman-Home.xlsx",
+    "sha256": "a649b46cd069c7f6f1cf8d8d72177a6061931f21da0195b2c870452eb43231ed",
+    "size_bytes": 13562505
   }
 }

@@ -1,6 +1,7 @@
 (() => {
   const narrowViewport = window.matchMedia("(max-width: 640px)");
   const plotIds = ["hi_fig1", "hi_fig2", "hi_fig3"];
+  const legendPlotIds = ["hi_fig2", "hi_fig3"];
 
   function stylePlots() {
     for (const plotId of plotIds) {
@@ -26,8 +27,8 @@
       ? { "legend.orientation": "h", "legend.x": 0, "legend.xanchor": "left", "legend.y": -0.22,
           "legend.yanchor": "top", "margin.r": 20, "margin.b": 115 }
       : { "legend.orientation": "v", "legend.x": 1.02, "legend.xanchor": "left", "legend.y": 1,
-          "legend.yanchor": "top", "margin.r": 80, "margin.b": 80 };
-    for (const plotId of plotIds) {
+          "legend.yanchor": "top", "margin.r": 80, "margin.b": 60 };
+    for (const plotId of legendPlotIds) {
       const plot = document.getElementById(plotId);
       if (plot) window.Plotly.relayout(plot, layout);
     }

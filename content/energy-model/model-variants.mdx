@@ -3,27 +3,29 @@ kicker: "02"
 title: "Design options"
 ---
 
-We compared five options. Each step after As-Drawn keeps the improvements before it.
-
-| Option | Airtightness (ACH50) | Modeled installed window U-value (Btu/hr·ft²·°F) | Effective heat recovery | Moisture recovery |
-| --- | ---: | ---: | ---: | ---: |
-| Code Minimum, code-value reference | 3.0 | 0.299 | Approximately zero | Zero |
-| As-Drawn | 3.0 | 0.264 | 70% | Zero |
-| Improved Envelope | 2.0 | 0.229 | 70% | Zero |
-| Improved Mech. | 2.0 | 0.229 | 74% | 29% |
-| **Phius 2024, recommended** | **1.0** | **0.199** | **76%** | **48%** |
-
-All options use SHGC **0.30** on every facade and three occupants. Lower U-values mean less heat loss.
-
-- **Code Minimum** uses Pennsylvania's amended 2021 whole-assembly U-values for climate zone 5: 0.051
-  for framed walls, 0.026 for roofs, 0.033 for exposed floors and 0.050 for basement walls, with an
-  R-10 slab. See the [adopted U-factor table](https://www.pacodeandbulletin.gov/secure/pacode/data/034/chapter403/s403.21.html).
+We compared six options in the results below:
+- **Code Minimum** uses Pennsylvania's amended 2021 whole-assembly U-values for climate zone 5. See the [adopted U-factor table](https://www.pacodeandbulletin.gov/secure/pacode/data/034/chapter403/s403.21.html).
+- **Moderate Envelope** sets each assembly R-value about halfway between Code Minimum and As-Drawn,
+  keeps the code-minium windows and airtightness, and adds an HRV, with a +15% thermal-bridge allowance.
 - **As-Drawn** uses the assemblies on the [Envelope](/building_envelope/) page and an HRV.
 - **Improved Envelope** adds better windows and tighter air sealing, and cuts the thermal-bridge
-  allowance from 15% to 10%.
-- **Improved Mech.** switches to an ERV, which adds moisture recovery.
-- **Phius 2024**, named for the [Phius CORE 2024](https://www.phius.org/phius-certification-guidebook) targets, reaches 1.0 ACH50, better windows and a higher-efficiency ERV, with a 5% thermal-bridge
-  allowance.
+  allowance from +15% to only +10%.
+- **Improved Mech.** switches to a higher performing ERV, which adds moisture recovery.
+- **Phius 2024**, named for the [Phius CORE 2024](https://www.phius.org/phius-certification-guidebook) targets, reaches 1.0 ACH50, better windows and a higher-efficiency ERV, with a +5% thermal-bridge   allowance.
 
-Wall, roof and floor insulation is the same from As-Drawn onward. Every option uses heat pumps, steam
-humidification to 35% winter RH and an elevator allowance. None includes PV.
+**Thermal-bridge allowance.** The 'thermal bridges' at junctions between assemblies, such as wall-to-floor and wall-to-roof, lose extra heat that can only be calculated once the construction details are fully drawn. Until
+then the model carries an allowance for this extra heat loss expressed a percentage added to the house's total heat loss. During  construction documents each junction will calculated and charged against that allowance. A smaller
+allowance in the variants here indicates more attention from the design team during CDs: catalog and calculate every junction, and refine the details until they fit.
+
+**Airtightness.** The ACH50 values are targets we give the model. Air leakage can't be simulated
+from drawings; only a blower-door test measures it. A lower target asks for more care in the
+air-barrier details and on site. See [Air sealing](/building_envelope/#building-airtightness).
+
+Every option uses heat pumps and steam humidification to 35% winter RH. None includes PV or an elevator; the shaft is built now and the elevator, if added later, will be a future load.
+
+### Occupancy
+
+The model carries **three occupants** as a continuous average presence, the way PHPP treats a home:
+their body heat, hot water and appliance use are spread over the year rather than scheduled hour by
+hour. Internal heat gains use PHPP's residential standard, and hot-water, appliance and plug loads
+follow the [Phius 2024 calculator](https://www.phius.org/phius-certification-guidebook) defaults for a house of this size with two bedrooms. Guests and work-from-home days are inside that average.

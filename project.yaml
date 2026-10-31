@@ -4,7 +4,7 @@ project_title: Waterman Residence
 client_name: mossArchitects
 building_name: Waterman Residence
 phase: Design Analysis
-report_date: '2026-10-27'
+report_date: '2026-10-30'
 prepared_by: bldgtyp, llc
 contact_email: ed@bldgtyp.com
 target_standard: Phius CORE 2024 targets as a design guide (no certification)
@@ -21,7 +21,7 @@ building:
     one-story garage
   total_num_occupants: 3
 source_files:
-  phpp_path: ../07_PHPP/261027-Waterman-Home.xlsx
+  phpp_path: ../07_PHPP/261030-Waterman-Home.xlsx
   cad_files_received_date: October 12, 2026
   data_dir: data
   assets_dir: public/assets
@@ -54,10 +54,10 @@ narrative:
     enph_ag_ext_limit: null
     enph_ag_int_limit: null
     enph_uw_limit: null
-    phius_hd_limit: '8.6'
-    phius_cd_limit: '5.9'
-    phius_hl_limit: '5.9'
-    phius_cl_limit: '2.1'
+    phius_hd_limit: '8.4'
+    phius_cd_limit: '5.7'
+    phius_hl_limit: '5.7'
+    phius_cl_limit: '2.0'
     phius_nse_limit: 6,550
     phius_cfm50_limit: '0.06'
   climate:
@@ -84,8 +84,8 @@ narrative:
     subregion_name: RFCW (RFC West), EPA eGRID
     epa_subgrid_name: RFCW (RFC West)
     occupancy: '3'
-    target_tons: null
-    taget_co2_per_person: null
+    target_tons: '3'
+    taget_co2_per_person: '1.0'
   windows:
     ph_window_u_value: '0.15'
     ph_window_r_value: '6.7'
@@ -105,14 +105,14 @@ narrative:
     architect_url: https://www.mossarc.com/
     neighborhood: Point Breeze North
     lot_size: 45 ft x 130 ft
-    icfa_ft2: 4,950
-    envelope_area_ft2: 12,081
-    envelope_to_icfa_ratio: '2.44'
-    window_area_total_ft2: '978'
+    icfa_ft2: 4,767
+    envelope_area_ft2: 11,132
+    envelope_to_icfa_ratio: '2.34'
+    window_area_total_ft2: '795'
     window_area_north_ft2: '252'
-    window_area_east_ft2: '271'
-    window_area_south_ft2: '272'
-    window_area_west_ft2: '184'
+    window_area_east_ft2: '154'
+    window_area_south_ft2: '226'
+    window_area_west_ft2: '164'
     stories: three stories plus basement
     phius_bedrooms: '2'
     phius_calculator_version: v26.2

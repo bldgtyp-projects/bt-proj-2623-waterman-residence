@@ -1,881 +1,1057 @@
 section,field_id,phpp_label,variant_id,variant_name,datatype,units,value,excel_row
-geometry,geometry.tfa,TFA,code_minimum,Code Minimum,TFA,m2,459.91270033,316
-geometry,geometry.tfa,TFA,as_drawn,As-Drawn,TFA,m2,459.91270033,316
-geometry,geometry.tfa,TFA,improved_envelope,Improved Envelope,TFA,m2,459.91270033,316
-geometry,geometry.tfa,TFA,improved_mech,Improved Mech.,TFA,m2,459.91270033,316
-geometry,geometry.tfa,TFA,phius_2024,Phius 2024,TFA,m2,459.91270033,316
-geometry,geometry.vv,VV,code_minimum,Code Minimum,VV,m3,1149.78175083,317
-geometry,geometry.vv,VV,as_drawn,As-Drawn,VV,m3,1149.78175083,317
-geometry,geometry.vv,VV,improved_envelope,Improved Envelope,VV,m3,1149.78175083,317
-geometry,geometry.vv,VV,improved_mech,Improved Mech.,VV,m3,1149.78175083,317
-geometry,geometry.vv,VV,phius_2024,Phius 2024,VV,m3,1149.78175083,317
-geometry,geometry.vn50,Vn50,code_minimum,Code Minimum,Vn50,m3,1149.78237171,318
-geometry,geometry.vn50,Vn50,as_drawn,As-Drawn,Vn50,m3,1149.78237171,318
-geometry,geometry.vn50,Vn50,improved_envelope,Improved Envelope,Vn50,m3,1149.78237171,318
-geometry,geometry.vn50,Vn50,improved_mech,Improved Mech.,Vn50,m3,1149.78237171,318
-geometry,geometry.vn50,Vn50,phius_2024,Phius 2024,Vn50,m3,1149.78237171,318
-geometry,geometry.building_envelope_area,Building Envelope Area,code_minimum,Code Minimum,Building Envelope Area,m2,1122.40729109,319
-geometry,geometry.building_envelope_area,Building Envelope Area,as_drawn,As-Drawn,Building Envelope Area,m2,1122.40729109,319
-geometry,geometry.building_envelope_area,Building Envelope Area,improved_envelope,Improved Envelope,Building Envelope Area,m2,1122.40729109,319
-geometry,geometry.building_envelope_area,Building Envelope Area,improved_mech,Improved Mech.,Building Envelope Area,m2,1122.40729109,319
-geometry,geometry.building_envelope_area,Building Envelope Area,phius_2024,Phius 2024,Building Envelope Area,m2,1122.40729109,319
-geometry,geometry.gross_volume,Gross Volume,code_minimum,Code Minimum,Gross Volume,m3,1494.71708322,320
-geometry,geometry.gross_volume,Gross Volume,as_drawn,As-Drawn,Gross Volume,m3,1494.71708322,320
-geometry,geometry.gross_volume,Gross Volume,improved_envelope,Improved Envelope,Gross Volume,m3,1494.71708322,320
-geometry,geometry.gross_volume,Gross Volume,improved_mech,Improved Mech.,Gross Volume,m3,1494.71708322,320
-geometry,geometry.gross_volume,Gross Volume,phius_2024,Phius 2024,Gross Volume,m3,1494.71708322,320
+geometry,geometry.tfa,TFA,code_minimum,Code Minimum,TFA,m2,442.85,316
+geometry,geometry.tfa,TFA,moderate_envelope,Moderate Envelope,TFA,m2,442.85,316
+geometry,geometry.tfa,TFA,as_drawn,As-Drawn,TFA,m2,442.85,316
+geometry,geometry.tfa,TFA,improved_envelope,Improved Envelope,TFA,m2,442.85,316
+geometry,geometry.tfa,TFA,improved_mech,Improved Mech.,TFA,m2,442.85,316
+geometry,geometry.tfa,TFA,phius_2024,Phius 2024,TFA,m2,442.85,316
+geometry,geometry.vv,VV,code_minimum,Code Minimum,VV,m3,1107.125,317
+geometry,geometry.vv,VV,moderate_envelope,Moderate Envelope,VV,m3,1107.125,317
+geometry,geometry.vv,VV,as_drawn,As-Drawn,VV,m3,1107.125,317
+geometry,geometry.vv,VV,improved_envelope,Improved Envelope,VV,m3,1107.125,317
+geometry,geometry.vv,VV,improved_mech,Improved Mech.,VV,m3,1107.125,317
+geometry,geometry.vv,VV,phius_2024,Phius 2024,VV,m3,1107.125,317
+geometry,geometry.vn50,Vn50,code_minimum,Code Minimum,Vn50,m3,1107.1,318
+geometry,geometry.vn50,Vn50,moderate_envelope,Moderate Envelope,Vn50,m3,1107.1,318
+geometry,geometry.vn50,Vn50,as_drawn,As-Drawn,Vn50,m3,1107.1,318
+geometry,geometry.vn50,Vn50,improved_envelope,Improved Envelope,Vn50,m3,1107.1,318
+geometry,geometry.vn50,Vn50,improved_mech,Improved Mech.,Vn50,m3,1107.1,318
+geometry,geometry.vn50,Vn50,phius_2024,Phius 2024,Vn50,m3,1107.1,318
+geometry,geometry.building_envelope_area,Building Envelope Area,code_minimum,Code Minimum,Building Envelope Area,m2,1034.21615087,319
+geometry,geometry.building_envelope_area,Building Envelope Area,moderate_envelope,Moderate Envelope,Building Envelope Area,m2,1034.21615087,319
+geometry,geometry.building_envelope_area,Building Envelope Area,as_drawn,As-Drawn,Building Envelope Area,m2,1034.21615087,319
+geometry,geometry.building_envelope_area,Building Envelope Area,improved_envelope,Improved Envelope,Building Envelope Area,m2,1034.21615087,319
+geometry,geometry.building_envelope_area,Building Envelope Area,improved_mech,Improved Mech.,Building Envelope Area,m2,1034.21615087,319
+geometry,geometry.building_envelope_area,Building Envelope Area,phius_2024,Phius 2024,Building Envelope Area,m2,1034.21615087,319
+geometry,geometry.gross_volume,Gross Volume,code_minimum,Code Minimum,Gross Volume,m3,1439.23,320
+geometry,geometry.gross_volume,Gross Volume,moderate_envelope,Moderate Envelope,Gross Volume,m3,1439.23,320
+geometry,geometry.gross_volume,Gross Volume,as_drawn,As-Drawn,Gross Volume,m3,1439.23,320
+geometry,geometry.gross_volume,Gross Volume,improved_envelope,Improved Envelope,Gross Volume,m3,1439.23,320
+geometry,geometry.gross_volume,Gross Volume,improved_mech,Improved Mech.,Gross Volume,m3,1439.23,320
+geometry,geometry.gross_volume,Gross Volume,phius_2024,Phius 2024,Gross Volume,m3,1439.23,320
 geometry,geometry.window_area_north,Window Area (North),code_minimum,Code Minimum,Window Area (North),m2,23.3660341131,321
+geometry,geometry.window_area_north,Window Area (North),moderate_envelope,Moderate Envelope,Window Area (North),m2,23.3660341131,321
 geometry,geometry.window_area_north,Window Area (North),as_drawn,As-Drawn,Window Area (North),m2,23.3660341131,321
 geometry,geometry.window_area_north,Window Area (North),improved_envelope,Improved Envelope,Window Area (North),m2,23.3660341131,321
 geometry,geometry.window_area_north,Window Area (North),improved_mech,Improved Mech.,Window Area (North),m2,23.3660341131,321
 geometry,geometry.window_area_north,Window Area (North),phius_2024,Phius 2024,Window Area (North),m2,23.3660341131,321
-geometry,geometry.window_area_east,Window Area (East),code_minimum,Code Minimum,Window Area (East),m2,25.1634977011,322
-geometry,geometry.window_area_east,Window Area (East),as_drawn,As-Drawn,Window Area (East),m2,25.1634977011,322
-geometry,geometry.window_area_east,Window Area (East),improved_envelope,Improved Envelope,Window Area (East),m2,25.1634977011,322
-geometry,geometry.window_area_east,Window Area (East),improved_mech,Improved Mech.,Window Area (East),m2,25.1634977011,322
-geometry,geometry.window_area_east,Window Area (East),phius_2024,Phius 2024,Window Area (East),m2,25.1634977011,322
-geometry,geometry.window_area_south,Window Area (South),code_minimum,Code Minimum,Window Area (South),m2,25.2289119066,323
-geometry,geometry.window_area_south,Window Area (South),as_drawn,As-Drawn,Window Area (South),m2,25.2289119066,323
-geometry,geometry.window_area_south,Window Area (South),improved_envelope,Improved Envelope,Window Area (South),m2,25.2289119066,323
-geometry,geometry.window_area_south,Window Area (South),improved_mech,Improved Mech.,Window Area (South),m2,25.2289119066,323
-geometry,geometry.window_area_south,Window Area (South),phius_2024,Phius 2024,Window Area (South),m2,25.2289119066,323
-geometry,geometry.window_area_west,Window Area (West),code_minimum,Code Minimum,Window Area (West),m2,17.0533088823,324
-geometry,geometry.window_area_west,Window Area (West),as_drawn,As-Drawn,Window Area (West),m2,17.0533088823,324
-geometry,geometry.window_area_west,Window Area (West),improved_envelope,Improved Envelope,Window Area (West),m2,17.0533088823,324
-geometry,geometry.window_area_west,Window Area (West),improved_mech,Improved Mech.,Window Area (West),m2,17.0533088823,324
-geometry,geometry.window_area_west,Window Area (West),phius_2024,Phius 2024,Window Area (West),m2,17.0533088823,324
+geometry,geometry.window_area_east,Window Area (East),code_minimum,Code Minimum,Window Area (East),m2,14.2771805901,322
+geometry,geometry.window_area_east,Window Area (East),moderate_envelope,Moderate Envelope,Window Area (East),m2,14.2771805901,322
+geometry,geometry.window_area_east,Window Area (East),as_drawn,As-Drawn,Window Area (East),m2,14.2771805901,322
+geometry,geometry.window_area_east,Window Area (East),improved_envelope,Improved Envelope,Window Area (East),m2,14.2771805901,322
+geometry,geometry.window_area_east,Window Area (East),improved_mech,Improved Mech.,Window Area (East),m2,14.2771805901,322
+geometry,geometry.window_area_east,Window Area (East),phius_2024,Phius 2024,Window Area (East),m2,14.2771805901,322
+geometry,geometry.window_area_south,Window Area (South),code_minimum,Code Minimum,Window Area (South),m2,21.0098275499,323
+geometry,geometry.window_area_south,Window Area (South),moderate_envelope,Moderate Envelope,Window Area (South),m2,21.0098275499,323
+geometry,geometry.window_area_south,Window Area (South),as_drawn,As-Drawn,Window Area (South),m2,21.0098275499,323
+geometry,geometry.window_area_south,Window Area (South),improved_envelope,Improved Envelope,Window Area (South),m2,21.0098275499,323
+geometry,geometry.window_area_south,Window Area (South),improved_mech,Improved Mech.,Window Area (South),m2,21.0098275499,323
+geometry,geometry.window_area_south,Window Area (South),phius_2024,Phius 2024,Window Area (South),m2,21.0098275499,323
+geometry,geometry.window_area_west,Window Area (West),code_minimum,Code Minimum,Window Area (West),m2,15.2144152336,324
+geometry,geometry.window_area_west,Window Area (West),moderate_envelope,Moderate Envelope,Window Area (West),m2,15.2144152336,324
+geometry,geometry.window_area_west,Window Area (West),as_drawn,As-Drawn,Window Area (West),m2,15.2144152336,324
+geometry,geometry.window_area_west,Window Area (West),improved_envelope,Improved Envelope,Window Area (West),m2,15.2144152336,324
+geometry,geometry.window_area_west,Window Area (West),improved_mech,Improved Mech.,Window Area (West),m2,15.2144152336,324
+geometry,geometry.window_area_west,Window Area (West),phius_2024,Phius 2024,Window Area (West),m2,15.2144152336,324
 geometry,geometry.window_area_horiz,Window Area (Horiz),code_minimum,Code Minimum,Window Area (Horiz),m2,0,325
+geometry,geometry.window_area_horiz,Window Area (Horiz),moderate_envelope,Moderate Envelope,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),as_drawn,As-Drawn,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),improved_envelope,Improved Envelope,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),improved_mech,Improved Mech.,Window Area (Horiz),m2,0,325
 geometry,geometry.window_area_horiz,Window Area (Horiz),phius_2024,Phius 2024,Window Area (Horiz),m2,0,325
 envelope,envelope.floor_bg,Cellar-Wall,code_minimum,Code Minimum,Cellar-Wall,hr-ft2-F/Btu,20,328
+envelope,envelope.floor_bg,Cellar-Wall,moderate_envelope,Moderate Envelope,Cellar-Wall,hr-ft2-F/Btu,21.2,328
 envelope,envelope.floor_bg,Cellar-Wall,as_drawn,As-Drawn,Cellar-Wall,hr-ft2-F/Btu,22.5,328
 envelope,envelope.floor_bg,Cellar-Wall,improved_envelope,Improved Envelope,Cellar-Wall,hr-ft2-F/Btu,22.5,328
 envelope,envelope.floor_bg,Cellar-Wall,improved_mech,Improved Mech.,Cellar-Wall,hr-ft2-F/Btu,22.5,328
 envelope,envelope.floor_bg,Cellar-Wall,phius_2024,Phius 2024,Cellar-Wall,hr-ft2-F/Btu,22.5,328
 envelope,envelope.wall_bg,Wood-Clad-Wall,code_minimum,Code Minimum,Wood-Clad-Wall,hr-ft2-F/Btu,19.6,329
+envelope,envelope.wall_bg,Wood-Clad-Wall,moderate_envelope,Moderate Envelope,Wood-Clad-Wall,hr-ft2-F/Btu,26.3,329
 envelope,envelope.wall_bg,Wood-Clad-Wall,as_drawn,As-Drawn,Wood-Clad-Wall,hr-ft2-F/Btu,32.9,329
 envelope,envelope.wall_bg,Wood-Clad-Wall,improved_envelope,Improved Envelope,Wood-Clad-Wall,hr-ft2-F/Btu,32.9,329
 envelope,envelope.wall_bg,Wood-Clad-Wall,improved_mech,Improved Mech.,Wood-Clad-Wall,hr-ft2-F/Btu,32.9,329
 envelope,envelope.wall_bg,Wood-Clad-Wall,phius_2024,Phius 2024,Wood-Clad-Wall,hr-ft2-F/Btu,32.9,329
 envelope,envelope.party_wall,Brick-Clad-Wall,code_minimum,Code Minimum,Brick-Clad-Wall,hr-ft2-F/Btu,19.6,330
+envelope,envelope.party_wall,Brick-Clad-Wall,moderate_envelope,Moderate Envelope,Brick-Clad-Wall,hr-ft2-F/Btu,24.8,330
 envelope,envelope.party_wall,Brick-Clad-Wall,as_drawn,As-Drawn,Brick-Clad-Wall,hr-ft2-F/Btu,29.9,330
 envelope,envelope.party_wall,Brick-Clad-Wall,improved_envelope,Improved Envelope,Brick-Clad-Wall,hr-ft2-F/Btu,29.9,330
 envelope,envelope.party_wall,Brick-Clad-Wall,improved_mech,Improved Mech.,Brick-Clad-Wall,hr-ft2-F/Btu,29.9,330
 envelope,envelope.party_wall,Brick-Clad-Wall,phius_2024,Phius 2024,Brick-Clad-Wall,hr-ft2-F/Btu,29.9,330
 envelope,envelope.wall_ag,Sloped-Roof,code_minimum,Code Minimum,Sloped-Roof,hr-ft2-F/Btu,38.5,331
+envelope,envelope.wall_ag,Sloped-Roof,moderate_envelope,Moderate Envelope,Sloped-Roof,hr-ft2-F/Btu,35.6,331
 envelope,envelope.wall_ag,Sloped-Roof,as_drawn,As-Drawn,Sloped-Roof,hr-ft2-F/Btu,32.7,331
 envelope,envelope.wall_ag,Sloped-Roof,improved_envelope,Improved Envelope,Sloped-Roof,hr-ft2-F/Btu,32.7,331
 envelope,envelope.wall_ag,Sloped-Roof,improved_mech,Improved Mech.,Sloped-Roof,hr-ft2-F/Btu,32.7,331
 envelope,envelope.wall_ag,Sloped-Roof,phius_2024,Phius 2024,Sloped-Roof,hr-ft2-F/Btu,32.7,331
 envelope,envelope.roof,Roof-Deck,code_minimum,Code Minimum,Roof-Deck,hr-ft2-F/Btu,38.5,332
+envelope,envelope.roof,Roof-Deck,moderate_envelope,Moderate Envelope,Roof-Deck,hr-ft2-F/Btu,47.2,332
 envelope,envelope.roof,Roof-Deck,as_drawn,As-Drawn,Roof-Deck,hr-ft2-F/Btu,55.9,332
 envelope,envelope.roof,Roof-Deck,improved_envelope,Improved Envelope,Roof-Deck,hr-ft2-F/Btu,55.9,332
 envelope,envelope.roof,Roof-Deck,improved_mech,Improved Mech.,Roof-Deck,hr-ft2-F/Btu,55.9,332
 envelope,envelope.roof,Roof-Deck,phius_2024,Phius 2024,Roof-Deck,hr-ft2-F/Btu,55.9,332
 envelope,envelope.assembly_06,Exposed-Floor,code_minimum,Code Minimum,Exposed-Floor,hr-ft2-F/Btu,30.3,333
+envelope,envelope.assembly_06,Exposed-Floor,moderate_envelope,Moderate Envelope,Exposed-Floor,hr-ft2-F/Btu,31.8,333
 envelope,envelope.assembly_06,Exposed-Floor,as_drawn,As-Drawn,Exposed-Floor,hr-ft2-F/Btu,33.3,333
 envelope,envelope.assembly_06,Exposed-Floor,improved_envelope,Improved Envelope,Exposed-Floor,hr-ft2-F/Btu,33.3,333
 envelope,envelope.assembly_06,Exposed-Floor,improved_mech,Improved Mech.,Exposed-Floor,hr-ft2-F/Btu,33.3,333
 envelope,envelope.assembly_06,Exposed-Floor,phius_2024,Phius 2024,Exposed-Floor,hr-ft2-F/Btu,33.3,333
 envelope,envelope.assembly_07,Cellar-Floor,code_minimum,Code Minimum,Cellar-Floor,hr-ft2-F/Btu,10,334
+envelope,envelope.assembly_07,Cellar-Floor,moderate_envelope,Moderate Envelope,Cellar-Floor,hr-ft2-F/Btu,15.6,334
 envelope,envelope.assembly_07,Cellar-Floor,as_drawn,As-Drawn,Cellar-Floor,hr-ft2-F/Btu,21.1,334
 envelope,envelope.assembly_07,Cellar-Floor,improved_envelope,Improved Envelope,Cellar-Floor,hr-ft2-F/Btu,21.1,334
 envelope,envelope.assembly_07,Cellar-Floor,improved_mech,Improved Mech.,Cellar-Floor,hr-ft2-F/Btu,21.1,334
 envelope,envelope.assembly_07,Cellar-Floor,phius_2024,Phius 2024,Cellar-Floor,hr-ft2-F/Btu,21.1,334
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),code_minimum,Code Minimum,Thermal Bridge Allowance (% increase),% Increase,0.2,343
+envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),moderate_envelope,Moderate Envelope,Thermal Bridge Allowance (% increase),% Increase,0.15,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),as_drawn,As-Drawn,Thermal Bridge Allowance (% increase),% Increase,0.15,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),improved_envelope,Improved Envelope,Thermal Bridge Allowance (% increase),% Increase,0.1,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),improved_mech,Improved Mech.,Thermal Bridge Allowance (% increase),% Increase,0.1,343
 envelope,envelope.thermal_bridge_allowance_increase,Thermal Bridge Allowance (% increase),phius_2024,Phius 2024,Thermal Bridge Allowance (% increase),% Increase,0.05,343
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),code_minimum,Code Minimum,Volumetric Air Leakage Rate (n50),ACH@50,3,344
+envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),moderate_envelope,Moderate Envelope,Volumetric Air Leakage Rate (n50),ACH@50,3,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),as_drawn,As-Drawn,Volumetric Air Leakage Rate (n50),ACH@50,3,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),improved_envelope,Improved Envelope,Volumetric Air Leakage Rate (n50),ACH@50,2,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),improved_mech,Improved Mech.,Volumetric Air Leakage Rate (n50),ACH@50,2,344
 envelope,envelope.volumetric_air_leakage_rate_n50,Volumetric Air Leakage Rate (n50),phius_2024,Phius 2024,Volumetric Air Leakage Rate (n50),ACH@50,1,344
-envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_minimum,Code Minimum,Envelope Air Leakage Rate (q50),m3/hr-m2,3.0731688421,345
-envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),as_drawn,As-Drawn,Envelope Air Leakage Rate (q50),m3/hr-m2,3.0731688421,345
-envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_envelope,Improved Envelope,Envelope Air Leakage Rate (q50),m3/hr-m2,2.04877922807,345
-envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_mech,Improved Mech.,Envelope Air Leakage Rate (q50),m3/hr-m2,2.04877922807,345
-envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phius_2024,Phius 2024,Envelope Air Leakage Rate (q50),m3/hr-m2,1.02438961403,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_minimum,Code Minimum,Envelope Air Leakage Rate (q50),m3/hr-m2,3.21141764919,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),moderate_envelope,Moderate Envelope,Envelope Air Leakage Rate (q50),m3/hr-m2,3.21141764919,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),as_drawn,As-Drawn,Envelope Air Leakage Rate (q50),m3/hr-m2,3.21141764919,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_envelope,Improved Envelope,Envelope Air Leakage Rate (q50),m3/hr-m2,2.14094509946,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_mech,Improved Mech.,Envelope Air Leakage Rate (q50),m3/hr-m2,2.14094509946,345
+envelope,envelope.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phius_2024,Phius 2024,Envelope Air Leakage Rate (q50),m3/hr-m2,1.07047254973,345
 envelope,envelope.window_u_value,Window U-value,code_minimum,Code Minimum,Window U-value (Installed),Btu/hr-ft2-F,0.299401197605,346
+envelope,envelope.window_u_value,Window U-value,moderate_envelope,Moderate Envelope,Window U-value (Installed),Btu/hr-ft2-F,0.299401197605,346
 envelope,envelope.window_u_value,Window U-value,as_drawn,As-Drawn,Window U-value (Installed),Btu/hr-ft2-F,0.264177527298,346
 envelope,envelope.window_u_value,Window U-value,improved_envelope,Improved Envelope,Window U-value (Installed),Btu/hr-ft2-F,0.228953856992,346
 envelope,envelope.window_u_value,Window U-value,improved_mech,Improved Mech.,Window U-value (Installed),Btu/hr-ft2-F,0.228953856992,346
 envelope,envelope.window_u_value,Window U-value,phius_2024,Phius 2024,Window U-value (Installed),Btu/hr-ft2-F,0.199013737231,346
 envelope,envelope.window_shgc,Window SHGC,code_minimum,Code Minimum,Window SHGC,-,0.3,347
+envelope,envelope.window_shgc,Window SHGC,moderate_envelope,Moderate Envelope,Window SHGC,-,0.3,347
 envelope,envelope.window_shgc,Window SHGC,as_drawn,As-Drawn,Window SHGC,-,0.3,347
 envelope,envelope.window_shgc,Window SHGC,improved_envelope,Improved Envelope,Window SHGC,-,0.3,347
 envelope,envelope.window_shgc,Window SHGC,improved_mech,Improved Mech.,Window SHGC,-,0.3,347
 envelope,envelope.window_shgc,Window SHGC,phius_2024,Phius 2024,Window SHGC,-,0.3,347
 systems,systems.ventilation_system,Ventilation System,code_minimum,Code Minimum,Ventilation System,,1-Balanced PH ventilation with HR,350
+systems,systems.ventilation_system,Ventilation System,moderate_envelope,Moderate Envelope,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,as_drawn,As-Drawn,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,improved_envelope,Improved Envelope,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,improved_mech,Improved Mech.,Ventilation System,,1-Balanced PH ventilation with HR,350
 systems,systems.ventilation_system,Ventilation System,phius_2024,Phius 2024,Ventilation System,,1-Balanced PH ventilation with HR,350
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_minimum,Code Minimum,Ventilation Unit HR Efficiency,%,0.00120191386336,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,as_drawn,As-Drawn,Ventilation Unit HR Efficiency,%,0.69592272579,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_envelope,Improved Envelope,Ventilation Unit HR Efficiency,%,0.69592272579,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_mech,Improved Mech.,Ventilation Unit HR Efficiency,%,0.741659419056,351
-systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,phius_2024,Phius 2024,Ventilation Unit HR Efficiency,%,0.760146818409,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,code_minimum,Code Minimum,Ventilation Unit HR Efficiency,%,0.00120190380519,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,moderate_envelope,Moderate Envelope,Ventilation Unit HR Efficiency,%,0.695916901992,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,as_drawn,As-Drawn,Ventilation Unit HR Efficiency,%,0.695916901992,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_envelope,Improved Envelope,Ventilation Unit HR Efficiency,%,0.695916901992,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,improved_mech,Improved Mech.,Ventilation Unit HR Efficiency,%,0.741653212513,351
+systems,systems.ventilation_unit_hr_efficiency,Ventilation Unit HR Efficiency,phius_2024,Phius 2024,Ventilation Unit HR Efficiency,%,0.760140457155,351
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,code_minimum,Code Minimum,Ventilation Unit ER Efficiency,%,0,352
+systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,moderate_envelope,Moderate Envelope,Ventilation Unit ER Efficiency,%,0,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,as_drawn,As-Drawn,Ventilation Unit ER Efficiency,%,0,352
 systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,improved_envelope,Improved Envelope,Ventilation Unit ER Efficiency,%,0,352
-systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,improved_mech,Improved Mech.,Ventilation Unit ER Efficiency,%,0.290456737424,352
-systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,phius_2024,Phius 2024,Ventilation Unit ER Efficiency,%,0.484094562373,352
-systems,systems.system_hr_efficiency,System HR Efficiency,code_minimum,Code Minimum,System HR Efficiency,%,0.00120191386336,353
-systems,systems.system_hr_efficiency,System HR Efficiency,as_drawn,As-Drawn,System HR Efficiency,%,0.69592272579,353
-systems,systems.system_hr_efficiency,System HR Efficiency,improved_envelope,Improved Envelope,System HR Efficiency,%,0.69592272579,353
-systems,systems.system_hr_efficiency,System HR Efficiency,improved_mech,Improved Mech.,System HR Efficiency,%,0.741659419056,353
-systems,systems.system_hr_efficiency,System HR Efficiency,phius_2024,Phius 2024,System HR Efficiency,%,0.760146818409,353
+systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,improved_mech,Improved Mech.,Ventilation Unit ER Efficiency,%,0.290454306749,352
+systems,systems.ventilation_unit_er_efficiency,Ventilation Unit ER Efficiency,phius_2024,Phius 2024,Ventilation Unit ER Efficiency,%,0.484090511249,352
+systems,systems.system_hr_efficiency,System HR Efficiency,code_minimum,Code Minimum,System HR Efficiency,%,0.00120190380519,353
+systems,systems.system_hr_efficiency,System HR Efficiency,moderate_envelope,Moderate Envelope,System HR Efficiency,%,0.695916901992,353
+systems,systems.system_hr_efficiency,System HR Efficiency,as_drawn,As-Drawn,System HR Efficiency,%,0.695916901992,353
+systems,systems.system_hr_efficiency,System HR Efficiency,improved_envelope,Improved Envelope,System HR Efficiency,%,0.695916901992,353
+systems,systems.system_hr_efficiency,System HR Efficiency,improved_mech,Improved Mech.,System HR Efficiency,%,0.741653212513,353
+systems,systems.system_hr_efficiency,System HR Efficiency,phius_2024,Phius 2024,System HR Efficiency,%,0.760140457155,353
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_minimum,Code Minimum,Cold Air Duct Length (ea),m,5,354
+systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),moderate_envelope,Moderate Envelope,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),as_drawn,As-Drawn,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_envelope,Improved Envelope,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_mech,Improved Mech.,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_length_ea,Cold Air Duct Length (ea),phius_2024,Phius 2024,Cold Air Duct Length (ea),m,5,354
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_minimum,Code Minimum,Cold Air Duct Insulation Thickness,mm,52,355
+systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,moderate_envelope,Moderate Envelope,Cold Air Duct Insulation Thickness,mm,52,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,as_drawn,As-Drawn,Cold Air Duct Insulation Thickness,mm,52,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_envelope,Improved Envelope,Cold Air Duct Insulation Thickness,mm,52,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_mech,Improved Mech.,Cold Air Duct Insulation Thickness,mm,52,355
 systems,systems.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,phius_2024,Phius 2024,Cold Air Duct Insulation Thickness,mm,52,355
 systems,systems.heating_system,Heating System,code_minimum,Code Minimum,Heating System,,Heat pump(s),356
+systems,systems.heating_system,Heating System,moderate_envelope,Moderate Envelope,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,as_drawn,As-Drawn,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,improved_envelope,Improved Envelope,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,improved_mech,Improved Mech.,Heating System,,Heat pump(s),356
 systems,systems.heating_system,Heating System,phius_2024,Phius 2024,Heating System,,Heat pump(s),356
 systems,systems.cooling_system,Cooling System,code_minimum,Code Minimum,Cooling System,,Elec. Heat Pump,357
+systems,systems.cooling_system,Cooling System,moderate_envelope,Moderate Envelope,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,as_drawn,As-Drawn,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,improved_envelope,Improved Envelope,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,improved_mech,Improved Mech.,Cooling System,,Elec. Heat Pump,357
 systems,systems.cooling_system,Cooling System,phius_2024,Phius 2024,Cooling System,,Elec. Heat Pump,357
 systems,systems.dhw_system,DHW System,code_minimum,Code Minimum,DHW System,,Heat pump(s),358
+systems,systems.dhw_system,DHW System,moderate_envelope,Moderate Envelope,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,as_drawn,As-Drawn,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,improved_envelope,Improved Envelope,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,improved_mech,Improved Mech.,DHW System,,Heat pump(s),358
 systems,systems.dhw_system,DHW System,phius_2024,Phius 2024,DHW System,,Heat pump(s),358
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,code_minimum,Code Minimum,Heat Demand Limit,kWh/m2,27.129474,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,as_drawn,As-Drawn,Heat Demand Limit,kWh/m2,27.129474,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,improved_envelope,Improved Envelope,Heat Demand Limit,kWh/m2,27.129474,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,improved_mech,Improved Mech.,Heat Demand Limit,kWh/m2,27.129474,363
-certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,phius_2024,Phius 2024,Heat Demand Limit,kWh/m2,27.129474,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,code_minimum,Code Minimum,Heat Demand Limit,kWh/m2,26.498556,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,moderate_envelope,Moderate Envelope,Heat Demand Limit,kWh/m2,26.498556,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,as_drawn,As-Drawn,Heat Demand Limit,kWh/m2,26.498556,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,improved_envelope,Improved Envelope,Heat Demand Limit,kWh/m2,26.498556,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,improved_mech,Improved Mech.,Heat Demand Limit,kWh/m2,26.498556,363
+certification_limits,certification_limits.heat_demand_limit,Heat Demand Limit,phius_2024,Phius 2024,Heat Demand Limit,kWh/m2,26.498556,363
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,code_minimum,Code Minimum,Sensible Cooling Demand Limit,kWh/m2,15,364
+certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,moderate_envelope,Moderate Envelope,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,as_drawn,As-Drawn,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,improved_envelope,Improved Envelope,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,improved_mech,Improved Mech.,Sensible Cooling Demand Limit,kWh/m2,15,364
 certification_limits,certification_limits.sensible_cooling_demand_limit,Sensible Cooling Demand Limit,phius_2024,Phius 2024,Sensible Cooling Demand Limit,kWh/m2,15,364
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,code_minimum,Code Minimum,Latent Cooling Demand Limit,kWh/m2,3.6120879974,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,as_drawn,As-Drawn,Latent Cooling Demand Limit,kWh/m2,3.6120879974,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,improved_envelope,Improved Envelope,Latent Cooling Demand Limit,kWh/m2,3.6120879974,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,improved_mech,Improved Mech.,Latent Cooling Demand Limit,kWh/m2,3.6120879974,365
-certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,phius_2024,Phius 2024,Latent Cooling Demand Limit,kWh/m2,3.6120879974,365
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,code_minimum,Code Minimum,Total Cooling Demand Limit,kWh/m2,18.6120879974,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,as_drawn,As-Drawn,Total Cooling Demand Limit,kWh/m2,18.6120879974,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,improved_envelope,Improved Envelope,Total Cooling Demand Limit,kWh/m2,18.6120879974,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,improved_mech,Improved Mech.,Total Cooling Demand Limit,kWh/m2,18.6120879974,366
-certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,phius_2024,Phius 2024,Total Cooling Demand Limit,kWh/m2,18.6120879974,366
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,code_minimum,Code Minimum,Peak Heat Load Limit,W/m2,18.6120879974,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,as_drawn,As-Drawn,Peak Heat Load Limit,W/m2,18.6120879974,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,improved_envelope,Improved Envelope,Peak Heat Load Limit,W/m2,18.6120879974,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,improved_mech,Improved Mech.,Peak Heat Load Limit,W/m2,18.6120879974,367
-certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,phius_2024,Phius 2024,Peak Heat Load Limit,W/m2,18.6120879974,367
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,code_minimum,Code Minimum,Peak Cooling Load Limit,W/m2,6.6246414906,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,as_drawn,As-Drawn,Peak Cooling Load Limit,W/m2,6.6246414906,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,improved_envelope,Improved Envelope,Peak Cooling Load Limit,W/m2,6.6246414906,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,improved_mech,Improved Mech.,Peak Cooling Load Limit,W/m2,6.6246414906,368
-certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,phius_2024,Phius 2024,Peak Cooling Load Limit,W/m2,6.6246414906,368
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,code_minimum,Code Minimum,Latent Cooling Demand Limit,kWh/m2,2.9811697602,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,moderate_envelope,Moderate Envelope,Latent Cooling Demand Limit,kWh/m2,2.9811697602,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,as_drawn,As-Drawn,Latent Cooling Demand Limit,kWh/m2,2.9811697602,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,improved_envelope,Improved Envelope,Latent Cooling Demand Limit,kWh/m2,2.9811697602,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,improved_mech,Improved Mech.,Latent Cooling Demand Limit,kWh/m2,2.9811697602,365
+certification_limits,certification_limits.latent_cooling_demand_limit,Latent Cooling Demand Limit,phius_2024,Phius 2024,Latent Cooling Demand Limit,kWh/m2,2.9811697602,365
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,code_minimum,Code Minimum,Total Cooling Demand Limit,kWh/m2,17.9811697602,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,moderate_envelope,Moderate Envelope,Total Cooling Demand Limit,kWh/m2,17.9811697602,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,as_drawn,As-Drawn,Total Cooling Demand Limit,kWh/m2,17.9811697602,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,improved_envelope,Improved Envelope,Total Cooling Demand Limit,kWh/m2,17.9811697602,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,improved_mech,Improved Mech.,Total Cooling Demand Limit,kWh/m2,17.9811697602,366
+certification_limits,certification_limits.total_cooling_demand_limit,Total Cooling Demand Limit,phius_2024,Phius 2024,Total Cooling Demand Limit,kWh/m2,17.9811697602,366
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,code_minimum,Code Minimum,Peak Heat Load Limit,W/m2,17.9811697602,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,moderate_envelope,Moderate Envelope,Peak Heat Load Limit,W/m2,17.9811697602,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,as_drawn,As-Drawn,Peak Heat Load Limit,W/m2,17.9811697602,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,improved_envelope,Improved Envelope,Peak Heat Load Limit,W/m2,17.9811697602,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,improved_mech,Improved Mech.,Peak Heat Load Limit,W/m2,17.9811697602,367
+certification_limits,certification_limits.peak_heat_load_limit,Peak Heat Load Limit,phius_2024,Phius 2024,Peak Heat Load Limit,W/m2,17.9811697602,367
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,code_minimum,Code Minimum,Peak Cooling Load Limit,W/m2,6.309182372,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,moderate_envelope,Moderate Envelope,Peak Cooling Load Limit,W/m2,6.309182372,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,as_drawn,As-Drawn,Peak Cooling Load Limit,W/m2,6.309182372,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,improved_envelope,Improved Envelope,Peak Cooling Load Limit,W/m2,6.309182372,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,improved_mech,Improved Mech.,Peak Cooling Load Limit,W/m2,6.309182372,368
+certification_limits,certification_limits.peak_cooling_load_limit,Peak Cooling Load Limit,phius_2024,Phius 2024,Peak Cooling Load Limit,W/m2,6.309182372,368
 certification_limits,certification_limits.pe_limit,PE Limit,code_minimum,Code Minimum,PE Limit,kWh/m2,0,369
+certification_limits,certification_limits.pe_limit,PE Limit,moderate_envelope,Moderate Envelope,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,as_drawn,As-Drawn,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,improved_envelope,Improved Envelope,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,improved_mech,Improved Mech.,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.pe_limit,PE Limit,phius_2024,Phius 2024,PE Limit,kWh/m2,0,369
 certification_limits,certification_limits.per_limit,PER Limit,code_minimum,Code Minimum,PER Limit,kWh/m2,0,370
+certification_limits,certification_limits.per_limit,PER Limit,moderate_envelope,Moderate Envelope,PER Limit,kWh/m2,0,370
 certification_limits,certification_limits.per_limit,PER Limit,as_drawn,As-Drawn,PER Limit,kWh/m2,0,370
 certification_limits,certification_limits.per_limit,PER Limit,improved_envelope,Improved Envelope,PER Limit,kWh/m2,0,370
 certification_limits,certification_limits.per_limit,PER Limit,improved_mech,Improved Mech.,PER Limit,kWh/m2,0,370
 certification_limits,certification_limits.per_limit,PER Limit,phius_2024,Phius 2024,PER Limit,kWh/m2,0,370
-certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,code_minimum,Code Minimum,PHIUS Net Source Energy Limit,kWh/m2,42.7254998305,371
-certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,as_drawn,As-Drawn,PHIUS Net Source Energy Limit,kWh/m2,42.7254998305,371
-certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,improved_envelope,Improved Envelope,PHIUS Net Source Energy Limit,kWh/m2,42.7254998305,371
-certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,improved_mech,Improved Mech.,PHIUS Net Source Energy Limit,kWh/m2,42.7254998305,371
-certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,phius_2024,Phius 2024,PHIUS Net Source Energy Limit,kWh/m2,42.7254998305,371
-heating_demand,heating_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,-326.626351406,376
-heating_demand,heating_demand.walls_ag,Walls (AG),as_drawn,As-Drawn,Walls (AG),kWh,-197.519974166,376
-heating_demand,heating_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,-198.004137752,376
-heating_demand,heating_demand.walls_ag,Walls (AG),improved_mech,Improved Mech.,Walls (AG),kWh,-198.083288453,376
-heating_demand,heating_demand.walls_ag,Walls (AG),phius_2024,Phius 2024,Walls (AG),kWh,-198.937765246,376
-heating_demand,heating_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,888.851006349,377
-heating_demand,heating_demand.walls_bg,Walls (BG),as_drawn,As-Drawn,Walls (BG),kWh,850.530269168,377
-heating_demand,heating_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,854.998836514,377
-heating_demand,heating_demand.walls_bg,Walls (BG),improved_mech,Improved Mech.,Walls (BG),kWh,855.292615682,377
-heating_demand,heating_demand.walls_bg,Walls (BG),phius_2024,Phius 2024,Walls (BG),kWh,860.430356589,377
-heating_demand,heating_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,2235.21313524,378
-heating_demand,heating_demand.roofs,Roofs,as_drawn,As-Drawn,Roofs,kWh,2546.57230992,378
-heating_demand,heating_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,2552.81450181,378
-heating_demand,heating_demand.roofs,Roofs,improved_mech,Improved Mech.,Roofs,kWh,2553.83497068,378
-heating_demand,heating_demand.roofs,Roofs,phius_2024,Phius 2024,Roofs,kWh,2564.85151192,378
-heating_demand,heating_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,2302.89578791,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,as_drawn,As-Drawn,Floor Slabs,kWh,1174.00396877,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,1180.17202179,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_mech,Improved Mech.,Floor Slabs,kWh,1180.57753106,379
-heating_demand,heating_demand.floor_slabs,Floor Slabs,phius_2024,Phius 2024,Floor Slabs,kWh,1187.66925776,379
-heating_demand,heating_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,10055.3632088,383
-heating_demand,heating_demand.windows,Windows,as_drawn,As-Drawn,Windows,kWh,8828.54936849,383
-heating_demand,heating_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,7670.16468923,383
-heating_demand,heating_demand.windows,Windows,improved_mech,Improved Mech.,Windows,kWh,7673.23078128,383
-heating_demand,heating_demand.windows,Windows,phius_2024,Phius 2024,Windows,kWh,6698.58001193,383
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,code_minimum,Code Minimum,PHIUS Net Source Energy Limit,kWh/m2,44.3716834142,371
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,moderate_envelope,Moderate Envelope,PHIUS Net Source Energy Limit,kWh/m2,44.3716834142,371
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,as_drawn,As-Drawn,PHIUS Net Source Energy Limit,kWh/m2,44.3716834142,371
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,improved_envelope,Improved Envelope,PHIUS Net Source Energy Limit,kWh/m2,44.3716834142,371
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,improved_mech,Improved Mech.,PHIUS Net Source Energy Limit,kWh/m2,44.3716834142,371
+certification_limits,certification_limits.phius_net_source_energy_limit,PHIUS Net Source Energy Limit,phius_2024,Phius 2024,PHIUS Net Source Energy Limit,kWh/m2,44.3716834142,371
+heating_demand,heating_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,-674.22282723,376
+heating_demand,heating_demand.walls_ag,Walls (AG),moderate_envelope,Moderate Envelope,Walls (AG),kWh,-530.592575152,376
+heating_demand,heating_demand.walls_ag,Walls (AG),as_drawn,As-Drawn,Walls (AG),kWh,-399.290008953,376
+heating_demand,heating_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,-400.295582679,376
+heating_demand,heating_demand.walls_ag,Walls (AG),improved_mech,Improved Mech.,Walls (AG),kWh,-400.466549938,376
+heating_demand,heating_demand.walls_ag,Walls (AG),phius_2024,Phius 2024,Walls (AG),kWh,-402.281447237,376
+heating_demand,heating_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,900.65351276,377
+heating_demand,heating_demand.walls_bg,Walls (BG),moderate_envelope,Moderate Envelope,Walls (BG),kWh,996.680953201,377
+heating_demand,heating_demand.walls_bg,Walls (BG),as_drawn,As-Drawn,Walls (BG),kWh,856.400526098,377
+heating_demand,heating_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,861.205880197,377
+heating_demand,heating_demand.walls_bg,Walls (BG),improved_mech,Improved Mech.,Walls (BG),kWh,861.511843497,377
+heating_demand,heating_demand.walls_bg,Walls (BG),phius_2024,Phius 2024,Walls (BG),kWh,866.468779336,377
+heating_demand,heating_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,2016.29570382,378
+heating_demand,heating_demand.roofs,Roofs,moderate_envelope,Moderate Envelope,Roofs,kWh,2152.48024571,378
+heating_demand,heating_demand.roofs,Roofs,as_drawn,As-Drawn,Roofs,kWh,2292.06583129,378
+heating_demand,heating_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,2297.83818002,378
+heating_demand,heating_demand.roofs,Roofs,improved_mech,Improved Mech.,Roofs,kWh,2298.81959254,378
+heating_demand,heating_demand.roofs,Roofs,phius_2024,Phius 2024,Roofs,kWh,2309.23774474,378
+heating_demand,heating_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,2038.01027255,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,moderate_envelope,Moderate Envelope,Floor Slabs,kWh,1540.18579932,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,as_drawn,As-Drawn,Floor Slabs,kWh,1032.79433528,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,1038.58945374,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,improved_mech,Improved Mech.,Floor Slabs,kWh,1038.95843665,379
+heating_demand,heating_demand.floor_slabs,Floor Slabs,phius_2024,Phius 2024,Floor Slabs,kWh,1044.93635831,379
+heating_demand,heating_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,8159.4554245,383
+heating_demand,heating_demand.windows,Windows,moderate_envelope,Moderate Envelope,Windows,kWh,8201.77019102,383
+heating_demand,heating_demand.windows,Windows,as_drawn,As-Drawn,Windows,kWh,7169.26676039,383
+heating_demand,heating_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,6229.01229039,383
+heating_demand,heating_demand.windows,Windows,improved_mech,Improved Mech.,Windows,kWh,6231.67271734,383
+heating_demand,heating_demand.windows,Windows,phius_2024,Phius 2024,Windows,kWh,5441.31020221,383
 heating_demand,heating_demand.exterior_door,Exterior door,code_minimum,Code Minimum,Exterior door,kWh,,384
+heating_demand,heating_demand.exterior_door,Exterior door,moderate_envelope,Moderate Envelope,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,as_drawn,As-Drawn,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,improved_envelope,Improved Envelope,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,improved_mech,Improved Mech.,Exterior door,kWh,,384
 heating_demand,heating_demand.exterior_door,Exterior door,phius_2024,Phius 2024,Exterior door,kWh,,384
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,3334.69462467,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,as_drawn,As-Drawn,Thermal Bridges,kWh,2103.98185667,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,1288.09024296,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_mech,Improved Mech.,Thermal Bridges,kWh,1288.60514758,385
-heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phius_2024,Phius 2024,Thermal Bridges,kWh,596.694369017,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,2758.93148938,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,moderate_envelope,Moderate Envelope,Thermal Bridges,kWh,1957.80768667,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,as_drawn,As-Drawn,Thermal Bridges,kWh,1757.31714037,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,1078.66422544,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,improved_mech,Improved Mech.,Thermal Bridges,kWh,1079.12492567,385
+heating_demand,heating_demand.thermal_bridges,Thermal Bridges,phius_2024,Phius 2024,Thermal Bridges,kWh,501.077527385,385
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),code_minimum,Code Minimum,TB (Perimeter),kWh,,386
+heating_demand,heating_demand.tb_perimeter,TB (Perimeter),moderate_envelope,Moderate Envelope,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),as_drawn,As-Drawn,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),improved_envelope,Improved Envelope,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),improved_mech,Improved Mech.,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_perimeter,TB (Perimeter),phius_2024,Phius 2024,TB (Perimeter),kWh,,386
 heating_demand,heating_demand.tb_bg,TB (BG),code_minimum,Code Minimum,TB (BG),kWh,,387
+heating_demand,heating_demand.tb_bg,TB (BG),moderate_envelope,Moderate Envelope,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),as_drawn,As-Drawn,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),improved_envelope,Improved Envelope,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),improved_mech,Improved Mech.,TB (BG),kWh,,387
 heating_demand,heating_demand.tb_bg,TB (BG),phius_2024,Phius 2024,TB (BG),kWh,,387
-heating_demand,heating_demand.ventilation,Ventilation,code_minimum,Code Minimum,Ventilation,kWh,14022.2289953,388
-heating_demand,heating_demand.ventilation,Ventilation,as_drawn,As-Drawn,Ventilation,kWh,9379.32587977,388
-heating_demand,heating_demand.ventilation,Ventilation,improved_envelope,Improved Envelope,Ventilation,kWh,6937.135306,388
-heating_demand,heating_demand.ventilation,Ventilation,improved_mech,Improved Mech.,Ventilation,kWh,6637.9461931,388
-heating_demand,heating_demand.ventilation,Ventilation,phius_2024,Phius 2024,Ventilation,kWh,4067.19158036,388
-heating_demand,heating_demand.heating_demand,Heating Demand,code_minimum,Code Minimum,Heating Demand,kWh,23529.2918594,389
-heating_demand,heating_demand.heating_demand,Heating Demand,as_drawn,As-Drawn,Heating Demand,kWh,16556.5172813,389
-heating_demand,heating_demand.heating_demand,Heating Demand,improved_envelope,Improved Envelope,Heating Demand,kWh,12280.4392425,389
-heating_demand,heating_demand.heating_demand,Heating Demand,improved_mech,Improved Mech.,Heating Demand,kWh,11992.6792866,389
-heating_demand,heating_demand.heating_demand,Heating Demand,phius_2024,Phius 2024,Heating Demand,kWh,7982.44115475,389
+heating_demand,heating_demand.ventilation,Ventilation,code_minimum,Code Minimum,Ventilation,kWh,13712.2007999,388
+heating_demand,heating_demand.ventilation,Ventilation,moderate_envelope,Moderate Envelope,Ventilation,kWh,9175.48101222,388
+heating_demand,heating_demand.ventilation,Ventilation,as_drawn,As-Drawn,Ventilation,kWh,9089.78575349,388
+heating_demand,heating_demand.ventilation,Ventilation,improved_envelope,Improved Envelope,Ventilation,kWh,6742.8132293,388
+heating_demand,heating_demand.ventilation,Ventilation,improved_mech,Improved Mech.,Ventilation,kWh,6444.28591619,388
+heating_demand,heating_demand.ventilation,Ventilation,phius_2024,Phius 2024,Ventilation,kWh,3969.48491377,388
+heating_demand,heating_demand.heating_demand,Heating Demand,code_minimum,Code Minimum,Heating Demand,kWh,21324.6765403,389
+heating_demand,heating_demand.heating_demand,Heating Demand,moderate_envelope,Moderate Envelope,Heating Demand,kWh,15983.275237,389
+heating_demand,heating_demand.heating_demand,Heating Demand,as_drawn,As-Drawn,Heating Demand,kWh,14928.8623859,389
+heating_demand,heating_demand.heating_demand,Heating Demand,improved_envelope,Improved Envelope,Heating Demand,kWh,11064.0147708,389
+heating_demand,heating_demand.heating_demand,Heating Demand,improved_mech,Improved Mech.,Heating Demand,kWh,10774.5013807,389
+heating_demand,heating_demand.heating_demand,Heating Demand,phius_2024,Phius 2024,Heating Demand,kWh,7100.27746362,389
 heating_demand,heating_demand.north,North,code_minimum,Code Minimum,North,kWh,648.996633995,390
+heating_demand,heating_demand.north,North,moderate_envelope,Moderate Envelope,North,kWh,648.996633995,390
 heating_demand,heating_demand.north,North,as_drawn,As-Drawn,North,kWh,520.768392113,390
 heating_demand,heating_demand.north,North,improved_envelope,Improved Envelope,North,kWh,520.768392113,390
 heating_demand,heating_demand.north,North,improved_mech,Improved Mech.,North,kWh,520.768392113,390
 heating_demand,heating_demand.north,North,phius_2024,Phius 2024,North,kWh,520.768392113,390
-heating_demand,heating_demand.east,East,code_minimum,Code Minimum,East,kWh,661.941371285,391
-heating_demand,heating_demand.east,East,as_drawn,As-Drawn,East,kWh,552.374995089,391
-heating_demand,heating_demand.east,East,improved_envelope,Improved Envelope,East,kWh,552.374995089,391
-heating_demand,heating_demand.east,East,improved_mech,Improved Mech.,East,kWh,552.374995089,391
-heating_demand,heating_demand.east,East,phius_2024,Phius 2024,East,kWh,552.374995089,391
-heating_demand,heating_demand.south,South,code_minimum,Code Minimum,South,kWh,1505.44125142,392
-heating_demand,heating_demand.south,South,as_drawn,As-Drawn,South,kWh,1328.90516789,392
-heating_demand,heating_demand.south,South,improved_envelope,Improved Envelope,South,kWh,1328.90516789,392
-heating_demand,heating_demand.south,South,improved_mech,Improved Mech.,South,kWh,1328.90516789,392
-heating_demand,heating_demand.south,South,phius_2024,Phius 2024,South,kWh,1328.90516789,392
-heating_demand,heating_demand.west,West,code_minimum,Code Minimum,West,kWh,407.064047298,393
-heating_demand,heating_demand.west,West,as_drawn,As-Drawn,West,kWh,323.070601729,393
-heating_demand,heating_demand.west,West,improved_envelope,Improved Envelope,West,kWh,323.070601729,393
-heating_demand,heating_demand.west,West,improved_mech,Improved Mech.,West,kWh,323.070601729,393
-heating_demand,heating_demand.west,West,phius_2024,Phius 2024,West,kWh,323.070601729,393
+heating_demand,heating_demand.east,East,code_minimum,Code Minimum,East,kWh,155.267940023,391
+heating_demand,heating_demand.east,East,moderate_envelope,Moderate Envelope,East,kWh,155.267940023,391
+heating_demand,heating_demand.east,East,as_drawn,As-Drawn,East,kWh,129.567558893,391
+heating_demand,heating_demand.east,East,improved_envelope,Improved Envelope,East,kWh,129.567558893,391
+heating_demand,heating_demand.east,East,improved_mech,Improved Mech.,East,kWh,129.567558893,391
+heating_demand,heating_demand.east,East,phius_2024,Phius 2024,East,kWh,129.567558893,391
+heating_demand,heating_demand.south,South,code_minimum,Code Minimum,South,kWh,850.121778414,392
+heating_demand,heating_demand.south,South,moderate_envelope,Moderate Envelope,South,kWh,850.121778414,392
+heating_demand,heating_demand.south,South,as_drawn,As-Drawn,South,kWh,750.458381337,392
+heating_demand,heating_demand.south,South,improved_envelope,Improved Envelope,South,kWh,750.458381337,392
+heating_demand,heating_demand.south,South,improved_mech,Improved Mech.,South,kWh,750.458381337,392
+heating_demand,heating_demand.south,South,phius_2024,Phius 2024,South,kWh,750.458381337,392
+heating_demand,heating_demand.west,West,code_minimum,Code Minimum,West,kWh,379.89896256,393
+heating_demand,heating_demand.west,West,moderate_envelope,Moderate Envelope,West,kWh,379.89896256,393
+heating_demand,heating_demand.west,West,as_drawn,As-Drawn,West,kWh,301.510750569,393
+heating_demand,heating_demand.west,West,improved_envelope,Improved Envelope,West,kWh,301.510750569,393
+heating_demand,heating_demand.west,West,improved_mech,Improved Mech.,West,kWh,301.510750569,393
+heating_demand,heating_demand.west,West,phius_2024,Phius 2024,West,kWh,301.510750569,393
 heating_demand,heating_demand.horizontal,Horizontal,code_minimum,Code Minimum,Horizontal,kWh,0,394
+heating_demand,heating_demand.horizontal,Horizontal,moderate_envelope,Moderate Envelope,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,as_drawn,As-Drawn,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,improved_envelope,Improved Envelope,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,improved_mech,Improved Mech.,Horizontal,kWh,0,394
 heating_demand,heating_demand.horizontal,Horizontal,phius_2024,Phius 2024,Horizontal,kWh,0,394
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,code_minimum,Code Minimum,Sum opaque areas,kWh,770.147156791,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,as_drawn,As-Drawn,Sum opaque areas,kWh,640.002413487,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_envelope,Improved Envelope,Sum opaque areas,kWh,567.363979583,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_mech,Improved Mech.,Sum opaque areas,kWh,567.363979583,395
-heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phius_2024,Phius 2024,Sum opaque areas,kWh,505.841687273,395
-heating_demand,heating_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,5924.24282349,396
-heating_demand,heating_demand.internal_gains,Internal Gains,as_drawn,As-Drawn,Internal Gains,kWh,5168.47522049,396
-heating_demand,heating_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,5168.47522049,396
-heating_demand,heating_demand.internal_gains,Internal Gains,improved_mech,Improved Mech.,Internal Gains,kWh,5168.47522049,396
-heating_demand,heating_demand.internal_gains,Internal Gains,phius_2024,Phius 2024,Internal Gains,kWh,5168.47522049,396
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh,2629.71852389,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,as_drawn,As-Drawn,Cooling Demand,kWh,2902.84515704,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_envelope,Improved Envelope,Cooling Demand,kWh,2899.66212566,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_mech,Improved Mech.,Cooling Demand,kWh,2903.86253553,399
-cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phius_2024,Phius 2024,Cooling Demand,kWh,2948.83866339,399
-cooling_demand,cooling_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,-128.331808318,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),as_drawn,As-Drawn,Walls (AG),kWh,-52.5874053753,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,-52.8173929774,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_mech,Improved Mech.,Walls (AG),kWh,-52.8173929774,400
-cooling_demand,cooling_demand.walls_ag,Walls (AG),phius_2024,Phius 2024,Walls (AG),kWh,-53.0795143023,400
-cooling_demand,cooling_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,710.547409487,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),as_drawn,As-Drawn,Walls (BG),kWh,775.601173586,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,792.08516703,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_mech,Improved Mech.,Walls (BG),kWh,792.922680762,401
-cooling_demand,cooling_demand.walls_bg,Walls (BG),phius_2024,Phius 2024,Walls (BG),kWh,807.520710994,401
-cooling_demand,cooling_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,878.217395462,402
-cooling_demand,cooling_demand.roofs,Roofs,as_drawn,As-Drawn,Roofs,kWh,677.995382213,402
-cooling_demand,cooling_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,680.960550984,402
-cooling_demand,cooling_demand.roofs,Roofs,improved_mech,Improved Mech.,Roofs,kWh,680.960550984,402
-cooling_demand,cooling_demand.roofs,Roofs,phius_2024,Phius 2024,Roofs,kWh,684.340011268,402
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,1840.93467266,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,as_drawn,As-Drawn,Floor Slabs,kWh,1070.57783712,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,1093.33102348,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_mech,Improved Mech.,Floor Slabs,kWh,1094.48706046,403
-cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phius_2024,Phius 2024,Floor Slabs,kWh,1114.63701403,403
-cooling_demand,cooling_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,3950.76189759,407
-cooling_demand,cooling_demand.windows,Windows,as_drawn,As-Drawn,Windows,kWh,2350.49901397,407
-cooling_demand,cooling_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,2046.00826625,407
-cooling_demand,cooling_demand.windows,Windows,improved_mech,Improved Mech.,Windows,kWh,2046.00826625,407
-cooling_demand,cooling_demand.windows,Windows,phius_2024,Phius 2024,Windows,kWh,1787.27941931,407
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,code_minimum,Code Minimum,Sum opaque areas,kWh,583.97200795,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,moderate_envelope,Moderate Envelope,Sum opaque areas,kWh,598.515179386,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,as_drawn,As-Drawn,Sum opaque areas,kWh,516.280920366,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_envelope,Improved Envelope,Sum opaque areas,kWh,460.781868758,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,improved_mech,Improved Mech.,Sum opaque areas,kWh,460.781868758,395
+heating_demand,heating_demand.sum_opaque_areas,Sum opaque areas,phius_2024,Phius 2024,Sum opaque areas,kWh,413.61181237,395
+heating_demand,heating_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,5715.27252,396
+heating_demand,heating_demand.internal_gains,Internal Gains,moderate_envelope,Moderate Envelope,Internal Gains,kWh,5715.27252,396
+heating_demand,heating_demand.internal_gains,Internal Gains,as_drawn,As-Drawn,Internal Gains,kWh,4986.16368,396
+heating_demand,heating_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,4986.16368,396
+heating_demand,heating_demand.internal_gains,Internal Gains,improved_mech,Improved Mech.,Internal Gains,kWh,4986.16368,396
+heating_demand,heating_demand.internal_gains,Internal Gains,phius_2024,Phius 2024,Internal Gains,kWh,4986.16368,396
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh,2218.40238501,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,moderate_envelope,Moderate Envelope,Cooling Demand,kWh,2343.59500754,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,as_drawn,As-Drawn,Cooling Demand,kWh,2462.09356992,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_envelope,Improved Envelope,Cooling Demand,kWh,2453.9024342,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,improved_mech,Improved Mech.,Cooling Demand,kWh,2457.53068725,399
+cooling_demand,cooling_demand.cooling_demand_2,Cooling Demand,phius_2024,Phius 2024,Cooling Demand,kWh,2494.81224182,399
+cooling_demand,cooling_demand.walls_ag,Walls (AG),code_minimum,Code Minimum,Walls (AG),kWh,-175.183480395,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),moderate_envelope,Moderate Envelope,Walls (AG),kWh,-74.3473359988,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),as_drawn,As-Drawn,Walls (AG),kWh,-57.5389643333,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_envelope,Improved Envelope,Walls (AG),kWh,-57.954005156,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),improved_mech,Improved Mech.,Walls (AG),kWh,-57.954005156,400
+cooling_demand,cooling_demand.walls_ag,Walls (AG),phius_2024,Phius 2024,Walls (AG),kWh,-58.431680223,400
+cooling_demand,cooling_demand.walls_bg,Walls (BG),code_minimum,Code Minimum,Walls (BG),kWh,656.689679484,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),moderate_envelope,Moderate Envelope,Walls (BG),kWh,566.249735961,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),as_drawn,As-Drawn,Walls (BG),kWh,586.339008391,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_envelope,Improved Envelope,Walls (BG),kWh,603.650260457,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),improved_mech,Improved Mech.,Walls (BG),kWh,604.283678681,401
+cooling_demand,cooling_demand.walls_bg,Walls (BG),phius_2024,Phius 2024,Walls (BG),kWh,614.43497547,401
+cooling_demand,cooling_demand.roofs,Roofs,code_minimum,Code Minimum,Roofs,kWh,523.894600768,402
+cooling_demand,cooling_demand.roofs,Roofs,moderate_envelope,Moderate Envelope,Roofs,kWh,301.608389474,402
+cooling_demand,cooling_demand.roofs,Roofs,as_drawn,As-Drawn,Roofs,kWh,330.293999747,402
+cooling_demand,cooling_demand.roofs,Roofs,improved_envelope,Improved Envelope,Roofs,kWh,332.676480818,402
+cooling_demand,cooling_demand.roofs,Roofs,improved_mech,Improved Mech.,Roofs,kWh,332.676480818,402
+cooling_demand,cooling_demand.roofs,Roofs,phius_2024,Phius 2024,Roofs,kWh,335.418504597,402
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,code_minimum,Code Minimum,Floor Slabs,kWh,1485.96579451,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,moderate_envelope,Moderate Envelope,Floor Slabs,kWh,875.034081264,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,as_drawn,As-Drawn,Floor Slabs,kWh,707.107933692,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_envelope,Improved Envelope,Floor Slabs,kWh,727.984804416,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,improved_mech,Improved Mech.,Floor Slabs,kWh,728.748688525,403
+cooling_demand,cooling_demand.floor_slabs,Floor Slabs,phius_2024,Phius 2024,Floor Slabs,kWh,740.990859682,403
+cooling_demand,cooling_demand.windows,Windows,code_minimum,Code Minimum,Windows,kWh,2120.07327794,407
+cooling_demand,cooling_demand.windows,Windows,moderate_envelope,Moderate Envelope,Windows,kWh,1149.24292712,407
+cooling_demand,cooling_demand.windows,Windows,as_drawn,As-Drawn,Windows,kWh,1033.11421566,407
+cooling_demand,cooling_demand.windows,Windows,improved_envelope,Improved Envelope,Windows,kWh,901.824117014,407
+cooling_demand,cooling_demand.windows,Windows,improved_mech,Improved Mech.,Windows,kWh,901.824117014,407
+cooling_demand,cooling_demand.windows,Windows,phius_2024,Phius 2024,Windows,kWh,790.354364869,407
 cooling_demand,cooling_demand.exterior_door,Exterior door,code_minimum,Code Minimum,Exterior door,kWh,,408
+cooling_demand,cooling_demand.exterior_door,Exterior door,moderate_envelope,Moderate Envelope,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,as_drawn,As-Drawn,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,improved_envelope,Improved Envelope,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,improved_mech,Improved Mech.,Exterior door,kWh,,408
 cooling_demand,cooling_demand.exterior_door,Exterior door,phius_2024,Phius 2024,Exterior door,kWh,,408
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,1310.2047325,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,as_drawn,As-Drawn,Thermal Bridges,kWh,560.160800274,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,343.596701186,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_mech,Improved Mech.,Thermal Bridges,kWh,343.596701186,409
-cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phius_2024,Phius 2024,Thermal Bridges,kWh,159.206811513,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,code_minimum,Code Minimum,Thermal Bridges,kWh,716.853836685,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,moderate_envelope,Moderate Envelope,Thermal Bridges,kWh,274.33061207,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,as_drawn,As-Drawn,Thermal Bridges,kWh,253.235007125,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_envelope,Improved Envelope,Thermal Bridges,kWh,156.166879646,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,improved_mech,Improved Mech.,Thermal Bridges,kWh,156.166879646,409
+cooling_demand,cooling_demand.thermal_bridges,Thermal Bridges,phius_2024,Phius 2024,Thermal Bridges,kWh,72.7818845442,409
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),code_minimum,Code Minimum,TB (Perimeter),kWh,,410
+cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),moderate_envelope,Moderate Envelope,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),as_drawn,As-Drawn,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),improved_envelope,Improved Envelope,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),improved_mech,Improved Mech.,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_perimeter,TB (Perimeter),phius_2024,Phius 2024,TB (Perimeter),kWh,,410
 cooling_demand,cooling_demand.tb_bg,TB (BG),code_minimum,Code Minimum,TB (BG),kWh,,411
+cooling_demand,cooling_demand.tb_bg,TB (BG),moderate_envelope,Moderate Envelope,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),as_drawn,As-Drawn,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),improved_envelope,Improved Envelope,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),improved_mech,Improved Mech.,TB (BG),kWh,,411
 cooling_demand,cooling_demand.tb_bg,TB (BG),phius_2024,Phius 2024,TB (BG),kWh,,411
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_minimum,Code Minimum,Ventilation (Basic),kWh,2478.42321737,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),as_drawn,As-Drawn,Ventilation (Basic),kWh,1612.09279917,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_envelope,Improved Envelope,Ventilation (Basic),kWh,1445.36827469,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_mech,Improved Mech.,Ventilation (Basic),kWh,1414.04010293,412
-cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phius_2024,Phius 2024,Ventilation (Basic),kWh,1169.99769935,412
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_minimum,Code Minimum,Ventilation (Addn'l),kWh,282.799611751,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),as_drawn,As-Drawn,Ventilation (Addn'l),kWh,246.151421766,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_envelope,Improved Envelope,Ventilation (Addn'l),kWh,273.840183566,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_mech,Improved Mech.,Ventilation (Addn'l),kWh,276.04406028,413
-cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),phius_2024,Phius 2024,Ventilation (Addn'l),kWh,308.823672018,413
-cooling_demand,cooling_demand.north,North,code_minimum,Code Minimum,North,kWh,750.153181016,414
-cooling_demand,cooling_demand.north,North,as_drawn,As-Drawn,North,kWh,688.236345368,414
-cooling_demand,cooling_demand.north,North,improved_envelope,Improved Envelope,North,kWh,688.236345368,414
-cooling_demand,cooling_demand.north,North,improved_mech,Improved Mech.,North,kWh,688.236345368,414
-cooling_demand,cooling_demand.north,North,phius_2024,Phius 2024,North,kWh,688.236345368,414
-cooling_demand,cooling_demand.east,East,code_minimum,Code Minimum,East,kWh,379.464502002,415
-cooling_demand,cooling_demand.east,East,as_drawn,As-Drawn,East,kWh,334.949168572,415
-cooling_demand,cooling_demand.east,East,improved_envelope,Improved Envelope,East,kWh,334.949168572,415
-cooling_demand,cooling_demand.east,East,improved_mech,Improved Mech.,East,kWh,334.949168572,415
-cooling_demand,cooling_demand.east,East,phius_2024,Phius 2024,East,kWh,334.949168572,415
-cooling_demand,cooling_demand.south,South,code_minimum,Code Minimum,South,kWh,931.52459851,416
-cooling_demand,cooling_demand.south,South,as_drawn,As-Drawn,South,kWh,777.010036269,416
-cooling_demand,cooling_demand.south,South,improved_envelope,Improved Envelope,South,kWh,777.010036269,416
-cooling_demand,cooling_demand.south,South,improved_mech,Improved Mech.,South,kWh,777.010036269,416
-cooling_demand,cooling_demand.south,South,phius_2024,Phius 2024,South,kWh,777.010036269,416
-cooling_demand,cooling_demand.west,West,code_minimum,Code Minimum,West,kWh,569.316132341,417
-cooling_demand,cooling_demand.west,West,as_drawn,As-Drawn,West,kWh,517.627371531,417
-cooling_demand,cooling_demand.west,West,improved_envelope,Improved Envelope,West,kWh,517.627371531,417
-cooling_demand,cooling_demand.west,West,improved_mech,Improved Mech.,West,kWh,517.627371531,417
-cooling_demand,cooling_demand.west,West,phius_2024,Phius 2024,West,kWh,517.627371531,417
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),code_minimum,Code Minimum,Ventilation (Basic),kWh,1773.57955777,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),moderate_envelope,Moderate Envelope,Ventilation (Basic),kWh,992.240121789,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),as_drawn,As-Drawn,Ventilation (Basic),kWh,1022.01338515,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_envelope,Improved Envelope,Ventilation (Basic),kWh,904.908513854,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),improved_mech,Improved Mech.,Ventilation (Basic),kWh,884.219174347,412
+cooling_demand,cooling_demand.ventilation_basic,Ventilation (Basic),phius_2024,Phius 2024,Ventilation (Basic),kWh,720.955970848,412
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),code_minimum,Code Minimum,Ventilation (Addn'l),kWh,202.070417871,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),moderate_envelope,Moderate Envelope,Ventilation (Addn'l),kWh,149.06373248,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),as_drawn,As-Drawn,Ventilation (Addn'l),kWh,153.536554801,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_envelope,Improved Envelope,Ventilation (Addn'l),kWh,168.043783829,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),improved_mech,Improved Mech.,Ventilation (Addn'l),kWh,169.283337052,413
+cooling_demand,cooling_demand.ventilation_addn_l,Ventilation (Addn'l),phius_2024,Phius 2024,Ventilation (Addn'l),kWh,185.505348897,413
+cooling_demand,cooling_demand.north,North,code_minimum,Code Minimum,North,kWh,688.236345368,414
+cooling_demand,cooling_demand.north,North,moderate_envelope,Moderate Envelope,North,kWh,590.149951718,414
+cooling_demand,cooling_demand.north,North,as_drawn,As-Drawn,North,kWh,590.149951718,414
+cooling_demand,cooling_demand.north,North,improved_envelope,Improved Envelope,North,kWh,590.149951718,414
+cooling_demand,cooling_demand.north,North,improved_mech,Improved Mech.,North,kWh,590.149951718,414
+cooling_demand,cooling_demand.north,North,phius_2024,Phius 2024,North,kWh,590.149951718,414
+cooling_demand,cooling_demand.east,East,code_minimum,Code Minimum,East,kWh,152.977788348,415
+cooling_demand,cooling_demand.east,East,moderate_envelope,Moderate Envelope,East,kWh,128.671802492,415
+cooling_demand,cooling_demand.east,East,as_drawn,As-Drawn,East,kWh,128.671802492,415
+cooling_demand,cooling_demand.east,East,improved_envelope,Improved Envelope,East,kWh,128.671802492,415
+cooling_demand,cooling_demand.east,East,improved_mech,Improved Mech.,East,kWh,128.671802492,415
+cooling_demand,cooling_demand.east,East,phius_2024,Phius 2024,East,kWh,128.671802492,415
+cooling_demand,cooling_demand.south,South,code_minimum,Code Minimum,South,kWh,289.618329929,416
+cooling_demand,cooling_demand.south,South,moderate_envelope,Moderate Envelope,South,kWh,240.487600348,416
+cooling_demand,cooling_demand.south,South,as_drawn,As-Drawn,South,kWh,240.487600348,416
+cooling_demand,cooling_demand.south,South,improved_envelope,Improved Envelope,South,kWh,240.487600348,416
+cooling_demand,cooling_demand.south,South,improved_mech,Improved Mech.,South,kWh,240.487600348,416
+cooling_demand,cooling_demand.south,South,phius_2024,Phius 2024,South,kWh,240.487600348,416
+cooling_demand,cooling_demand.west,West,code_minimum,Code Minimum,West,kWh,493.417843809,417
+cooling_demand,cooling_demand.west,West,moderate_envelope,Moderate Envelope,West,kWh,422.535560365,417
+cooling_demand,cooling_demand.west,West,as_drawn,As-Drawn,West,kWh,422.535560365,417
+cooling_demand,cooling_demand.west,West,improved_envelope,Improved Envelope,West,kWh,422.535560365,417
+cooling_demand,cooling_demand.west,West,improved_mech,Improved Mech.,West,kWh,422.535560365,417
+cooling_demand,cooling_demand.west,West,phius_2024,Phius 2024,West,kWh,422.535560365,417
 cooling_demand,cooling_demand.horizontal,Horizontal,code_minimum,Code Minimum,Horizontal,kWh,0,418
+cooling_demand,cooling_demand.horizontal,Horizontal,moderate_envelope,Moderate Envelope,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,as_drawn,As-Drawn,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,improved_envelope,Improved Envelope,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,improved_mech,Improved Mech.,Horizontal,kWh,0,418
 cooling_demand,cooling_demand.horizontal,Horizontal,phius_2024,Phius 2024,Horizontal,kWh,0,418
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,code_minimum,Code Minimum,Sum opaque areas,kWh,926.691861789,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,as_drawn,As-Drawn,Sum opaque areas,kWh,887.800708033,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_envelope,Improved Envelope,Sum opaque areas,kWh,788.244593248,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_mech,Improved Mech.,Sum opaque areas,kWh,788.244593248,419
-cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phius_2024,Phius 2024,Sum opaque areas,kWh,703.981821016,419
-cooling_demand,cooling_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,5217.23442068,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,as_drawn,As-Drawn,Internal Gains,kWh,4461.46681769,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,4461.46681769,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_mech,Improved Mech.,Internal Gains,kWh,4461.46681769,420
-cooling_demand,cooling_demand.internal_gains,Internal Gains,phius_2024,Phius 2024,Internal Gains,kWh,4461.46681769,420
-site_energy,site_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,14725.6332713,423
-site_energy,site_energy.heating,Heating,as_drawn,As-Drawn,Heating,kWh,10754.3907731,423
-site_energy,site_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,8239.24337929,423
-site_energy,site_energy.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,8035.94508309,423
-site_energy,site_energy.heating,Heating,phius_2024,Phius 2024,Heating,kWh,5652.65798046,423
-site_energy,site_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,5592.99301284,424
-site_energy,site_energy.cooling,Cooling,as_drawn,As-Drawn,Cooling,kWh,5616.62689066,424
-site_energy,site_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,4917.73747366,424
-site_energy,site_energy.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,4456.92393545,424
-site_energy,site_energy.cooling,Cooling,phius_2024,Phius 2024,Cooling,kWh,3503.54849697,424
-site_energy,site_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,3250.92693531,425
-site_energy,site_energy.dhw,DHW,as_drawn,As-Drawn,DHW,kWh,3239.05506694,425
-site_energy,site_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,3239.35921166,425
-site_energy,site_energy.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,3236.73010503,425
-site_energy,site_energy.dhw,DHW,phius_2024,Phius 2024,DHW,kWh,3241.23017204,425
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,code_minimum,Code Minimum,Sum opaque areas,kWh,631.620287585,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,moderate_envelope,Moderate Envelope,Sum opaque areas,kWh,563.657204538,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,as_drawn,As-Drawn,Sum opaque areas,kWh,615.07057256,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_envelope,Improved Envelope,Sum opaque areas,kWh,549.768446811,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,improved_mech,Improved Mech.,Sum opaque areas,kWh,549.768446811,419
+cooling_demand,cooling_demand.sum_opaque_areas,Sum opaque areas,phius_2024,Phius 2024,Sum opaque areas,kWh,494.282567455,419
+cooling_demand,cooling_demand.internal_gains,Internal Gains,code_minimum,Code Minimum,Internal Gains,kWh,4304.09412,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,moderate_envelope,Moderate Envelope,Internal Gains,kWh,3598.50492,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,as_drawn,As-Drawn,Internal Gains,kWh,3598.50492,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_envelope,Improved Envelope,Internal Gains,kWh,3598.50492,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,improved_mech,Improved Mech.,Internal Gains,kWh,3598.50492,420
+cooling_demand,cooling_demand.internal_gains,Internal Gains,phius_2024,Phius 2024,Internal Gains,kWh,3598.50492,420
+site_energy,site_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,13426.3666463,423
+site_energy,site_energy.heating,Heating,moderate_envelope,Moderate Envelope,Heating,kWh,10501.9621945,423
+site_energy,site_energy.heating,Heating,as_drawn,As-Drawn,Heating,kWh,9827.67152702,423
+site_energy,site_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,7475.37520639,423
+site_energy,site_energy.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,7344.97539456,423
+site_energy,site_energy.heating,Heating,phius_2024,Phius 2024,Heating,kWh,5161.84624557,423
+site_energy,site_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,5483.23519119,424
+site_energy,site_energy.cooling,Cooling,moderate_envelope,Moderate Envelope,Cooling,kWh,5588.38350325,424
+site_energy,site_energy.cooling,Cooling,as_drawn,As-Drawn,Cooling,kWh,5524.77706602,424
+site_energy,site_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,4846.75877632,424
+site_energy,site_energy.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,4377.18752677,424
+site_energy,site_energy.cooling,Cooling,phius_2024,Phius 2024,Cooling,kWh,3445.284201,424
+site_energy,site_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,3243.68884846,425
+site_energy,site_energy.dhw,DHW,moderate_envelope,Moderate Envelope,DHW,kWh,3215.39368043,425
+site_energy,site_energy.dhw,DHW,as_drawn,As-Drawn,DHW,kWh,3232.26169437,425
+site_energy,site_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,3232.82945093,425
+site_energy,site_energy.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,3229.85514863,425
+site_energy,site_energy.dhw,DHW,phius_2024,Phius 2024,DHW,kWh,3233.68878892,425
 site_energy,site_energy.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,204.074646226,426
+site_energy,site_energy.dishwashing,Dishwashing,moderate_envelope,Moderate Envelope,Dishwashing,kWh,204.074646226,426
 site_energy,site_energy.dishwashing,Dishwashing,as_drawn,As-Drawn,Dishwashing,kWh,204.074646226,426
 site_energy,site_energy.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,204.074646226,426
 site_energy,site_energy.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,kWh,204.074646226,426
 site_energy,site_energy.dishwashing,Dishwashing,phius_2024,Phius 2024,Dishwashing,kWh,204.074646226,426
 site_energy,site_energy.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,kWh,60.5484104795,427
+site_energy,site_energy.clothes_washing,Clothes Washing,moderate_envelope,Moderate Envelope,Clothes Washing,kWh,60.5484104795,427
 site_energy,site_energy.clothes_washing,Clothes Washing,as_drawn,As-Drawn,Clothes Washing,kWh,60.5484104795,427
 site_energy,site_energy.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,kWh,60.5484104795,427
 site_energy,site_energy.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,kWh,60.5484104795,427
 site_energy,site_energy.clothes_washing,Clothes Washing,phius_2024,Phius 2024,Clothes Washing,kWh,60.5484104795,427
 site_energy,site_energy.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,kWh,288.4196475,428
+site_energy,site_energy.clothes_drying,Clothes Drying,moderate_envelope,Moderate Envelope,Clothes Drying,kWh,288.4196475,428
 site_energy,site_energy.clothes_drying,Clothes Drying,as_drawn,As-Drawn,Clothes Drying,kWh,288.4196475,428
 site_energy,site_energy.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,kWh,288.4196475,428
 site_energy,site_energy.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,kWh,288.4196475,428
 site_energy,site_energy.clothes_drying,Clothes Drying,phius_2024,Phius 2024,Clothes Drying,kWh,288.4196475,428
 site_energy,site_energy.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,kWh,445.3,429
+site_energy,site_energy.refrigerator,Refrigerator,moderate_envelope,Moderate Envelope,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,as_drawn,As-Drawn,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,kWh,445.3,429
 site_energy,site_energy.refrigerator,Refrigerator,phius_2024,Phius 2024,Refrigerator,kWh,445.3,429
 site_energy,site_energy.cooking,Cooking,code_minimum,Code Minimum,Cooking,kWh,375,430
+site_energy,site_energy.cooking,Cooking,moderate_envelope,Moderate Envelope,Cooking,kWh,375,430
 site_energy,site_energy.cooking,Cooking,as_drawn,As-Drawn,Cooking,kWh,375,430
 site_energy,site_energy.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,kWh,375,430
 site_energy,site_energy.cooking,Cooking,improved_mech,Improved Mech.,Cooking,kWh,375,430
 site_energy,site_energy.cooking,Cooking,phius_2024,Phius 2024,Cooking,kWh,375,430
 site_energy,site_energy.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,kWh,0,431
+site_energy,site_energy.phi_lighting,PHI Lighting,moderate_envelope,Moderate Envelope,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,as_drawn,As-Drawn,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_lighting,PHI Lighting,phius_2024,Phius 2024,PHI Lighting,kWh,0,431
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,kWh,0,432
+site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,moderate_envelope,Moderate Envelope,PHI Consumer Elec.,kWh,0,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,as_drawn,As-Drawn,PHI Consumer Elec.,kWh,0,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,kWh,0,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,kWh,0,432
 site_energy,site_energy.phi_consumer_elec,PHI Consumer Elec.,phius_2024,Phius 2024,PHI Consumer Elec.,kWh,0,432
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,kWh,0,433
+site_energy,site_energy.phi_small_appliances,PHI Small Appliances,moderate_envelope,Moderate Envelope,PHI Small Appliances,kWh,0,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,as_drawn,As-Drawn,PHI Small Appliances,kWh,0,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,kWh,0,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,kWh,0,433
 site_energy,site_energy.phi_small_appliances,PHI Small Appliances,phius_2024,Phius 2024,PHI Small Appliances,kWh,0,433
-site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,1469.71890327,434
-site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,kWh,1469.71890327,434
-site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,1469.71890327,434
-site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,1469.71890327,434
-site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,kWh,1469.71890327,434
-site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,69.4866065556,435
-site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,kWh,69.4866065556,435
-site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,69.4866065556,435
-site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,69.4866065556,435
-site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,kWh,69.4866065556,435
-site_energy,site_energy.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,kWh,4043.42495724,436
-site_energy,site_energy.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,kWh,4043.42495724,436
-site_energy,site_energy.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,kWh,4043.42495724,436
-site_energy,site_energy.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,kWh,4043.42495724,436
-site_energy,site_energy.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,kWh,4043.42495724,436
-site_energy,site_energy.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,6133.54911241,437
-site_energy,site_energy.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,kWh,6133.54911241,437
-site_energy,site_energy.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,5902.66008252,437
-site_energy,site_energy.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,5641.35823921,437
-site_energy,site_energy.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,kWh,4260.4287784,437
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,1420.81325665,434
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,moderate_envelope,Moderate Envelope,Phius Int. Lighting,kWh,1420.81325665,434
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,kWh,1420.81325665,434
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,1420.81325665,434
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,1420.81325665,434
+site_energy,site_energy.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,kWh,1420.81325665,434
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,67.65066,435
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,moderate_envelope,Moderate Envelope,Phius Ext. Lighting,kWh,67.65066,435
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,kWh,67.65066,435
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,67.65066,435
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,67.65066,435
+site_energy,site_energy.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,kWh,67.65066,435
+site_energy,site_energy.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,kWh,3909.768048,436
+site_energy,site_energy.phius_mel,Phius MEL,moderate_envelope,Moderate Envelope,Misc. electric loads: PHIUS+ MELS,kWh,3909.768048,436
+site_energy,site_energy.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,kWh,3909.768048,436
+site_energy,site_energy.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,kWh,3909.768048,436
+site_energy,site_energy.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,kWh,3909.768048,436
+site_energy,site_energy.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,kWh,3909.768048,436
+site_energy,site_energy.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,4045.91734246,437
+site_energy,site_energy.aux_elec,Aux Elec,moderate_envelope,Moderate Envelope,Aux Elec,kWh,4045.91734246,437
+site_energy,site_energy.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,kWh,4045.91734246,437
+site_energy,site_energy.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,3823.98740452,437
+site_energy,site_energy.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,3563.3644597,437
+site_energy,site_energy.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,kWh,2232.42040892,437
 site_energy,site_energy.solar_pv,Solar PV,code_minimum,Code Minimum,Solar PV,kWh,0,438
+site_energy,site_energy.solar_pv,Solar PV,moderate_envelope,Moderate Envelope,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,as_drawn,As-Drawn,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,improved_envelope,Improved Envelope,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,improved_mech,Improved Mech.,Solar PV,kWh,0,438
 site_energy,site_energy.solar_pv,Solar PV,phius_2024,Phius 2024,Solar PV,kWh,0,438
-primary_energy,primary_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,38286.6465055,441
-primary_energy,primary_energy.heating,Heating,as_drawn,As-Drawn,Heating,kWh,27961.41601,441
-primary_energy,primary_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,21422.0327861,441
-primary_energy,primary_energy.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,20893.457216,441
-primary_energy,primary_energy.heating,Heating,phius_2024,Phius 2024,Heating,kWh,14696.9107492,441
-primary_energy,primary_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,14541.7818334,442
-primary_energy,primary_energy.cooling,Cooling,as_drawn,As-Drawn,Cooling,kWh,14603.2299157,442
-primary_energy,primary_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,12786.1174315,442
-primary_energy,primary_energy.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,11588.0022322,442
-primary_energy,primary_energy.cooling,Cooling,phius_2024,Phius 2024,Cooling,kWh,9109.22609212,442
-primary_energy,primary_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,8452.41003181,443
-primary_energy,primary_energy.dhw,DHW,as_drawn,As-Drawn,DHW,kWh,8421.54317403,443
-primary_energy,primary_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,8422.33395032,443
-primary_energy,primary_energy.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,8415.49827307,443
-primary_energy,primary_energy.dhw,DHW,phius_2024,Phius 2024,DHW,kWh,8427.19844731,443
+primary_energy,primary_energy.heating,Heating,code_minimum,Code Minimum,Heating,kWh,34908.5532804,441
+primary_energy,primary_energy.heating,Heating,moderate_envelope,Moderate Envelope,Heating,kWh,27305.1017058,441
+primary_energy,primary_energy.heating,Heating,as_drawn,As-Drawn,Heating,kWh,25551.9459703,441
+primary_energy,primary_energy.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,19435.9755366,441
+primary_energy,primary_energy.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,19096.9360259,441
+primary_energy,primary_energy.heating,Heating,phius_2024,Phius 2024,Heating,kWh,13420.8002385,441
+primary_energy,primary_energy.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,14256.4114971,442
+primary_energy,primary_energy.cooling,Cooling,moderate_envelope,Moderate Envelope,Cooling,kWh,14529.7971084,442
+primary_energy,primary_energy.cooling,Cooling,as_drawn,As-Drawn,Cooling,kWh,14364.4203717,442
+primary_energy,primary_energy.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,12601.5728184,442
+primary_energy,primary_energy.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,11380.6875696,442
+primary_energy,primary_energy.cooling,Cooling,phius_2024,Phius 2024,Cooling,kWh,8957.73892259,442
+primary_energy,primary_energy.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,8433.59100599,443
+primary_energy,primary_energy.dhw,DHW,moderate_envelope,Moderate Envelope,DHW,kWh,8360.02356913,443
+primary_energy,primary_energy.dhw,DHW,as_drawn,As-Drawn,DHW,kWh,8403.88040536,443
+primary_energy,primary_energy.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,8405.35657241,443
+primary_energy,primary_energy.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,8397.62338644,443
+primary_energy,primary_energy.dhw,DHW,phius_2024,Phius 2024,DHW,kWh,8407.5908512,443
 primary_energy,primary_energy.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,530.594080189,444
+primary_energy,primary_energy.dishwashing,Dishwashing,moderate_envelope,Moderate Envelope,Dishwashing,kWh,530.594080189,444
 primary_energy,primary_energy.dishwashing,Dishwashing,as_drawn,As-Drawn,Dishwashing,kWh,530.594080189,444
 primary_energy,primary_energy.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,530.594080189,444
 primary_energy,primary_energy.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,kWh,530.594080189,444
 primary_energy,primary_energy.dishwashing,Dishwashing,phius_2024,Phius 2024,Dishwashing,kWh,530.594080189,444
 primary_energy,primary_energy.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,kWh,157.425867247,445
+primary_energy,primary_energy.clothes_washing,Clothes Washing,moderate_envelope,Moderate Envelope,Clothes Washing,kWh,157.425867247,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,as_drawn,As-Drawn,Clothes Washing,kWh,157.425867247,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,kWh,157.425867247,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,kWh,157.425867247,445
 primary_energy,primary_energy.clothes_washing,Clothes Washing,phius_2024,Phius 2024,Clothes Washing,kWh,157.425867247,445
 primary_energy,primary_energy.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,kWh,749.8910835,446
+primary_energy,primary_energy.clothes_drying,Clothes Drying,moderate_envelope,Moderate Envelope,Clothes Drying,kWh,749.8910835,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,as_drawn,As-Drawn,Clothes Drying,kWh,749.8910835,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,kWh,749.8910835,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,kWh,749.8910835,446
 primary_energy,primary_energy.clothes_drying,Clothes Drying,phius_2024,Phius 2024,Clothes Drying,kWh,749.8910835,446
 primary_energy,primary_energy.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,kWh,1157.78,447
+primary_energy,primary_energy.refrigerator,Refrigerator,moderate_envelope,Moderate Envelope,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,as_drawn,As-Drawn,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.refrigerator,Refrigerator,phius_2024,Phius 2024,Refrigerator,kWh,1157.78,447
 primary_energy,primary_energy.cooking,Cooking,code_minimum,Code Minimum,Cooking,kWh,975,448
+primary_energy,primary_energy.cooking,Cooking,moderate_envelope,Moderate Envelope,Cooking,kWh,975,448
 primary_energy,primary_energy.cooking,Cooking,as_drawn,As-Drawn,Cooking,kWh,975,448
 primary_energy,primary_energy.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,kWh,975,448
 primary_energy,primary_energy.cooking,Cooking,improved_mech,Improved Mech.,Cooking,kWh,975,448
 primary_energy,primary_energy.cooking,Cooking,phius_2024,Phius 2024,Cooking,kWh,975,448
 primary_energy,primary_energy.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,kWh,0,449
+primary_energy,primary_energy.phi_lighting,PHI Lighting,moderate_envelope,Moderate Envelope,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,as_drawn,As-Drawn,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_lighting,PHI Lighting,phius_2024,Phius 2024,PHI Lighting,kWh,0,449
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,kWh,0,450
+primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,moderate_envelope,Moderate Envelope,PHI Consumer Elec.,kWh,0,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,as_drawn,As-Drawn,PHI Consumer Elec.,kWh,0,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,kWh,0,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,kWh,0,450
 primary_energy,primary_energy.phi_consumer_elec,PHI Consumer Elec.,phius_2024,Phius 2024,PHI Consumer Elec.,kWh,0,450
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,kWh,0,451
+primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,moderate_envelope,Moderate Envelope,PHI Small Appliances,kWh,0,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,as_drawn,As-Drawn,PHI Small Appliances,kWh,0,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,kWh,0,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,kWh,0,451
 primary_energy,primary_energy.phi_small_appliances,PHI Small Appliances,phius_2024,Phius 2024,PHI Small Appliances,kWh,0,451
-primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,3821.26914851,452
-primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,kWh,3821.26914851,452
-primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,3821.26914851,452
-primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,3821.26914851,452
-primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,kWh,3821.26914851,452
-primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,180.665177044,453
-primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,kWh,180.665177044,453
-primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,180.665177044,453
-primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,180.665177044,453
-primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,kWh,180.665177044,453
-primary_energy,primary_energy.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,kWh,10512.9048888,454
-primary_energy,primary_energy.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,kWh,10512.9048888,454
-primary_energy,primary_energy.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,kWh,10512.9048888,454
-primary_energy,primary_energy.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,kWh,10512.9048888,454
-primary_energy,primary_energy.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,kWh,10512.9048888,454
-primary_energy,primary_energy.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,15947.2276923,455
-primary_energy,primary_energy.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,kWh,15947.2276923,455
-primary_energy,primary_energy.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,15346.9162145,455
-primary_energy,primary_energy.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,14667.531422,455
-primary_energy,primary_energy.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,kWh,11077.1148238,455
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,3694.11446729,452
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,moderate_envelope,Moderate Envelope,Phius Int. Lighting,kWh,3694.11446729,452
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,kWh,3694.11446729,452
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,3694.11446729,452
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,3694.11446729,452
+primary_energy,primary_energy.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,kWh,3694.11446729,452
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,175.891716,453
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,moderate_envelope,Moderate Envelope,Phius Ext. Lighting,kWh,175.891716,453
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,kWh,175.891716,453
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,175.891716,453
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,175.891716,453
+primary_energy,primary_energy.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,kWh,175.891716,453
+primary_energy,primary_energy.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,kWh,10165.3969248,454
+primary_energy,primary_energy.phius_mel,Phius MEL,moderate_envelope,Moderate Envelope,Misc. electric loads: PHIUS+ MELS,kWh,10165.3969248,454
+primary_energy,primary_energy.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,kWh,10165.3969248,454
+primary_energy,primary_energy.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,kWh,10165.3969248,454
+primary_energy,primary_energy.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,kWh,10165.3969248,454
+primary_energy,primary_energy.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,kWh,10165.3969248,454
+primary_energy,primary_energy.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,10519.3850904,455
+primary_energy,primary_energy.aux_elec,Aux Elec,moderate_envelope,Moderate Envelope,Aux Elec,kWh,10519.3850904,455
+primary_energy,primary_energy.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,kWh,10519.3850904,455
+primary_energy,primary_energy.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,9942.36725174,455
+primary_energy,primary_energy.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,9264.74759522,455
+primary_energy,primary_energy.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,kWh,5804.2930632,455
 primary_energy,primary_energy.solar_pv,Solar PV,code_minimum,Code Minimum,Solar PV,kWh,0,456
+primary_energy,primary_energy.solar_pv,Solar PV,moderate_envelope,Moderate Envelope,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,as_drawn,As-Drawn,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,improved_envelope,Improved Envelope,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,improved_mech,Improved Mech.,Solar PV,kWh,0,456
 primary_energy,primary_energy.solar_pv,Solar PV,phius_2024,Phius 2024,Solar PV,kWh,0,456
-certification_results,certification_results.heat_demand,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/m2,51.1603437837,459
-certification_results,certification_results.heat_demand,Heat Demand,as_drawn,As-Drawn,Heat Demand,kWh/m2,35.9992608801,459
-certification_results,certification_results.heat_demand,Heat Demand,improved_envelope,Improved Envelope,Heat Demand,kWh/m2,26.7016745433,459
-certification_results,certification_results.heat_demand,Heat Demand,improved_mech,Improved Mech.,Heat Demand,kWh/m2,26.0759906782,459
-certification_results,certification_results.heat_demand,Heat Demand,phius_2024,Phius 2024,Heat Demand,kWh/m2,17.3564268806,459
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_minimum,Code Minimum,Sensible Cooling Demand,kWh/m2,5.71786454691,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,as_drawn,As-Drawn,Sensible Cooling Demand,kWh/m2,6.31173080229,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_envelope,Improved Envelope,Sensible Cooling Demand,kWh/m2,6.30480985539,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_mech,Improved Mech.,Sensible Cooling Demand,kWh/m2,6.31394291448,460
-certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phius_2024,Phius 2024,Sensible Cooling Demand,kWh/m2,6.41173566477,460
-certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_minimum,Code Minimum,Latent Cooling Demand,kWh/m2,5.85839408866,461
-certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,as_drawn,As-Drawn,Latent Cooling Demand,kWh/m2,5.85839408866,461
-certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_envelope,Improved Envelope,Latent Cooling Demand,kWh/m2,5.16862253453,461
-certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_mech,Improved Mech.,Latent Cooling Demand,kWh/m2,4.63226783378,461
-certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,phius_2024,Phius 2024,Latent Cooling Demand,kWh/m2,3.58492647916,461
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_minimum,Code Minimum,Total Cooling Demand,kWh/m2,11.5762586356,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,as_drawn,As-Drawn,Total Cooling Demand,kWh/m2,12.1701248909,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_envelope,Improved Envelope,Total Cooling Demand,kWh/m2,11.4734323899,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_mech,Improved Mech.,Total Cooling Demand,kWh/m2,10.9462107483,462
-certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phius_2024,Phius 2024,Total Cooling Demand,kWh/m2,9.99666214393,462
-certification_results,certification_results.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,W/m2,39.6338178393,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,as_drawn,As-Drawn,Peak Heat Load,W/m2,32.5760989659,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,W/m2,24.132873984,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_mech,Improved Mech.,Peak Heat Load,W/m2,23.8208625105,463
-certification_results,certification_results.peak_heat_load,Peak Heat Load,phius_2024,Phius 2024,Peak Heat Load,W/m2,15.5687788172,463
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_minimum,Code Minimum,Peak Cooling Load,W/m2,6.51905822961,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,as_drawn,As-Drawn,Peak Cooling Load,W/m2,6.08977521307,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_envelope,Improved Envelope,Peak Cooling Load,W/m2,5.54027370267,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_mech,Improved Mech.,Peak Cooling Load,W/m2,5.50708132586,464
-certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phius_2024,Phius 2024,Peak Cooling Load,W/m2,4.99113655291,464
-certification_results,certification_results.pe_demand,PE Demand,code_minimum,Code Minimum,PE Demand,kWh/m2,207.242801166,465
-certification_results,certification_results.pe_demand,PE Demand,as_drawn,As-Drawn,PE Demand,kWh/m2,184.858880775,465
-certification_results,certification_results.pe_demand,PE Demand,improved_envelope,Improved Envelope,PE Demand,kWh/m2,165.385584206,465
-certification_results,certification_results.pe_demand,PE Demand,improved_mech,Improved Mech.,PE Demand,kWh/m2,160.139129308,465
-certification_results,certification_results.pe_demand,PE Demand,phius_2024,Phius 2024,PE Demand,kWh/m2,133.494857423,465
-certification_results,certification_results.per_demand,PER Demand,code_minimum,Code Minimum,PER Demand,kWh/m2,103.802400419,466
-certification_results,certification_results.per_demand,PER Demand,as_drawn,As-Drawn,PER Demand,kWh/m2,89.8091214545,466
-certification_results,certification_results.per_demand,PER Demand,improved_envelope,Improved Envelope,PER Demand,kWh/m2,78.7538175381,466
-certification_results,certification_results.per_demand,PER Demand,improved_mech,Improved Mech.,PER Demand,kWh/m2,75.9813877976,466
-certification_results,certification_results.per_demand,PER Demand,phius_2024,Phius 2024,PER Demand,kWh/m2,62.4781835236,466
-airtightness,airtightness.nv_system,"nV,system",code_minimum,Code Minimum,nV system,%,0.267710614332,470
-airtightness,airtightness.nv_system,"nV,system",as_drawn,As-Drawn,nV system,%,0.267710614332,470
-airtightness,airtightness.nv_system,"nV,system",improved_envelope,Improved Envelope,nV system,%,0.267710614332,470
-airtightness,airtightness.nv_system,"nV,system",improved_mech,Improved Mech.,nV system,%,0.267710614332,470
-airtightness,airtightness.nv_system,"nV,system",phius_2024,Phius 2024,nV system,%,0.267710614332,470
-airtightness,airtightness.hhr,hHR,code_minimum,Code Minimum,hHR,%,0.00120191386336,471
-airtightness,airtightness.hhr,hHR,as_drawn,As-Drawn,hHR,%,0.69592272579,471
-airtightness,airtightness.hhr,hHR,improved_envelope,Improved Envelope,hHR,%,0.69592272579,471
-airtightness,airtightness.hhr,hHR,improved_mech,Improved Mech.,hHR,%,0.741659419056,471
-airtightness,airtightness.hhr,hHR,phius_2024,Phius 2024,hHR,%,0.760146818409,471
+certification_results,certification_results.heat_demand,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/m2,48.1532720792,459
+certification_results,certification_results.heat_demand,Heat Demand,moderate_envelope,Moderate Envelope,Heat Demand,kWh/m2,36.0918487907,459
+certification_results,certification_results.heat_demand,Heat Demand,as_drawn,As-Drawn,Heat Demand,kWh/m2,33.7108781436,459
+certification_results,certification_results.heat_demand,Heat Demand,improved_envelope,Improved Envelope,Heat Demand,kWh/m2,24.9836621223,459
+certification_results,certification_results.heat_demand,Heat Demand,improved_mech,Improved Mech.,Heat Demand,kWh/m2,24.3299116648,459
+certification_results,certification_results.heat_demand,Heat Demand,phius_2024,Phius 2024,Heat Demand,kWh/m2,16.0331431944,459
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,code_minimum,Code Minimum,Sensible Cooling Demand,kWh/m2,5.00937650449,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,moderate_envelope,Moderate Envelope,Sensible Cooling Demand,kWh/m2,5.29207408274,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,as_drawn,As-Drawn,Sensible Cooling Demand,kWh/m2,5.55965579749,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_envelope,Improved Envelope,Sensible Cooling Demand,kWh/m2,5.54115938624,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,improved_mech,Improved Mech.,Sensible Cooling Demand,kWh/m2,5.54935234785,460
+certification_results,certification_results.sensible_cooling_demand,Sensible Cooling Demand,phius_2024,Phius 2024,Sensible Cooling Demand,kWh/m2,5.63353786118,460
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,code_minimum,Code Minimum,Latent Cooling Demand,kWh/m2,6.0036043335,461
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,moderate_envelope,Moderate Envelope,Latent Cooling Demand,kWh/m2,6.0036043335,461
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,as_drawn,As-Drawn,Latent Cooling Demand,kWh/m2,6.0036043335,461
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_envelope,Improved Envelope,Latent Cooling Demand,kWh/m2,5.31384872758,461
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,improved_mech,Improved Mech.,Latent Cooling Demand,kWh/m2,4.75697515327,461
+certification_results,certification_results.latent_cooling_demand,Latent Cooling Demand,phius_2024,Phius 2024,Latent Cooling Demand,kWh/m2,3.6959704978,461
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,code_minimum,Code Minimum,Total Cooling Demand,kWh/m2,11.012980838,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,moderate_envelope,Moderate Envelope,Total Cooling Demand,kWh/m2,11.2956784162,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,as_drawn,As-Drawn,Total Cooling Demand,kWh/m2,11.563260131,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_envelope,Improved Envelope,Total Cooling Demand,kWh/m2,10.8550081138,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,improved_mech,Improved Mech.,Total Cooling Demand,kWh/m2,10.3063275011,462
+certification_results,certification_results.total_cooling_demand,Total Cooling Demand,phius_2024,Phius 2024,Total Cooling Demand,kWh/m2,9.32950835898,462
+certification_results,certification_results.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,W/m2,38.2207175452,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,moderate_envelope,Moderate Envelope,Peak Heat Load,W/m2,32.2635449925,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,as_drawn,As-Drawn,Peak Heat Load,W/m2,31.2340025578,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,W/m2,23.0936082985,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,improved_mech,Improved Mech.,Peak Heat Load,W/m2,22.7696540647,463
+certification_results,certification_results.peak_heat_load,Peak Heat Load,phius_2024,Phius 2024,Peak Heat Load,W/m2,14.7676790765,463
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,code_minimum,Code Minimum,Peak Cooling Load,W/m2,5.92088259426,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,moderate_envelope,Moderate Envelope,Peak Cooling Load,W/m2,5.48151881019,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,as_drawn,As-Drawn,Peak Cooling Load,W/m2,5.51654301817,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_envelope,Improved Envelope,Peak Cooling Load,W/m2,5.00478236229,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,improved_mech,Improved Mech.,Peak Cooling Load,W/m2,4.97034637361,464
+certification_results,certification_results.peak_cooling_load,Peak Cooling Load,phius_2024,Phius 2024,Peak Cooling Load,W/m2,4.48995502121,464
+certification_results,certification_results.pe_demand,PE Demand,code_minimum,Code Minimum,PE Demand,kWh/m2,193.573523796,465
+certification_results,certification_results.pe_demand,PE Demand,moderate_envelope,Moderate Envelope,PE Demand,kWh/m2,176.855372277,465
+certification_results,certification_results.pe_demand,PE Demand,as_drawn,As-Drawn,PE Demand,kWh/m2,172.622165466,465
+certification_results,certification_results.pe_demand,PE Demand,improved_envelope,Improved Envelope,PE Demand,kWh/m2,153.531367999,465
+certification_results,certification_results.pe_demand,PE Demand,improved_mech,Improved Mech.,PE Demand,kWh/m2,148.461304541,465
+certification_results,certification_results.pe_demand,PE Demand,phius_2024,Phius 2024,PE Demand,kWh/m2,122.38120631,465
+certification_results,certification_results.per_demand,PER Demand,code_minimum,Code Minimum,PER Demand,kWh/m2,97.1601422714,466
+certification_results,certification_results.per_demand,PER Demand,moderate_envelope,Moderate Envelope,PER Demand,kWh/m2,86.7087746609,466
+certification_results,certification_results.per_demand,PER Demand,as_drawn,As-Drawn,PER Demand,kWh/m2,84.0176956115,466
+certification_results,certification_results.per_demand,PER Demand,improved_envelope,Improved Envelope,PER Demand,kWh/m2,73.6009700117,466
+certification_results,certification_results.per_demand,PER Demand,improved_mech,Improved Mech.,PER Demand,kWh/m2,70.9144702444,466
+certification_results,certification_results.per_demand,PER Demand,phius_2024,Phius 2024,PER Demand,kWh/m2,57.6945188234,466
+airtightness,airtightness.nv_system,"nV,system",code_minimum,Code Minimum,nV system,%,0.277954521633,470
+airtightness,airtightness.nv_system,"nV,system",moderate_envelope,Moderate Envelope,nV system,%,0.277954521633,470
+airtightness,airtightness.nv_system,"nV,system",as_drawn,As-Drawn,nV system,%,0.277954521633,470
+airtightness,airtightness.nv_system,"nV,system",improved_envelope,Improved Envelope,nV system,%,0.277954521633,470
+airtightness,airtightness.nv_system,"nV,system",improved_mech,Improved Mech.,nV system,%,0.277954521633,470
+airtightness,airtightness.nv_system,"nV,system",phius_2024,Phius 2024,nV system,%,0.277954521633,470
+airtightness,airtightness.hhr,hHR,code_minimum,Code Minimum,hHR,%,0.00120190380519,471
+airtightness,airtightness.hhr,hHR,moderate_envelope,Moderate Envelope,hHR,%,0.695916901992,471
+airtightness,airtightness.hhr,hHR,as_drawn,As-Drawn,hHR,%,0.695916901992,471
+airtightness,airtightness.hhr,hHR,improved_envelope,Improved Envelope,hHR,%,0.695916901992,471
+airtightness,airtightness.hhr,hHR,improved_mech,Improved Mech.,hHR,%,0.741653212513,471
+airtightness,airtightness.hhr,hHR,phius_2024,Phius 2024,hHR,%,0.760140457155,471
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",code_minimum,Code Minimum,Wind protection coefficient  e,,0.1,472
+airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",moderate_envelope,Moderate Envelope,Wind protection coefficient  e,,0.1,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",as_drawn,As-Drawn,Wind protection coefficient  e,,0.1,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",improved_envelope,Improved Envelope,Wind protection coefficient  e,,0.1,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",improved_mech,Improved Mech.,Wind protection coefficient  e,,0.1,472
 airtightness,airtightness.wind_protection_coefficient_e,"Wind protection coefficient, e",phius_2024,Phius 2024,Wind protection coefficient  e,,0.1,472
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",code_minimum,Code Minimum,Wind protection coefficient  f,,15,473
+airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",moderate_envelope,Moderate Envelope,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",as_drawn,As-Drawn,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",improved_envelope,Improved Envelope,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",improved_mech,Improved Mech.,Wind protection coefficient  f,,15,473
 airtightness,airtightness.wind_protection_coefficient_f,"Wind protection coefficient, f",phius_2024,Phius 2024,Wind protection coefficient  f,,15,473
-airtightness,airtightness.vn50,Vn50,code_minimum,Code Minimum,Vn50,m3,1149.78237171,474
-airtightness,airtightness.vn50,Vn50,as_drawn,As-Drawn,Vn50,m3,1149.78237171,474
-airtightness,airtightness.vn50,Vn50,improved_envelope,Improved Envelope,Vn50,m3,1149.78237171,474
-airtightness,airtightness.vn50,Vn50,improved_mech,Improved Mech.,Vn50,m3,1149.78237171,474
-airtightness,airtightness.vn50,Vn50,phius_2024,Phius 2024,Vn50,m3,1149.78237171,474
-airtightness,airtightness.vv,VV,code_minimum,Code Minimum,VV,m3,1149.78175083,475
-airtightness,airtightness.vv,VV,as_drawn,As-Drawn,VV,m3,1149.78175083,475
-airtightness,airtightness.vv,VV,improved_envelope,Improved Envelope,VV,m3,1149.78175083,475
-airtightness,airtightness.vv,VV,improved_mech,Improved Mech.,VV,m3,1149.78175083,475
-airtightness,airtightness.vv,VV,phius_2024,Phius 2024,VV,m3,1149.78175083,475
-airtightness,airtightness.gt,Gt,code_minimum,Code Minimum,Gt,kFh/a,65.1338550911,476
-airtightness,airtightness.gt,Gt,as_drawn,As-Drawn,Gt,kFh/a,64.8120910597,476
-airtightness,airtightness.gt,Gt,improved_envelope,Improved Envelope,Gt,kFh/a,64.9709593186,476
-airtightness,airtightness.gt,Gt,improved_mech,Improved Mech.,Gt,kFh/a,64.9969309829,476
-airtightness,airtightness.gt,Gt,phius_2024,Phius 2024,Gt,kFh/a,65.2773098558,476
+airtightness,airtightness.vn50,Vn50,code_minimum,Code Minimum,Vn50,m3,1107.1,474
+airtightness,airtightness.vn50,Vn50,moderate_envelope,Moderate Envelope,Vn50,m3,1107.1,474
+airtightness,airtightness.vn50,Vn50,as_drawn,As-Drawn,Vn50,m3,1107.1,474
+airtightness,airtightness.vn50,Vn50,improved_envelope,Improved Envelope,Vn50,m3,1107.1,474
+airtightness,airtightness.vn50,Vn50,improved_mech,Improved Mech.,Vn50,m3,1107.1,474
+airtightness,airtightness.vn50,Vn50,phius_2024,Phius 2024,Vn50,m3,1107.1,474
+airtightness,airtightness.vv,VV,code_minimum,Code Minimum,VV,m3,1107.125,475
+airtightness,airtightness.vv,VV,moderate_envelope,Moderate Envelope,VV,m3,1107.125,475
+airtightness,airtightness.vv,VV,as_drawn,As-Drawn,VV,m3,1107.125,475
+airtightness,airtightness.vv,VV,improved_envelope,Improved Envelope,VV,m3,1107.125,475
+airtightness,airtightness.vv,VV,improved_mech,Improved Mech.,VV,m3,1107.125,475
+airtightness,airtightness.vv,VV,phius_2024,Phius 2024,VV,m3,1107.125,475
+airtightness,airtightness.gt,Gt,code_minimum,Code Minimum,Gt,kFh/a,64.9769170996,476
+airtightness,airtightness.gt,Gt,moderate_envelope,Moderate Envelope,Gt,kFh/a,65.3138860433,476
+airtightness,airtightness.gt,Gt,as_drawn,As-Drawn,Gt,kFh/a,64.7038809269,476
+airtightness,airtightness.gt,Gt,improved_envelope,Improved Envelope,Gt,kFh/a,64.866831467,476
+airtightness,airtightness.gt,Gt,improved_mech,Improved Mech.,Gt,kFh/a,64.8945362552,476
+airtightness,airtightness.gt,Gt,phius_2024,Phius 2024,Gt,kFh/a,65.1886355217,476
 r_values,r_values.assembly_02,02ud-Cellar-Wall,code_minimum,Code Minimum,02ud-Cellar-Wall,m2,#DIV/0!,481
+r_values,r_values.assembly_02,02ud-Cellar-Wall,moderate_envelope,Moderate Envelope,02ud-Cellar-Wall,m2,#DIV/0!,481
 r_values,r_values.assembly_02,02ud-Cellar-Wall,as_drawn,As-Drawn,02ud-Cellar-Wall,m2,#DIV/0!,481
 r_values,r_values.assembly_02,02ud-Cellar-Wall,improved_envelope,Improved Envelope,02ud-Cellar-Wall,m2,#DIV/0!,481
 r_values,r_values.assembly_02,02ud-Cellar-Wall,improved_mech,Improved Mech.,02ud-Cellar-Wall,m2,#DIV/0!,481
 r_values,r_values.assembly_02,02ud-Cellar-Wall,phius_2024,Phius 2024,02ud-Cellar-Wall,m2,#DIV/0!,481
 r_values,r_values.assembly_03,03ud-Cellar-Floor,code_minimum,Code Minimum,03ud-Cellar-Floor,m2,#DIV/0!,482
+r_values,r_values.assembly_03,03ud-Cellar-Floor,moderate_envelope,Moderate Envelope,03ud-Cellar-Floor,m2,#DIV/0!,482
 r_values,r_values.assembly_03,03ud-Cellar-Floor,as_drawn,As-Drawn,03ud-Cellar-Floor,m2,#DIV/0!,482
 r_values,r_values.assembly_03,03ud-Cellar-Floor,improved_envelope,Improved Envelope,03ud-Cellar-Floor,m2,#DIV/0!,482
 r_values,r_values.assembly_03,03ud-Cellar-Floor,improved_mech,Improved Mech.,03ud-Cellar-Floor,m2,#DIV/0!,482
 r_values,r_values.assembly_03,03ud-Cellar-Floor,phius_2024,Phius 2024,03ud-Cellar-Floor,m2,#DIV/0!,482
 r_values,r_values.assembly_05,05ud-Wood-Clad-Wall,code_minimum,Code Minimum,05ud-Wood-Clad-Wall,m2,#DIV/0!,484
+r_values,r_values.assembly_05,05ud-Wood-Clad-Wall,moderate_envelope,Moderate Envelope,05ud-Wood-Clad-Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Wood-Clad-Wall,as_drawn,As-Drawn,05ud-Wood-Clad-Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Wood-Clad-Wall,improved_envelope,Improved Envelope,05ud-Wood-Clad-Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Wood-Clad-Wall,improved_mech,Improved Mech.,05ud-Wood-Clad-Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_05,05ud-Wood-Clad-Wall,phius_2024,Phius 2024,05ud-Wood-Clad-Wall,m2,#DIV/0!,484
 r_values,r_values.assembly_06,06ud-Brick-Clad-Wall,code_minimum,Code Minimum,06ud-Brick-Clad-Wall,m2,#DIV/0!,485
+r_values,r_values.assembly_06,06ud-Brick-Clad-Wall,moderate_envelope,Moderate Envelope,06ud-Brick-Clad-Wall,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Brick-Clad-Wall,as_drawn,As-Drawn,06ud-Brick-Clad-Wall,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Brick-Clad-Wall,improved_envelope,Improved Envelope,06ud-Brick-Clad-Wall,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Brick-Clad-Wall,improved_mech,Improved Mech.,06ud-Brick-Clad-Wall,m2,#DIV/0!,485
 r_values,r_values.assembly_06,06ud-Brick-Clad-Wall,phius_2024,Phius 2024,06ud-Brick-Clad-Wall,m2,#DIV/0!,485
 r_values,r_values.assembly_08,08ud-Sloped-Roof,code_minimum,Code Minimum,08ud-Sloped-Roof,m2,#DIV/0!,487
+r_values,r_values.assembly_08,08ud-Sloped-Roof,moderate_envelope,Moderate Envelope,08ud-Sloped-Roof,m2,#DIV/0!,487
 r_values,r_values.assembly_08,08ud-Sloped-Roof,as_drawn,As-Drawn,08ud-Sloped-Roof,m2,#DIV/0!,487
 r_values,r_values.assembly_08,08ud-Sloped-Roof,improved_envelope,Improved Envelope,08ud-Sloped-Roof,m2,#DIV/0!,487
 r_values,r_values.assembly_08,08ud-Sloped-Roof,improved_mech,Improved Mech.,08ud-Sloped-Roof,m2,#DIV/0!,487
 r_values,r_values.assembly_08,08ud-Sloped-Roof,phius_2024,Phius 2024,08ud-Sloped-Roof,m2,#DIV/0!,487
 r_values,r_values.assembly_09,09ud-Roof-Deck,code_minimum,Code Minimum,09ud-Roof-Deck,m2,#DIV/0!,488
+r_values,r_values.assembly_09,09ud-Roof-Deck,moderate_envelope,Moderate Envelope,09ud-Roof-Deck,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Roof-Deck,as_drawn,As-Drawn,09ud-Roof-Deck,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Roof-Deck,improved_envelope,Improved Envelope,09ud-Roof-Deck,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Roof-Deck,improved_mech,Improved Mech.,09ud-Roof-Deck,m2,#DIV/0!,488
 r_values,r_values.assembly_09,09ud-Roof-Deck,phius_2024,Phius 2024,09ud-Roof-Deck,m2,#DIV/0!,488
 r_values,r_values.assembly_10,10ud-Exposed-Floor,code_minimum,Code Minimum,10ud-Exposed-Floor,m2,#DIV/0!,489
+r_values,r_values.assembly_10,10ud-Exposed-Floor,moderate_envelope,Moderate Envelope,10ud-Exposed-Floor,m2,#DIV/0!,489
 r_values,r_values.assembly_10,10ud-Exposed-Floor,as_drawn,As-Drawn,10ud-Exposed-Floor,m2,#DIV/0!,489
 r_values,r_values.assembly_10,10ud-Exposed-Floor,improved_envelope,Improved Envelope,10ud-Exposed-Floor,m2,#DIV/0!,489
 r_values,r_values.assembly_10,10ud-Exposed-Floor,improved_mech,Improved Mech.,10ud-Exposed-Floor,m2,#DIV/0!,489
 r_values,r_values.assembly_10,10ud-Exposed-Floor,phius_2024,Phius 2024,10ud-Exposed-Floor,m2,#DIV/0!,489
-r_values,r_values.gt_a,Gt-A,code_minimum,Code Minimum,Gt-A,kFh/y,65.1338550911,490
-r_values,r_values.gt_a,Gt-A,as_drawn,As-Drawn,Gt-A,kFh/y,64.8120910597,490
-r_values,r_values.gt_a,Gt-A,improved_envelope,Improved Envelope,Gt-A,kFh/y,64.9709593186,490
-r_values,r_values.gt_a,Gt-A,improved_mech,Improved Mech.,Gt-A,kFh/y,64.9969309829,490
-r_values,r_values.gt_a,Gt-A,phius_2024,Phius 2024,Gt-A,kFh/y,65.2773098558,490
-r_values,r_values.gt_b,Gt-B,code_minimum,Code Minimum,Gt-B,kFh/y,23.3883912974,491
-r_values,r_values.gt_b,Gt-B,as_drawn,As-Drawn,Gt-B,kFh/y,25.1461183234,491
-r_values,r_values.gt_b,Gt-B,improved_envelope,Improved Envelope,Gt-B,kFh/y,25.27823252,491
-r_values,r_values.gt_b,Gt-B,improved_mech,Improved Mech.,Gt-B,kFh/y,25.286918167,491
-r_values,r_values.gt_b,Gt-B,phius_2024,Phius 2024,Gt-B,kFh/y,25.4388166302,491
+r_values,r_values.gt_a,Gt-A,code_minimum,Code Minimum,Gt-A,kFh/y,64.9769170996,490
+r_values,r_values.gt_a,Gt-A,moderate_envelope,Moderate Envelope,Gt-A,kFh/y,65.3138860433,490
+r_values,r_values.gt_a,Gt-A,as_drawn,As-Drawn,Gt-A,kFh/y,64.7038809269,490
+r_values,r_values.gt_a,Gt-A,improved_envelope,Improved Envelope,Gt-A,kFh/y,64.866831467,490
+r_values,r_values.gt_a,Gt-A,improved_mech,Improved Mech.,Gt-A,kFh/y,64.8945362552,490
+r_values,r_values.gt_a,Gt-A,phius_2024,Phius 2024,Gt-A,kFh/y,65.1886355217,490
+r_values,r_values.gt_b,Gt-B,code_minimum,Code Minimum,Gt-B,kFh/y,23.6989513759,491
+r_values,r_values.gt_b,Gt-B,moderate_envelope,Moderate Envelope,Gt-B,kFh/y,27.8464117178,491
+r_values,r_values.gt_b,Gt-B,as_drawn,As-Drawn,Gt-B,kFh/y,25.3196737872,491
+r_values,r_values.gt_b,Gt-B,improved_envelope,Improved Envelope,Gt-B,kFh/y,25.4617451597,491
+r_values,r_values.gt_b,Gt-B,improved_mech,Improved Mech.,Gt-B,kFh/y,25.4707910334,491
+r_values,r_values.gt_b,Gt-B,phius_2024,Phius 2024,Gt-B,kFh/y,25.6173439541,491
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,code_minimum,Code Minimum,Certification Compliant?,,-,493
+certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,moderate_envelope,Moderate Envelope,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,as_drawn,As-Drawn,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,improved_envelope,Improved Envelope,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,improved_mech,Improved Mech.,Certification Compliant?,,-,493
 certification_compliant,certification_compliant.certification_compliant_2,Certification Compliant?,phius_2024,Phius 2024,Certification Compliant?,,-,493
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,Btuh,62196.8525792,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,as_drawn,As-Drawn,Peak Heat Load,Btuh,51121.2629883,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,Btuh,37871.4160614,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_mech,Improved Mech.,Peak Heat Load,Btuh,37381.7803747,497
-peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phius_2024,Phius 2024,Peak Heat Load,Btuh,24431.8890716,497
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_minimum,Code Minimum,Peak Sensible Cooling Load,Btuh,10230.2762077,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,as_drawn,As-Drawn,Peak Sensible Cooling Load,Btuh,9556.60776117,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_envelope,Improved Envelope,Peak Sensible Cooling Load,Btuh,8694.28194203,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_mech,Improved Mech.,Peak Sensible Cooling Load,Btuh,8642.19356195,498
-peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phius_2024,Phius 2024,Peak Sensible Cooling Load,Btuh,7832.52790945,498
-peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_minimum,Code Minimum,Peak Latent Cooling Load,Btuh,11870.3740223,499
-peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,as_drawn,As-Drawn,Peak Latent Cooling Load,Btuh,11870.3740223,499
-peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_envelope,Improved Envelope,Peak Latent Cooling Load,Btuh,10281.6411872,499
-peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_mech,Improved Mech.,Peak Latent Cooling Load,Btuh,9046.26939008,499
-peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,phius_2024,Phius 2024,Peak Latent Cooling Load,Btuh,6633.95535684,499
-co2e,co2e.heating,Heating,code_minimum,Code Minimum,Heating,tonsCO2e,6.12586344088,502
-co2e,co2e.heating,Heating,as_drawn,As-Drawn,Heating,tonsCO2e,4.47382656161,502
-co2e,co2e.heating,Heating,improved_envelope,Improved Envelope,Heating,tonsCO2e,3.42752524578,502
-co2e,co2e.heating,Heating,improved_mech,Improved Mech.,Heating,tonsCO2e,3.34295315456,502
-co2e,co2e.heating,Heating,phius_2024,Phius 2024,Heating,tonsCO2e,2.35150571987,502
-co2e,co2e.cooling,Cooling,code_minimum,Code Minimum,Cooling,tonsCO2e,2.32668509334,503
-co2e,co2e.cooling,Cooling,as_drawn,As-Drawn,Cooling,tonsCO2e,2.33651678651,503
-co2e,co2e.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,tonsCO2e,2.04577878904,503
-co2e,co2e.cooling,Cooling,improved_mech,Improved Mech.,Cooling,tonsCO2e,1.85408035715,503
-co2e,co2e.cooling,Cooling,phius_2024,Phius 2024,Cooling,tonsCO2e,1.45747617474,503
-co2e,co2e.dhw,DHW,code_minimum,Code Minimum,DHW,tonsCO2e,1.35238560509,504
-co2e,co2e.dhw,DHW,as_drawn,As-Drawn,DHW,tonsCO2e,1.34744690785,504
-co2e,co2e.dhw,DHW,improved_envelope,Improved Envelope,DHW,tonsCO2e,1.34757343205,504
-co2e,co2e.dhw,DHW,improved_mech,Improved Mech.,DHW,tonsCO2e,1.34647972369,504
-co2e,co2e.dhw,DHW,phius_2024,Phius 2024,DHW,tonsCO2e,1.34835175157,504
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,code_minimum,Code Minimum,Peak Heat Load,Btuh,57754.0682362,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,moderate_envelope,Moderate Envelope,Peak Heat Load,Btuh,48752.3808739,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,as_drawn,As-Drawn,Peak Heat Load,Btuh,47196.6731885,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_envelope,Improved Envelope,Peak Heat Load,Btuh,34895.9913669,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,improved_mech,Improved Mech.,Peak Heat Load,Btuh,34406.4747872,497
+peak_loads,peak_loads.peak_heat_load,Peak Heat Load,phius_2024,Phius 2024,Peak Heat Load,Btuh,22314.95377,497
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,code_minimum,Code Minimum,Peak Sensible Cooling Load,Btuh,8946.85080056,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,moderate_envelope,Moderate Envelope,Peak Sensible Cooling Load,Btuh,8282.94264824,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,as_drawn,As-Drawn,Peak Sensible Cooling Load,Btuh,8335.86657609,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_envelope,Improved Envelope,Peak Sensible Cooling Load,Btuh,7562.56189374,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,improved_mech,Improved Mech.,Peak Sensible Cooling Load,Btuh,7510.52680472,498
+peak_loads,peak_loads.peak_sensible_cooling_load,Peak Sensible Cooling Load,phius_2024,Phius 2024,Peak Sensible Cooling Load,Btuh,6784.62324434,498
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,code_minimum,Code Minimum,Peak Latent Cooling Load,Btuh,11691.8180512,499
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,moderate_envelope,Moderate Envelope,Peak Latent Cooling Load,Btuh,11691.8180512,499
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,as_drawn,As-Drawn,Peak Latent Cooling Load,Btuh,11691.8180512,499
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_envelope,Improved Envelope,Peak Latent Cooling Load,Btuh,10162.0623643,499
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,improved_mech,Improved Mech.,Peak Latent Cooling Load,Btuh,8927.01547248,499
+peak_loads,peak_loads.peak_latent_cooling_load,Peak Latent Cooling Load,phius_2024,Phius 2024,Peak Latent Cooling Load,Btuh,6573.89519102,499
+co2e,co2e.heating,Heating,code_minimum,Code Minimum,Heating,tonsCO2e,5.58536852486,502
+co2e,co2e.heating,Heating,moderate_envelope,Moderate Envelope,Heating,tonsCO2e,4.36881627293,502
+co2e,co2e.heating,Heating,as_drawn,As-Drawn,Heating,tonsCO2e,4.08831135524,502
+co2e,co2e.heating,Heating,improved_envelope,Improved Envelope,Heating,tonsCO2e,3.10975608586,502
+co2e,co2e.heating,Heating,improved_mech,Improved Mech.,Heating,tonsCO2e,3.05550976414,502
+co2e,co2e.heating,Heating,phius_2024,Phius 2024,Heating,tonsCO2e,2.14732803816,502
+co2e,co2e.cooling,Cooling,code_minimum,Code Minimum,Cooling,tonsCO2e,2.28102583954,503
+co2e,co2e.cooling,Cooling,moderate_envelope,Moderate Envelope,Cooling,tonsCO2e,2.32476753735,503
+co2e,co2e.cooling,Cooling,as_drawn,As-Drawn,Cooling,tonsCO2e,2.29830725947,503
+co2e,co2e.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,tonsCO2e,2.01625165095,503
+co2e,co2e.cooling,Cooling,improved_mech,Improved Mech.,Cooling,tonsCO2e,1.82091001114,503
+co2e,co2e.cooling,Cooling,phius_2024,Phius 2024,Cooling,tonsCO2e,1.43323822761,503
+co2e,co2e.dhw,DHW,code_minimum,Code Minimum,DHW,tonsCO2e,1.34937456096,504
+co2e,co2e.dhw,DHW,moderate_envelope,Moderate Envelope,DHW,tonsCO2e,1.33760377106,504
+co2e,co2e.dhw,DHW,as_drawn,As-Drawn,DHW,tonsCO2e,1.34462086486,504
+co2e,co2e.dhw,DHW,improved_envelope,Improved Envelope,DHW,tonsCO2e,1.34485705159,504
+co2e,co2e.dhw,DHW,improved_mech,Improved Mech.,DHW,tonsCO2e,1.34361974183,504
+co2e,co2e.dhw,DHW,phius_2024,Phius 2024,DHW,tonsCO2e,1.34521453619,504
 co2e,co2e.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,tonsCO2e,0.0848950528302,505
+co2e,co2e.dishwashing,Dishwashing,moderate_envelope,Moderate Envelope,Dishwashing,tonsCO2e,0.0848950528302,505
 co2e,co2e.dishwashing,Dishwashing,as_drawn,As-Drawn,Dishwashing,tonsCO2e,0.0848950528302,505
 co2e,co2e.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,tonsCO2e,0.0848950528302,505
 co2e,co2e.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,tonsCO2e,0.0848950528302,505
 co2e,co2e.dishwashing,Dishwashing,phius_2024,Phius 2024,Dishwashing,tonsCO2e,0.0848950528302,505
 co2e,co2e.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,tonsCO2e,0.0251881387595,506
+co2e,co2e.clothes_washing,Clothes Washing,moderate_envelope,Moderate Envelope,Clothes Washing,tonsCO2e,0.0251881387595,506
 co2e,co2e.clothes_washing,Clothes Washing,as_drawn,As-Drawn,Clothes Washing,tonsCO2e,0.0251881387595,506
 co2e,co2e.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,tonsCO2e,0.0251881387595,506
 co2e,co2e.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,tonsCO2e,0.0251881387595,506
 co2e,co2e.clothes_washing,Clothes Washing,phius_2024,Phius 2024,Clothes Washing,tonsCO2e,0.0251881387595,506
 co2e,co2e.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,tonsCO2e,0.11998257336,507
+co2e,co2e.clothes_drying,Clothes Drying,moderate_envelope,Moderate Envelope,Clothes Drying,tonsCO2e,0.11998257336,507
 co2e,co2e.clothes_drying,Clothes Drying,as_drawn,As-Drawn,Clothes Drying,tonsCO2e,0.11998257336,507
 co2e,co2e.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,tonsCO2e,0.11998257336,507
 co2e,co2e.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,tonsCO2e,0.11998257336,507
 co2e,co2e.clothes_drying,Clothes Drying,phius_2024,Phius 2024,Clothes Drying,tonsCO2e,0.11998257336,507
 co2e,co2e.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,tonsCO2e,0.1852448,508
+co2e,co2e.refrigerator,Refrigerator,moderate_envelope,Moderate Envelope,Refrigerator,tonsCO2e,0.1852448,508
 co2e,co2e.refrigerator,Refrigerator,as_drawn,As-Drawn,Refrigerator,tonsCO2e,0.1852448,508
 co2e,co2e.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,tonsCO2e,0.1852448,508
 co2e,co2e.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,tonsCO2e,0.1852448,508
 co2e,co2e.refrigerator,Refrigerator,phius_2024,Phius 2024,Refrigerator,tonsCO2e,0.1852448,508
 co2e,co2e.cooking,Cooking,code_minimum,Code Minimum,Cooking,tonsCO2e,0.156,509
+co2e,co2e.cooking,Cooking,moderate_envelope,Moderate Envelope,Cooking,tonsCO2e,0.156,509
 co2e,co2e.cooking,Cooking,as_drawn,As-Drawn,Cooking,tonsCO2e,0.156,509
 co2e,co2e.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,tonsCO2e,0.156,509
 co2e,co2e.cooking,Cooking,improved_mech,Improved Mech.,Cooking,tonsCO2e,0.156,509
 co2e,co2e.cooking,Cooking,phius_2024,Phius 2024,Cooking,tonsCO2e,0.156,509
 co2e,co2e.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,tonsCO2e,0,510
+co2e,co2e.phi_lighting,PHI Lighting,moderate_envelope,Moderate Envelope,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,as_drawn,As-Drawn,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_lighting,PHI Lighting,phius_2024,Phius 2024,PHI Lighting,tonsCO2e,0,510
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,tonsCO2e,0,511
+co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,moderate_envelope,Moderate Envelope,PHI Consumer Elec.,tonsCO2e,0,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,as_drawn,As-Drawn,PHI Consumer Elec.,tonsCO2e,0,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,tonsCO2e,0,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,tonsCO2e,0,511
 co2e,co2e.phi_consumer_elec,PHI Consumer Elec.,phius_2024,Phius 2024,PHI Consumer Elec.,tonsCO2e,0,511
 co2e,co2e.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,tonsCO2e,0,512
+co2e,co2e.phi_small_appliances,PHI Small Appliances,moderate_envelope,Moderate Envelope,PHI Small Appliances,tonsCO2e,0,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,as_drawn,As-Drawn,PHI Small Appliances,tonsCO2e,0,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,tonsCO2e,0,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,tonsCO2e,0,512
 co2e,co2e.phi_small_appliances,PHI Small Appliances,phius_2024,Phius 2024,PHI Small Appliances,tonsCO2e,0,512
-co2e,co2e.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,tonsCO2e,0.611403063762,513
-co2e,co2e.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,tonsCO2e,0.611403063762,513
-co2e,co2e.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,tonsCO2e,0.611403063762,513
-co2e,co2e.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,tonsCO2e,0.611403063762,513
-co2e,co2e.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,tonsCO2e,0.611403063762,513
-co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,tonsCO2e,0.0289064283271,514
-co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,tonsCO2e,0.0289064283271,514
-co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,tonsCO2e,0.0289064283271,514
-co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,tonsCO2e,0.0289064283271,514
-co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,tonsCO2e,0.0289064283271,514
-co2e,co2e.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.68206478221,515
-co2e,co2e.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.68206478221,515
-co2e,co2e.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.68206478221,515
-co2e,co2e.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.68206478221,515
-co2e,co2e.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.68206478221,515
-co2e,co2e.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,tonsCO2e,2.55155643076,516
-co2e,co2e.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,tonsCO2e,2.55155643076,516
-co2e,co2e.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,tonsCO2e,2.45550659433,516
-co2e,co2e.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,tonsCO2e,2.34680502751,516
-co2e,co2e.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,tonsCO2e,1.77233837181,516
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,tonsCO2e,0.591058314766,513
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,moderate_envelope,Moderate Envelope,Phius Int. Lighting,tonsCO2e,0.591058314766,513
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,tonsCO2e,0.591058314766,513
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,tonsCO2e,0.591058314766,513
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,tonsCO2e,0.591058314766,513
+co2e,co2e.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,tonsCO2e,0.591058314766,513
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,tonsCO2e,0.02814267456,514
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,moderate_envelope,Moderate Envelope,Phius Ext. Lighting,tonsCO2e,0.02814267456,514
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,tonsCO2e,0.02814267456,514
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,tonsCO2e,0.02814267456,514
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,tonsCO2e,0.02814267456,514
+co2e,co2e.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,tonsCO2e,0.02814267456,514
+co2e,co2e.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.62646350797,515
+co2e,co2e.phius_mel,Phius MEL,moderate_envelope,Moderate Envelope,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.62646350797,515
+co2e,co2e.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.62646350797,515
+co2e,co2e.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.62646350797,515
+co2e,co2e.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.62646350797,515
+co2e,co2e.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,tonsCO2e,1.62646350797,515
+co2e,co2e.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,tonsCO2e,1.68310161446,516
+co2e,co2e.aux_elec,Aux Elec,moderate_envelope,Moderate Envelope,Aux Elec,tonsCO2e,1.68310161446,516
+co2e,co2e.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,tonsCO2e,1.68310161446,516
+co2e,co2e.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,tonsCO2e,1.59077876028,516
+co2e,co2e.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,tonsCO2e,1.48235961524,516
+co2e,co2e.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,tonsCO2e,0.928686890112,516
 co2e,co2e.ipcc_limit,IPCC Limit,code_minimum,Code Minimum,IPCC Limit,tonsCO2e,,517
+co2e,co2e.ipcc_limit,IPCC Limit,moderate_envelope,Moderate Envelope,IPCC Limit,tonsCO2e,,517
 co2e,co2e.ipcc_limit,IPCC Limit,as_drawn,As-Drawn,IPCC Limit,tonsCO2e,,517
 co2e,co2e.ipcc_limit,IPCC Limit,improved_envelope,Improved Envelope,IPCC Limit,tonsCO2e,,517
 co2e,co2e.ipcc_limit,IPCC Limit,improved_mech,Improved Mech.,IPCC Limit,tonsCO2e,,517
 co2e,co2e.ipcc_limit,IPCC Limit,phius_2024,Phius 2024,IPCC Limit,tonsCO2e,,517
-primary_energy_renewable,primary_energy_renewable.heating,Heating,code_minimum,Code Minimum,Heating,kWh,23561.0132341,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,as_drawn,As-Drawn,Heating,kWh,17207.0252369,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,13182.7894069,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,12857.5121329,520
-primary_energy_renewable,primary_energy_renewable.heating,Heating,phius_2024,Phius 2024,Heating,kWh,9044.25276874,520
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,10005.8218937,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,as_drawn,As-Drawn,Cooling,kWh,9938.36941772,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,8632.72988874,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,7754.84252525,521
-primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phius_2024,Phius 2024,Cooling,kWh,5953.35541864,521
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,3901.11232237,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,as_drawn,As-Drawn,DHW,kWh,3886.86608032,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,3887.23105399,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,3884.07612603,522
-primary_energy_renewable,primary_energy_renewable.dhw,DHW,phius_2024,Phius 2024,DHW,kWh,3889.47620645,522
+primary_energy_renewable,primary_energy_renewable.heating,Heating,code_minimum,Code Minimum,Heating,kWh,21482.1866341,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,moderate_envelope,Moderate Envelope,Heating,kWh,16803.1395113,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,as_drawn,As-Drawn,Heating,kWh,15724.2744432,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_envelope,Improved Envelope,Heating,kWh,11960.6003302,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,improved_mech,Improved Mech.,Heating,kWh,11751.9606313,520
+primary_energy_renewable,primary_energy_renewable.heating,Heating,phius_2024,Phius 2024,Heating,kWh,8258.95399292,520
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,code_minimum,Code Minimum,Cooling,kWh,9905.44715726,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,moderate_envelope,Moderate Envelope,Cooling,kWh,9990.06033539,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,as_drawn,As-Drawn,Cooling,kWh,9856.93942969,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_envelope,Improved Envelope,Cooling,kWh,8585.04987314,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,improved_mech,Improved Mech.,Cooling,kWh,7690.21637127,521
+primary_energy_renewable,primary_energy_renewable.cooling,Cooling,phius_2024,Phius 2024,Cooling,kWh,5925.01748255,521
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,code_minimum,Code Minimum,DHW,kWh,3892.42661815,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,moderate_envelope,Moderate Envelope,DHW,kWh,3858.47241652,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,as_drawn,As-Drawn,DHW,kWh,3878.71403324,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_envelope,Improved Envelope,DHW,kWh,3879.39534111,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,improved_mech,Improved Mech.,DHW,kWh,3875.82617836,522
+primary_energy_renewable,primary_energy_renewable.dhw,DHW,phius_2024,Phius 2024,DHW,kWh,3880.42654671,522
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,code_minimum,Code Minimum,Dishwashing,kWh,244.889575472,523
+primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,moderate_envelope,Moderate Envelope,Dishwashing,kWh,244.889575472,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,as_drawn,As-Drawn,Dishwashing,kWh,244.889575472,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,improved_envelope,Improved Envelope,Dishwashing,kWh,244.889575472,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,improved_mech,Improved Mech.,Dishwashing,kWh,244.889575472,523
 primary_energy_renewable,primary_energy_renewable.dishwashing,Dishwashing,phius_2024,Phius 2024,Dishwashing,kWh,244.889575472,523
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,code_minimum,Code Minimum,Clothes Washing,kWh,72.6580925753,524
+primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,moderate_envelope,Moderate Envelope,Clothes Washing,kWh,72.6580925753,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,as_drawn,As-Drawn,Clothes Washing,kWh,72.6580925753,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,improved_envelope,Improved Envelope,Clothes Washing,kWh,72.6580925753,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,improved_mech,Improved Mech.,Clothes Washing,kWh,72.6580925753,524
 primary_energy_renewable,primary_energy_renewable.clothes_washing,Clothes Washing,phius_2024,Phius 2024,Clothes Washing,kWh,72.6580925753,524
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,code_minimum,Code Minimum,Clothes Drying,kWh,346.103577,525
+primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,moderate_envelope,Moderate Envelope,Clothes Drying,kWh,346.103577,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,as_drawn,As-Drawn,Clothes Drying,kWh,346.103577,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,improved_envelope,Improved Envelope,Clothes Drying,kWh,346.103577,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,improved_mech,Improved Mech.,Clothes Drying,kWh,346.103577,525
 primary_energy_renewable,primary_energy_renewable.clothes_drying,Clothes Drying,phius_2024,Phius 2024,Clothes Drying,kWh,346.103577,525
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,code_minimum,Code Minimum,Refrigerator,kWh,534.36,526
+primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,moderate_envelope,Moderate Envelope,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,as_drawn,As-Drawn,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,improved_envelope,Improved Envelope,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,improved_mech,Improved Mech.,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.refrigerator,Refrigerator,phius_2024,Phius 2024,Refrigerator,kWh,534.36,526
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,code_minimum,Code Minimum,Cooking,kWh,450,527
+primary_energy_renewable,primary_energy_renewable.cooking,Cooking,moderate_envelope,Moderate Envelope,Cooking,kWh,450,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,as_drawn,As-Drawn,Cooking,kWh,450,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,improved_envelope,Improved Envelope,Cooking,kWh,450,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,improved_mech,Improved Mech.,Cooking,kWh,450,527
 primary_energy_renewable,primary_energy_renewable.cooking,Cooking,phius_2024,Phius 2024,Cooking,kWh,450,527
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,code_minimum,Code Minimum,PHI Lighting,kWh,0,528
+primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,moderate_envelope,Moderate Envelope,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,as_drawn,As-Drawn,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,improved_envelope,Improved Envelope,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,improved_mech,Improved Mech.,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_lighting,PHI Lighting,phius_2024,Phius 2024,PHI Lighting,kWh,0,528
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,code_minimum,Code Minimum,PHI Consumer Elec.,kWh,0,529
+primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,moderate_envelope,Moderate Envelope,PHI Consumer Elec.,kWh,0,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,as_drawn,As-Drawn,PHI Consumer Elec.,kWh,0,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,improved_envelope,Improved Envelope,PHI Consumer Elec.,kWh,0,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,improved_mech,Improved Mech.,PHI Consumer Elec.,kWh,0,529
 primary_energy_renewable,primary_energy_renewable.phi_consumer_elec,PHI Consumer Elec.,phius_2024,Phius 2024,PHI Consumer Elec.,kWh,0,529
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,code_minimum,Code Minimum,PHI Small Appliances,kWh,0,530
+primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,moderate_envelope,Moderate Envelope,PHI Small Appliances,kWh,0,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,as_drawn,As-Drawn,PHI Small Appliances,kWh,0,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,improved_envelope,Improved Envelope,PHI Small Appliances,kWh,0,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,improved_mech,Improved Mech.,PHI Small Appliances,kWh,0,530
 primary_energy_renewable,primary_energy_renewable.phi_small_appliances,PHI Small Appliances,phius_2024,Phius 2024,PHI Small Appliances,kWh,0,530
-primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,1763.66268393,531
-primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,kWh,1763.66268393,531
-primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,1763.66268393,531
-primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,1763.66268393,531
-primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,kWh,1763.66268393,531
-primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,83.3839278667,532
-primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,kWh,83.3839278667,532
-primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,83.3839278667,532
-primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,83.3839278667,532
-primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,kWh,83.3839278667,532
-primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,kWh,4852.10994869,533
-primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,kWh,4852.10994869,533
-primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,kWh,4852.10994869,533
-primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,kWh,4852.10994869,533
-primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,kWh,4852.10994869,533
-primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,7360.25893489,534
-primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,kWh,7360.25893489,534
-primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,7083.19209902,534
-primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,6769.62988706,534
-primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,kWh,5112.51453408,534
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,code_minimum,Code Minimum,Phius Int. Lighting,kWh,1704.97590798,531
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,moderate_envelope,Moderate Envelope,Phius Int. Lighting,kWh,1704.97590798,531
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,as_drawn,As-Drawn,Phius Int. Lighting,kWh,1704.97590798,531
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,improved_envelope,Improved Envelope,Phius Int. Lighting,kWh,1704.97590798,531
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,improved_mech,Improved Mech.,Phius Int. Lighting,kWh,1704.97590798,531
+primary_energy_renewable,primary_energy_renewable.phius_int_lighting,Phius Int. Lighting,phius_2024,Phius 2024,Phius Int. Lighting,kWh,1704.97590798,531
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,code_minimum,Code Minimum,Phius Ext. Lighting,kWh,81.180792,532
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,moderate_envelope,Moderate Envelope,Phius Ext. Lighting,kWh,81.180792,532
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,as_drawn,As-Drawn,Phius Ext. Lighting,kWh,81.180792,532
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,improved_envelope,Improved Envelope,Phius Ext. Lighting,kWh,81.180792,532
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,improved_mech,Improved Mech.,Phius Ext. Lighting,kWh,81.180792,532
+primary_energy_renewable,primary_energy_renewable.phius_ext_lighting,Phius Ext. Lighting,phius_2024,Phius 2024,Phius Ext. Lighting,kWh,81.180792,532
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,code_minimum,Code Minimum,Misc. electric loads: PHIUS+ MELS,kWh,4691.7216576,533
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,moderate_envelope,Moderate Envelope,Misc. electric loads: PHIUS+ MELS,kWh,4691.7216576,533
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,as_drawn,As-Drawn,Misc. electric loads: PHIUS+ MELS,kWh,4691.7216576,533
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,improved_envelope,Improved Envelope,Misc. electric loads: PHIUS+ MELS,kWh,4691.7216576,533
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,improved_mech,Improved Mech.,Misc. electric loads: PHIUS+ MELS,kWh,4691.7216576,533
+primary_energy_renewable,primary_energy_renewable.phius_mel,Phius MEL,phius_2024,Phius 2024,Misc. electric loads: PHIUS+ MELS,kWh,4691.7216576,533
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,code_minimum,Code Minimum,Aux Elec,kWh,4855.10081095,534
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,moderate_envelope,Moderate Envelope,Aux Elec,kWh,4855.10081095,534
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,as_drawn,As-Drawn,Aux Elec,kWh,4855.10081095,534
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,improved_envelope,Improved Envelope,Aux Elec,kWh,4588.78488542,534
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,improved_mech,Improved Mech.,Aux Elec,kWh,4276.03735164,534
+primary_energy_renewable,primary_energy_renewable.aux_elec,Aux Elec,phius_2024,Phius 2024,Aux Elec,kWh,2678.90449071,534
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,code_minimum,Code Minimum,Solar PV,kWh,0,535
+primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,moderate_envelope,Moderate Envelope,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,as_drawn,As-Drawn,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,improved_envelope,Improved Envelope,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,improved_mech,Improved Mech.,Solar PV,kWh,0,535
 primary_energy_renewable,primary_energy_renewable.solar_pv,Solar PV,phius_2024,Phius 2024,Solar PV,kWh,0,535
-report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_minimum,Code Minimum,Envelope Air Leakage Rate (q50),cfm/ft2,0.168042915943,345
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),code_minimum,Code Minimum,Envelope Air Leakage Rate (q50),cfm/ft2,0.17560245265,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),code_minimum,Code Minimum,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,code_minimum,Code Minimum,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/yr,23529.2918594,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh/yr,5324.06836882,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,code_minimum,Code Minimum,Total Primary Energy,kWh/yr,95313.5963083,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,code_minimum,Code Minimum,Total Site Energy,kWh/yr,36659.0755031,
-report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),as_drawn,As-Drawn,Envelope Air Leakage Rate (q50),cfm/ft2,0.168042915943,345
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,code_minimum,Code Minimum,Heat Demand,kWh/yr,21324.6765403,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,code_minimum,Code Minimum,Cooling Demand,kWh/yr,4877.09856411,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,code_minimum,Code Minimum,Total Primary Energy,kWh/yr,85724.0350129,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,code_minimum,Code Minimum,Total Site Energy,kWh/yr,32970.7826973,
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),moderate_envelope,Moderate Envelope,Envelope Air Leakage Rate (q50),cfm/ft2,0.17560245265,345
+report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),moderate_envelope,Moderate Envelope,Cold Air Duct Length (ea),ft,16.404199475,354
+report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,moderate_envelope,Moderate Envelope,Cold Air Duct Insulation Thickness,inches,2.047244108,355
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,moderate_envelope,Moderate Envelope,Heat Demand,kWh/yr,15983.275237,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,moderate_envelope,Moderate Envelope,Cooling Demand,kWh/yr,5002.29118661,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,moderate_envelope,Moderate Envelope,Total Primary Energy,kWh/yr,78320.4016128,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,moderate_envelope,Moderate Envelope,Total Site Energy,kWh/yr,30123.2313895,
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),as_drawn,As-Drawn,Envelope Air Leakage Rate (q50),cfm/ft2,0.17560245265,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),as_drawn,As-Drawn,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,as_drawn,As-Drawn,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,as_drawn,As-Drawn,Heat Demand,kWh/yr,16556.5172813,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,as_drawn,As-Drawn,Cooling Demand,kWh/yr,5597.19500193,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,as_drawn,As-Drawn,Total Primary Energy,kWh/yr,85018.9470373,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,as_drawn,As-Drawn,Total Site Energy,kWh/yr,32699.5950144,
-report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_envelope,Improved Envelope,Envelope Air Leakage Rate (q50),cfm/ft2,0.112028610629,345
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,as_drawn,As-Drawn,Heat Demand,kWh/yr,14928.8623859,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,as_drawn,As-Drawn,Cooling Demand,kWh/yr,5120.78974901,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,as_drawn,As-Drawn,Total Primary Energy,kWh/yr,76445.7259768,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,as_drawn,As-Drawn,Total Site Energy,kWh/yr,29402.2022987,
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_envelope,Improved Envelope,Envelope Air Leakage Rate (q50),cfm/ft2,0.117068301767,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_envelope,Improved Envelope,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_envelope,Improved Envelope,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,improved_envelope,Improved Envelope,Heat Demand,kWh/yr,12280.4392425,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,improved_envelope,Improved Envelope,Cooling Demand,kWh/yr,5276.77727249,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,improved_envelope,Improved Envelope,Total Primary Energy,kWh/yr,76062.9306277,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,improved_envelope,Improved Envelope,Total Site Energy,kWh/yr,29254.9733184,
-report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_mech,Improved Mech.,Envelope Air Leakage Rate (q50),cfm/ft2,0.112028610629,345
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,improved_envelope,Improved Envelope,Heat Demand,kWh/yr,11064.0147709,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,improved_envelope,Improved Envelope,Cooling Demand,kWh/yr,4807.1403432,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,improved_envelope,Improved Envelope,Total Primary Energy,kWh/yr,67991.3663182,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,improved_envelope,Improved Envelope,Total Site Energy,kWh/yr,26150.525507,
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),improved_mech,Improved Mech.,Envelope Air Leakage Rate (q50),cfm/ft2,0.117068301767,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),improved_mech,Improved Mech.,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,improved_mech,Improved Mech.,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,improved_mech,Improved Mech.,Heat Demand,kWh/yr,11992.6792866,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,improved_mech,Improved Mech.,Cooling Demand,kWh/yr,5034.30134363,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,improved_mech,Improved Mech.,Total Primary Energy,kWh/yr,73650.0193886,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,improved_mech,Improved Mech.,Total Site Energy,kWh/yr,28326.9305341,
-report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phius_2024,Phius 2024,Envelope Air Leakage Rate (q50),cfm/ft2,0.0560143053143,345
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,improved_mech,Improved Mech.,Heat Demand,kWh/yr,10774.5013808,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,improved_mech,Improved Mech.,Cooling Demand,kWh/yr,4564.15713386,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,improved_mech,Improved Mech.,Total Primary Energy,kWh/yr,65746.0887162,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,improved_mech,Improved Mech.,Total Site Energy,kWh/yr,25286.9571985,
+report_inputs,report_inputs.envelope_air_leakage_rate_q50,Envelope Air Leakage Rate (q50),phius_2024,Phius 2024,Envelope Air Leakage Rate (q50),cfm/ft2,0.0585341508835,345
 report_inputs,report_inputs.cold_air_duct_length_ea,Cold Air Duct Length (ea),phius_2024,Phius 2024,Cold Air Duct Length (ea),ft,16.404199475,354
 report_inputs,report_inputs.cold_air_duct_insulation_thickness,Cold Air Duct Insulation Thickness,phius_2024,Phius 2024,Cold Air Duct Insulation Thickness,inches,2.047244108,355
-report_inputs,report_inputs.heat_demand_annual,Heat Demand,phius_2024,Phius 2024,Heat Demand,kWh/yr,7982.44115474,459
-report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phius_2024,Phius 2024,Cooling Demand,kWh/yr,4597.5918809,462
-report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phius_2024,Phius 2024,Total Primary Energy,kWh/yr,61395.9803577,
-report_inputs,report_inputs.total_site_energy,Total Site Energy,phius_2024,Phius 2024,Total Site Energy,kWh/yr,23613.8385991,
+report_inputs,report_inputs.heat_demand_annual,Heat Demand,phius_2024,Phius 2024,Heat Demand,kWh/yr,7100.27746364,459
+report_inputs,report_inputs.cooling_demand_annual,Total Cooling Demand,phius_2024,Phius 2024,Cooling Demand,kWh/yr,4131.57277677,462
+report_inputs,report_inputs.total_primary_energy,Total Primary Energy,phius_2024,Phius 2024,Total Primary Energy,kWh/yr,54196.5172145,
+report_inputs,report_inputs.total_site_energy,Total Site Energy,phius_2024,Phius 2024,Total Site Energy,kWh/yr,20844.8143133,

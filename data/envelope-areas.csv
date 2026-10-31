@@ -1,0 +1,10 @@
+assembly_id,assembly_name,envelope_field_id,group_number,exposure,area_m2,area_ft2,surface_count
+02ud,Cellar-Wall,envelope.floor_bg,8,A,48.859412049,525.918334469,14
+02ud,Cellar-Wall,envelope.floor_bg,9,B,133.8638233,1440.89820248,15
+03ud,Cellar-Floor,envelope.assembly_07,11,B,150.993649625,1625.28211855,1
+05ud,Wood-Clad-Wall,envelope.wall_bg,8,A,154.787079704,1666.11426011,28
+06ud,Brick-Clad-Wall,envelope.party_wall,8,A,238.521102401,2567.41977952,22
+08ud,Sloped-Roof,envelope.wall_ag,10,A,194.982049766,2098.76931719,16
+09ud,Roof-Deck,envelope.roof,10,A,15.214888925,163.771701439,2
+10ud,Exposed-Floor,envelope.assembly_06,11,B,1.3961665625,15.0282118101,1
+10ud,Exposed-Floor,envelope.assembly_06,12,A,21.730521055,233.905382016,2
